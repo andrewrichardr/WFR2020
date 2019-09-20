@@ -17016,20 +17016,18 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <wire x1="124.46" y1="60.96" x2="157.48" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SAFETY-" class="0">
+<net name="N$28" class="0">
 <segment>
 <pinref part="U$32" gate="G$1" pin="X2"/>
 <wire x1="187.96" y1="60.96" x2="198.12" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="60.96" x2="198.12" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="35.56" x2="147.32" y2="35.56" width="0.1524" layer="91"/>
-<label x="152.4" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SAFETY+" class="0">
+<net name="N$29" class="0">
 <segment>
 <pinref part="U$31" gate="G$1" pin="X1"/>
-<wire x1="157.48" y1="134.62" x2="132.08" y2="134.62" width="0.1524" layer="91"/>
-<label x="142.24" y="134.62" size="1.778" layer="95"/>
+<wire x1="157.48" y1="134.62" x2="147.32" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="HV+_WET" class="0">

@@ -950,18 +950,6 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 <pad name="NC1" x="0" y="39.37" drill="7.62"/>
 <circle x="0" y="19.05" radius="31.75" width="0.1524" layer="21"/>
 </package>
-<package name="MAINFUSEASSY">
-<pad name="P$1" x="-15.01" y="0" drill="5.3"/>
-<pad name="P$2" x="15.01" y="0" drill="5.3"/>
-<rectangle x1="-23.82" y1="-8.9" x2="23.82" y2="8.9" layer="21"/>
-<pad name="P$3" x="-15.01" y="80" drill="5.3"/>
-<pad name="P$4" x="15.01" y="80" drill="5.3"/>
-<rectangle x1="-23.82" y1="71.1" x2="23.82" y2="88.9" layer="21"/>
-<rectangle x1="-15" y1="0" x2="15" y2="80" layer="21"/>
-<dimension x1="-19" y1="0" x2="-19" y2="80" x3="-30" y3="40" textsize="1.778" layer="21"/>
-<rectangle x1="-23" y1="90" x2="22" y2="113" layer="46"/>
-<rectangle x1="-23" y1="-33" x2="22" y2="-10" layer="46"/>
-</package>
 </packages>
 </library>
 </libraries>
@@ -1273,7 +1261,6 @@ design rules under a new name.</description>
 <element name="U$35" library="ACC-MB-R0" package="_CUSTOM_TO-247-2V" value="TO247RESISTORHEATINK" x="-80.01" y="-542.29"/>
 <element name="U$1" library="ACC-MB-R0" package="G7L" value="G7L" x="-93.98" y="-563.88"/>
 <element name="U$4" library="ACC-MB-R0" package="_CUSTOM_TO-247-2V" value="TO247RESISTORHEATINK" x="-80.01" y="-603.25"/>
-<element name="U$24" library="ACC-MB-R0" package="MAINFUSEASSY" value="MAINFUSEASSY" x="-347.98" y="-581.66"/>
 </elements>
 <signals>
 <signal name="HV-_DRY" class="1">
