@@ -3,7 +3,7 @@
 <eagle version="9.1.3">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.25" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -168,7 +168,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXl1d28yNA" projecturn="a.YnVzaW5lc3M6bXl1d28yNCNEMjAxOTA5MTgyMTU4NTEzMzE" f3durn="urn:adsk.wipprod:dm.lineage:FOBc9gzRStynAYReK07jDw" pcbguid="c3cc866d-74ed-4fce-a145-5e9c1ae51e32" lastpulledtime="" lastsyncedchangeguid="b890d267-4529-8149-985b-030c467d39ac"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXl1d28yNA" projecturn="a.YnVzaW5lc3M6bXl1d28yNCNEMjAxOTA5MTgyMTU4NTEzMzE" f3durn="urn:adsk.wipprod:dm.lineage:FOBc9gzRStynAYReK07jDw" pcbguid="c3cc866d-74ed-4fce-a145-5e9c1ae51e32" lastpulledtime="" lastsyncedchangeguid="362411c1-3821-4769-5a5a-cbf950fb7262"/>
 <plain>
 <wire x1="69.75" y1="0.25" x2="69.75" y2="75" width="0" layer="20"/>
 <wire x1="69.75" y1="75" x2="-0.25" y2="75" width="0" layer="20"/>
