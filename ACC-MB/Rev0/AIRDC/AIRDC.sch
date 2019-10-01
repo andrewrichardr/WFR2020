@@ -233,16 +233,6 @@ by exp-lbrs.ulp</description>
 <pad name="NC1" x="0" y="39.37" drill="7.62"/>
 <circle x="0" y="19.05" radius="31.75" width="0.1524" layer="21"/>
 </package>
-<package name="IPBT-102-H1-T-D" urn="urn:adsk.eagle:footprint:13324984/1" library_version="1" library_locally_modified="yes">
-<pad name="P$1" x="0" y="0" drill="1.78"/>
-<pad name="P$2" x="4.19" y="0" drill="1.78"/>
-<pad name="P$3" x="4.19" y="4.19" drill="1.78"/>
-<pad name="P$4" x="0" y="4.19" drill="1.78"/>
-<wire x1="-4.19" y1="8.38" x2="-4.19" y2="-4.19" width="0.1524" layer="21"/>
-<wire x1="-4.19" y1="-4.19" x2="8.38" y2="-4.19" width="0.1524" layer="21"/>
-<wire x1="8.38" y1="-4.19" x2="8.38" y2="8.38" width="0.1524" layer="21"/>
-<wire x1="8.38" y1="8.38" x2="-4.19" y2="8.38" width="0.1524" layer="21"/>
-</package>
 <package name="PCI-E_SLOT_36" urn="urn:adsk.eagle:footprint:9245/1" locally_modified="yes" library_version="1" library_locally_modified="yes">
 <description>Copy from  &lt;b&gt;con-pci_express(pci-e).lbr&lt;/b&gt; uploaded &lt;i&gt;Mon Jul 2 10:15:25 2007&lt;/i&gt; with Finished-Layer&lt;p&gt; 
 Library for PCI-Express x16 (PCI-E) connector. Includes connector and card edge pattern.&lt;br&gt;
@@ -342,11 +332,6 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <packageinstance name="GV224"/>
 </packageinstances>
 </package3d>
-<package3d name="IPBT-102-H1-T-D" urn="urn:adsk.eagle:package:13324986/2" type="model" library_version="1" library_locally_modified="yes">
-<packageinstances>
-<packageinstance name="IPBT-102-H1-T-D"/>
-</packageinstances>
-</package3d>
 </packages3d>
 <symbols>
 <symbol name="GV224" urn="urn:adsk.eagle:symbol:13324939/1" library_version="1" library_locally_modified="yes">
@@ -378,16 +363,6 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <wire x1="0" y1="27.94" x2="0" y2="25.4" width="0.1524" layer="94"/>
 <wire x1="5.08" y1="20.32" x2="15.24" y2="25.4" width="0.1524" layer="94"/>
 <circle x="10.16" y="7.62" radius="2.54" width="0.1778" layer="94"/>
-</symbol>
-<symbol name="IPBT-102-H1-T-D" urn="urn:adsk.eagle:symbol:13324981/1" library_version="1" library_locally_modified="yes">
-<pin name="P$1" x="-10.16" y="5.08" length="middle"/>
-<pin name="P$2" x="-10.16" y="0" length="middle"/>
-<pin name="P$3" x="12.7" y="0" length="middle" rot="R180"/>
-<pin name="P$4" x="12.7" y="5.08" length="middle" rot="R180"/>
-<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="7.62" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="-2.54" x2="7.62" y2="7.62" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="-5.08" y2="7.62" width="0.1524" layer="94"/>
 </symbol>
 <symbol name="PCI-E-36" library_version="1" library_locally_modified="yes">
 <wire x1="0" y1="0" x2="15.24" y2="0" width="0.254" layer="94"/>
@@ -458,27 +433,6 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IPBT-102-H1-T-D" urn="urn:adsk.eagle:component:13325031/1" locally_modified="yes" library_version="1" library_locally_modified="yes">
-<gates>
-<gate name="G$1" symbol="IPBT-102-H1-T-D" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="IPBT-102-H1-T-D">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-<connect gate="G$1" pin="P$3" pad="P$3"/>
-<connect gate="G$1" pin="P$4" pad="P$4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13324986/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="PCIE-36-EDGE" library_version="1" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="PCI-E-36" x="0" y="0"/>
@@ -531,6 +485,97 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="con-molex" urn="urn:adsk.eagle:library:165">
+<description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="5566-8" library_version="2">
+<description>&lt;b&gt;Mini-Fit Jr.™ Vertical Header, 4.20mm Pitch, Dual Row, 8 Circuits, without Snap-in Plastic Peg PCB Lock, Tin, Natural&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/039281083_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
+<wire x1="-8.9" y1="4.5" x2="8.9" y2="4.5" width="0.254" layer="21"/>
+<wire x1="8.9" y1="4.5" x2="8.9" y2="-2.2" width="0.254" layer="21"/>
+<wire x1="8.9" y1="-3.3" x2="8.9" y2="-4.9" width="0.254" layer="21"/>
+<wire x1="8.9" y1="-4.9" x2="-8.9" y2="-4.9" width="0.254" layer="21"/>
+<wire x1="-8.9" y1="-4.9" x2="-8.9" y2="4.5" width="0.254" layer="21"/>
+<wire x1="-12.4" y1="3.2" x2="-9.6" y2="3.2" width="0.254" layer="21" curve="-114.529547"/>
+<wire x1="-12.4" y1="1.4" x2="-9.6" y2="1.4" width="0.254" layer="21" curve="114.529547"/>
+<wire x1="-12.4" y1="3.2" x2="-12.4" y2="1.4" width="0.254" layer="21"/>
+<wire x1="-9.7" y1="3.3" x2="-9" y2="3.3" width="0.254" layer="21"/>
+<wire x1="-9.7" y1="1.3" x2="-9" y2="1.3" width="0.254" layer="21"/>
+<wire x1="9.6" y1="1.4" x2="12.4" y2="1.4" width="0.254" layer="21" curve="114.529547"/>
+<wire x1="9.6" y1="3.2" x2="12.4" y2="3.2" width="0.254" layer="21" curve="-114.529547"/>
+<wire x1="12.4" y1="1.4" x2="12.4" y2="3.2" width="0.254" layer="21"/>
+<wire x1="9.7" y1="1.3" x2="9" y2="1.3" width="0.254" layer="21"/>
+<wire x1="9.7" y1="3.3" x2="9" y2="3.3" width="0.254" layer="21"/>
+<wire x1="8.9" y1="-2.2" x2="8.9" y2="-3.3" width="0.254" layer="21" curve="-180"/>
+<wire x1="-2.1" y1="6.3" x2="2.1" y2="6.3" width="0.254" layer="27"/>
+<wire x1="-2.1" y1="6.3" x2="-2.1" y2="4.6" width="0.254" layer="27"/>
+<wire x1="2.1" y1="6.3" x2="2.1" y2="4.6" width="0.254" layer="27"/>
+<pad name="1" x="6.3" y="-2.75" drill="1.4" shape="square"/>
+<pad name="2" x="2.1" y="-2.75" drill="1.4" shape="square"/>
+<pad name="3" x="-2.1" y="-2.75" drill="1.4" shape="square"/>
+<pad name="4" x="-6.3" y="-2.75" drill="1.4" shape="square"/>
+<pad name="8" x="-6.3" y="2.75" drill="1.4" shape="square"/>
+<pad name="7" x="-2.1" y="2.75" drill="1.4" shape="square"/>
+<pad name="6" x="2.1" y="2.75" drill="1.4" shape="square"/>
+<pad name="5" x="6.3" y="2.75" drill="1.4" shape="square"/>
+<text x="2.54" y="-6.985" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="6.985" size="1.27" layer="27">&gt;VALUE</text>
+<hole x="11" y="2.29" drill="3"/>
+<hole x="-11" y="2.29" drill="3"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MV" library_version="2">
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
+<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
+<text x="-0.762" y="1.397" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+<symbol name="M" library_version="2">
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
+<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
+<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="5566-8" prefix="X" library_version="2">
+<description>&lt;b&gt;Mini FIT connector 8 pol&lt;/b&gt;&lt;p&gt;
+Source: http://www.molex.com</description>
+<gates>
+<gate name="-1" symbol="MV" x="0" y="7.62" addlevel="always"/>
+<gate name="-2" symbol="M" x="0" y="5.08" addlevel="always"/>
+<gate name="-3" symbol="M" x="0" y="2.54" addlevel="always"/>
+<gate name="-4" symbol="M" x="0" y="0" addlevel="always"/>
+<gate name="-5" symbol="M" x="0" y="-2.54" addlevel="always"/>
+<gate name="-6" symbol="M" x="0" y="-5.08" addlevel="always"/>
+<gate name="-7" symbol="M" x="0" y="-7.62" addlevel="always"/>
+<gate name="-8" symbol="M" x="0" y="-10.16" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="5566-8">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+<connect gate="-5" pin="S" pad="5"/>
+<connect gate="-6" pin="S" pad="6"/>
+<connect gate="-7" pin="S" pad="7"/>
+<connect gate="-8" pin="S" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="MOLEX" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -547,9 +592,9 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <parts>
 <part name="FRAME3" library="ACC-MB-R0" deviceset="A3L-LOC" device=""/>
 <part name="U$1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" deviceset="GV224" device="" package3d_urn="urn:adsk.eagle:package:13209922/2"/>
-<part name="U$2" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" deviceset="IPBT-102-H1-T-D" device="" package3d_urn="urn:adsk.eagle:package:13324986/2"/>
 <part name="U$3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" deviceset="PCIE-36-EDGE" device=""/>
 <part name="U$4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" deviceset="PCIE-36-EDGE" device=""/>
+<part name="X5" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-8" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -563,9 +608,16 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <attribute name="SHEET" x="357.505" y="0" size="2.54" layer="94"/>
 </instance>
 <instance part="U$1" gate="G$1" x="116.84" y="132.08"/>
-<instance part="U$2" gate="G$1" x="124.46" y="175.26"/>
 <instance part="U$3" gate="G$1" x="185.42" y="157.48"/>
 <instance part="U$4" gate="G$1" x="226.06" y="157.48"/>
+<instance part="X5" gate="-1" x="154.94" y="198.12"/>
+<instance part="X5" gate="-2" x="154.94" y="195.58"/>
+<instance part="X5" gate="-3" x="154.94" y="193.04"/>
+<instance part="X5" gate="-4" x="154.94" y="190.5"/>
+<instance part="X5" gate="-5" x="154.94" y="187.96"/>
+<instance part="X5" gate="-6" x="154.94" y="185.42"/>
+<instance part="X5" gate="-7" x="154.94" y="182.88"/>
+<instance part="X5" gate="-8" x="154.94" y="180.34"/>
 </instances>
 <busses>
 </busses>
@@ -607,32 +659,6 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <junction x="180.34" y="132.08"/>
 <pinref part="U$3" gate="G$1" pin="A11"/>
 <junction x="180.34" y="129.54"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<wire x1="111.76" y1="147.32" x2="101.6" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="147.32" x2="101.6" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="175.26" x2="114.3" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="180.34" x2="101.6" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="180.34" x2="101.6" y2="175.26" width="0.1524" layer="91"/>
-<junction x="101.6" y="175.26"/>
-<pinref part="U$1" gate="G$1" pin="A1"/>
-<pinref part="U$2" gate="G$1" pin="P$1"/>
-<pinref part="U$2" gate="G$1" pin="P$2"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<wire x1="137.16" y1="175.26" x2="149.86" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="175.26" x2="149.86" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="147.32" x2="142.24" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="180.34" x2="149.86" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="180.34" x2="149.86" y2="175.26" width="0.1524" layer="91"/>
-<junction x="149.86" y="175.26"/>
-<pinref part="U$1" gate="G$1" pin="A2"/>
-<pinref part="U$2" gate="G$1" pin="P$3"/>
-<pinref part="U$2" gate="G$1" pin="P$4"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -729,6 +755,51 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <pinref part="U$3" gate="G$1" pin="A17"/>
 <junction x="180.34" y="111.76"/>
 <pinref part="U$3" gate="G$1" pin="A18"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<wire x1="111.76" y1="147.32" x2="101.6" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="A1"/>
+<wire x1="101.6" y1="147.32" x2="101.6" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="X5" gate="-5" pin="S"/>
+<wire x1="149.86" y1="180.34" x2="149.86" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="182.88" x2="149.86" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="185.42" x2="149.86" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="187.96" x2="152.4" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="X5" gate="-6" pin="S"/>
+<wire x1="152.4" y1="185.42" x2="149.86" y2="185.42" width="0.1524" layer="91"/>
+<junction x="149.86" y="185.42"/>
+<pinref part="X5" gate="-7" pin="S"/>
+<wire x1="152.4" y1="182.88" x2="149.86" y2="182.88" width="0.1524" layer="91"/>
+<junction x="149.86" y="182.88"/>
+<pinref part="X5" gate="-8" pin="S"/>
+<wire x1="152.4" y1="180.34" x2="149.86" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="170.18" x2="101.6" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="180.34" x2="149.86" y2="180.34" width="0.1524" layer="91"/>
+<junction x="149.86" y="180.34"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="X5" gate="-3" pin="S"/>
+<pinref part="X5" gate="-1" pin="S"/>
+<wire x1="149.86" y1="198.12" x2="152.4" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="X5" gate="-2" pin="S"/>
+<wire x1="152.4" y1="195.58" x2="149.86" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="195.58" x2="149.86" y2="198.12" width="0.1524" layer="91"/>
+<junction x="149.86" y="195.58"/>
+<wire x1="149.86" y1="195.58" x2="149.86" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="193.04" x2="152.4" y2="193.04" width="0.1524" layer="91"/>
+<junction x="149.86" y="193.04"/>
+<pinref part="X5" gate="-4" pin="S"/>
+<wire x1="152.4" y1="190.5" x2="149.86" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="190.5" x2="149.86" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="A2"/>
+<wire x1="142.24" y1="147.32" x2="144.78" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="147.32" x2="144.78" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="190.5" x2="149.86" y2="190.5" width="0.1524" layer="91"/>
+<junction x="149.86" y="190.5"/>
 </segment>
 </net>
 </nets>

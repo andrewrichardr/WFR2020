@@ -236,16 +236,6 @@ by exp-lbrs.ulp</description>
 <pad name="6" x="25.6" y="-17.7" drill="3.3" shape="square"/>
 <pad name="8" x="36.8" y="-17.7" drill="3.3" shape="square"/>
 </package>
-<package name="IPBT-102-H1-T-D" urn="urn:adsk.eagle:footprint:13324984/1" library_version="1" library_locally_modified="yes">
-<pad name="P$1" x="0" y="0" drill="1.78"/>
-<pad name="P$2" x="4.19" y="0" drill="1.78"/>
-<pad name="P$3" x="4.19" y="4.19" drill="1.78"/>
-<pad name="P$4" x="0" y="4.19" drill="1.78"/>
-<wire x1="-4.19" y1="8.38" x2="-4.19" y2="-4.19" width="0.1524" layer="21"/>
-<wire x1="-4.19" y1="-4.19" x2="8.38" y2="-4.19" width="0.1524" layer="21"/>
-<wire x1="8.38" y1="-4.19" x2="8.38" y2="8.38" width="0.1524" layer="21"/>
-<wire x1="8.38" y1="8.38" x2="-4.19" y2="8.38" width="0.1524" layer="21"/>
-</package>
 <package name="_CUSTOM_TO-247-2V" urn="urn:adsk.eagle:footprint:13209031/1" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;TO-247 Style  Power Package&lt;/b&gt; vertical mounting&lt;p&gt;
 Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
@@ -375,11 +365,6 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <packageinstance name="G7L"/>
 </packageinstances>
 </package3d>
-<package3d name="IPBT-102-H1-T-D" urn="urn:adsk.eagle:package:13324986/2" type="model" library_version="1" library_locally_modified="yes">
-<packageinstances>
-<packageinstance name="IPBT-102-H1-T-D"/>
-</packageinstances>
-</package3d>
 <package3d name="_CUSTOM_TO-247-2V" urn="urn:adsk.eagle:package:13209502/3" type="model" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;TO-247 Style  Power Package&lt;/b&gt; vertical mounting&lt;p&gt;
 Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
@@ -417,16 +402,6 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 <pin name="4" x="12.7" y="0" visible="pad" length="middle" rot="R180"/>
 <pin name="6" x="-12.7" y="-7.62" visible="pad" length="middle"/>
 <pin name="8" x="12.7" y="-7.62" visible="pad" length="middle" rot="R180"/>
-</symbol>
-<symbol name="IPBT-102-H1-T-D" urn="urn:adsk.eagle:symbol:13324981/1" library_version="1" library_locally_modified="yes">
-<pin name="P$1" x="-10.16" y="5.08" length="middle"/>
-<pin name="P$2" x="-10.16" y="0" length="middle"/>
-<pin name="P$3" x="12.7" y="0" length="middle" rot="R180"/>
-<pin name="P$4" x="12.7" y="5.08" length="middle" rot="R180"/>
-<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="7.62" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="-2.54" x2="7.62" y2="7.62" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="-5.08" y2="7.62" width="0.1524" layer="94"/>
 </symbol>
 <symbol name="TO247RESISTORHEATSINK" urn="urn:adsk.eagle:symbol:13324941/1" library_version="1" library_locally_modified="yes">
 <wire x1="-7.62" y1="0" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
@@ -500,27 +475,6 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:13209535/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="IPBT-102-H1-T-D" urn="urn:adsk.eagle:component:13325031/1" locally_modified="yes" library_version="1" library_locally_modified="yes">
-<gates>
-<gate name="G$1" symbol="IPBT-102-H1-T-D" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="IPBT-102-H1-T-D">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-<connect gate="G$1" pin="P$3" pad="P$3"/>
-<connect gate="G$1" pin="P$4" pad="P$4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13324986/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -603,6 +557,97 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="con-molex" urn="urn:adsk.eagle:library:165">
+<description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="5566-8" library_version="2">
+<description>&lt;b&gt;Mini-Fit Jr.™ Vertical Header, 4.20mm Pitch, Dual Row, 8 Circuits, without Snap-in Plastic Peg PCB Lock, Tin, Natural&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/039281083_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
+<wire x1="-8.9" y1="4.5" x2="8.9" y2="4.5" width="0.254" layer="21"/>
+<wire x1="8.9" y1="4.5" x2="8.9" y2="-2.2" width="0.254" layer="21"/>
+<wire x1="8.9" y1="-3.3" x2="8.9" y2="-4.9" width="0.254" layer="21"/>
+<wire x1="8.9" y1="-4.9" x2="-8.9" y2="-4.9" width="0.254" layer="21"/>
+<wire x1="-8.9" y1="-4.9" x2="-8.9" y2="4.5" width="0.254" layer="21"/>
+<wire x1="-12.4" y1="3.2" x2="-9.6" y2="3.2" width="0.254" layer="21" curve="-114.529547"/>
+<wire x1="-12.4" y1="1.4" x2="-9.6" y2="1.4" width="0.254" layer="21" curve="114.529547"/>
+<wire x1="-12.4" y1="3.2" x2="-12.4" y2="1.4" width="0.254" layer="21"/>
+<wire x1="-9.7" y1="3.3" x2="-9" y2="3.3" width="0.254" layer="21"/>
+<wire x1="-9.7" y1="1.3" x2="-9" y2="1.3" width="0.254" layer="21"/>
+<wire x1="9.6" y1="1.4" x2="12.4" y2="1.4" width="0.254" layer="21" curve="114.529547"/>
+<wire x1="9.6" y1="3.2" x2="12.4" y2="3.2" width="0.254" layer="21" curve="-114.529547"/>
+<wire x1="12.4" y1="1.4" x2="12.4" y2="3.2" width="0.254" layer="21"/>
+<wire x1="9.7" y1="1.3" x2="9" y2="1.3" width="0.254" layer="21"/>
+<wire x1="9.7" y1="3.3" x2="9" y2="3.3" width="0.254" layer="21"/>
+<wire x1="8.9" y1="-2.2" x2="8.9" y2="-3.3" width="0.254" layer="21" curve="-180"/>
+<wire x1="-2.1" y1="6.3" x2="2.1" y2="6.3" width="0.254" layer="27"/>
+<wire x1="-2.1" y1="6.3" x2="-2.1" y2="4.6" width="0.254" layer="27"/>
+<wire x1="2.1" y1="6.3" x2="2.1" y2="4.6" width="0.254" layer="27"/>
+<pad name="1" x="6.3" y="-2.75" drill="1.4" shape="square"/>
+<pad name="2" x="2.1" y="-2.75" drill="1.4" shape="square"/>
+<pad name="3" x="-2.1" y="-2.75" drill="1.4" shape="square"/>
+<pad name="4" x="-6.3" y="-2.75" drill="1.4" shape="square"/>
+<pad name="8" x="-6.3" y="2.75" drill="1.4" shape="square"/>
+<pad name="7" x="-2.1" y="2.75" drill="1.4" shape="square"/>
+<pad name="6" x="2.1" y="2.75" drill="1.4" shape="square"/>
+<pad name="5" x="6.3" y="2.75" drill="1.4" shape="square"/>
+<text x="2.54" y="-6.985" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="6.985" size="1.27" layer="27">&gt;VALUE</text>
+<hole x="11" y="2.29" drill="3"/>
+<hole x="-11" y="2.29" drill="3"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MV" library_version="2">
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
+<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
+<text x="-0.762" y="1.397" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+<symbol name="M" library_version="2">
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
+<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
+<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="5566-8" prefix="X" library_version="2">
+<description>&lt;b&gt;Mini FIT connector 8 pol&lt;/b&gt;&lt;p&gt;
+Source: http://www.molex.com</description>
+<gates>
+<gate name="-1" symbol="MV" x="0" y="7.62" addlevel="always"/>
+<gate name="-2" symbol="M" x="0" y="5.08" addlevel="always"/>
+<gate name="-3" symbol="M" x="0" y="2.54" addlevel="always"/>
+<gate name="-4" symbol="M" x="0" y="0" addlevel="always"/>
+<gate name="-5" symbol="M" x="0" y="-2.54" addlevel="always"/>
+<gate name="-6" symbol="M" x="0" y="-5.08" addlevel="always"/>
+<gate name="-7" symbol="M" x="0" y="-7.62" addlevel="always"/>
+<gate name="-8" symbol="M" x="0" y="-10.16" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="5566-8">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+<connect gate="-5" pin="S" pad="5"/>
+<connect gate="-6" pin="S" pad="6"/>
+<connect gate="-7" pin="S" pad="7"/>
+<connect gate="-8" pin="S" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="MOLEX" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -619,10 +664,10 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 <parts>
 <part name="FRAME3" library="ACC-MB-R0" deviceset="A3L-LOC" device=""/>
 <part name="U$1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" deviceset="G7L" device="" package3d_urn="urn:adsk.eagle:package:13209535/2"/>
-<part name="U$4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" deviceset="IPBT-102-H1-T-D" device="" package3d_urn="urn:adsk.eagle:package:13324986/2"/>
 <part name="U$5" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" deviceset="TO247RESISTORHEATINK" device="" package3d_urn="urn:adsk.eagle:package:13209502/3"/>
 <part name="U$2" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" deviceset="PCIE-36-EDGE" device=""/>
 <part name="U$3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" deviceset="PCIE-36-EDGE" device=""/>
+<part name="X5" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-8" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -636,10 +681,17 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 <attribute name="SHEET" x="357.505" y="0" size="2.54" layer="94"/>
 </instance>
 <instance part="U$1" gate="G$1" x="119.38" y="172.72" rot="R180"/>
-<instance part="U$4" gate="G$1" x="109.22" y="203.2" rot="R180"/>
 <instance part="U$5" gate="G$1" x="88.9" y="180.34" rot="R180"/>
 <instance part="U$2" gate="G$1" x="111.76" y="154.94"/>
 <instance part="U$3" gate="G$1" x="149.86" y="154.94"/>
+<instance part="X5" gate="-1" x="157.48" y="208.28"/>
+<instance part="X5" gate="-2" x="157.48" y="205.74"/>
+<instance part="X5" gate="-3" x="157.48" y="203.2"/>
+<instance part="X5" gate="-4" x="157.48" y="200.66"/>
+<instance part="X5" gate="-5" x="157.48" y="198.12"/>
+<instance part="X5" gate="-6" x="157.48" y="195.58"/>
+<instance part="X5" gate="-7" x="157.48" y="193.04"/>
+<instance part="X5" gate="-8" x="157.48" y="190.5"/>
 </instances>
 <busses>
 </busses>
@@ -647,15 +699,24 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 <net name="HV+_WET" class="0">
 <segment>
 <wire x1="71.12" y1="180.34" x2="76.2" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="198.12" x2="96.52" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="203.2" x2="83.82" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="203.2" x2="83.82" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="180.34" x2="71.12" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="198.12" x2="83.82" y2="198.12" width="0.1524" layer="91"/>
-<junction x="83.82" y="198.12"/>
-<pinref part="U$4" gate="G$1" pin="P$3"/>
-<pinref part="U$4" gate="G$1" pin="P$4"/>
+<wire x1="71.12" y1="198.12" x2="96.52" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="U$5" gate="G$1" pin="P$2"/>
+<pinref part="X5" gate="-4" pin="S"/>
+<wire x1="154.94" y1="200.66" x2="152.4" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="200.66" x2="96.52" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="200.66" x2="96.52" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="X5" gate="-3" pin="S"/>
+<wire x1="154.94" y1="203.2" x2="152.4" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="203.2" x2="152.4" y2="200.66" width="0.1524" layer="91"/>
+<junction x="152.4" y="200.66"/>
+<pinref part="X5" gate="-7" pin="S"/>
+<wire x1="152.4" y1="200.66" x2="152.4" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="193.04" x2="154.94" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="X5" gate="-8" pin="S"/>
+<wire x1="152.4" y1="193.04" x2="152.4" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="190.5" x2="154.94" y2="190.5" width="0.1524" layer="91"/>
+<junction x="152.4" y="193.04"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -678,16 +739,23 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 </net>
 <net name="V+" class="1">
 <segment>
-<wire x1="132.08" y1="172.72" x2="154.94" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="198.12" x2="132.08" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="203.2" x2="132.08" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="203.2" x2="132.08" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="172.72" x2="154.94" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="198.12" x2="132.08" y2="198.12" width="0.1524" layer="91"/>
-<junction x="132.08" y="198.12"/>
+<wire x1="132.08" y1="172.72" x2="149.86" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="2"/>
-<pinref part="U$4" gate="G$1" pin="P$1"/>
-<pinref part="U$4" gate="G$1" pin="P$2"/>
+<pinref part="X5" gate="-5" pin="S"/>
+<wire x1="154.94" y1="195.58" x2="154.94" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="X5" gate="-6" pin="S"/>
+<wire x1="154.94" y1="195.58" x2="149.86" y2="195.58" width="0.1524" layer="91"/>
+<junction x="154.94" y="195.58"/>
+<wire x1="149.86" y1="195.58" x2="149.86" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="195.58" x2="149.86" y2="205.74" width="0.1524" layer="91"/>
+<junction x="149.86" y="195.58"/>
+<pinref part="X5" gate="-2" pin="S"/>
+<wire x1="149.86" y1="205.74" x2="152.4" y2="205.74" width="0.1524" layer="91"/>
+<pinref part="X5" gate="-1" pin="S"/>
+<wire x1="152.4" y1="205.74" x2="154.94" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="208.28" x2="152.4" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="208.28" x2="152.4" y2="205.74" width="0.1524" layer="91"/>
+<junction x="152.4" y="205.74"/>
 </segment>
 </net>
 <net name="N$2" class="0">

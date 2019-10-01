@@ -173,18 +173,6 @@
 <wire x1="0.25" y1="75" x2="0.25" y2="0" width="0" layer="20"/>
 <wire x1="20.25" y1="0" x2="79" y2="0" width="0" layer="20"/>
 <wire x1="99" y1="0" x2="99" y2="75" width="0" layer="20"/>
-<polygon width="0.1524" layer="21">
-<vertex x="58" y="0"/>
-<vertex x="58" y="75"/>
-<vertex x="54" y="75"/>
-<vertex x="54" y="0"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="58" y="0"/>
-<vertex x="58" y="75"/>
-<vertex x="54" y="75"/>
-<vertex x="54" y="0"/>
-</polygon>
 <polygon width="0.1524" layer="21" pour="hatch">
 <vertex x="70.5" y="44.25"/>
 <vertex x="22.5" y="44.25"/>
@@ -197,7 +185,6 @@
 <vertex x="22.5" y="67.25"/>
 <vertex x="70.5" y="67.25"/>
 </polygon>
-<rectangle x1="58.924240625" y1="14.091840625" x2="69.307759375" y2="14.112159375" layer="21" rot="R180"/>
 <rectangle x1="58.944559375" y1="14.07151875" x2="69.307759375" y2="14.0918375" layer="21" rot="R180"/>
 <rectangle x1="58.964884375" y1="14.0512" x2="69.287440625" y2="14.07151875" layer="21" rot="R180"/>
 <rectangle x1="58.964884375" y1="14.030878125" x2="69.287440625" y2="14.051196875" layer="21" rot="R180"/>
@@ -1903,7 +1890,6 @@
 <rectangle x1="84.33551875" y1="59.462" x2="84.4168" y2="59.48231875" layer="21" rot="R180"/>
 <rectangle x1="84.35584375" y1="59.441678125" x2="84.4168" y2="59.461996875" layer="21" rot="R180"/>
 <rectangle x1="84.35584375" y1="59.421359375" x2="84.39648125" y2="59.441678125" layer="21" rot="R180"/>
-<text x="58.5" y="34" size="1.778" layer="21" rot="R270">HIGH VOLTAGE</text>
 <text x="51.5" y="34" size="1.778" layer="21" rot="R270">LOW VOLTAGE</text>
 <text x="69.5" y="18.75" size="1.778" layer="21" rot="R180">HIGH 
 VOLTAGE</text>
