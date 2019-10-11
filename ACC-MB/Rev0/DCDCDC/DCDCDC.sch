@@ -14307,16 +14307,6 @@ by exp-lbrs.ulp</description>
 <description>Generated from &lt;b&gt;ACC-MB-R0.sch&lt;/b&gt;&lt;p&gt;
 by exp-lbrs.ulp</description>
 <packages>
-<package name="IPBT-102-H1-T-D" urn="urn:adsk.eagle:footprint:13324984/1" library_version="1" library_locally_modified="yes">
-<pad name="P$1" x="0" y="0" drill="1.78"/>
-<pad name="P$2" x="4.19" y="0" drill="1.78"/>
-<pad name="P$3" x="4.19" y="4.19" drill="1.78"/>
-<pad name="P$4" x="0" y="4.19" drill="1.78"/>
-<wire x1="-4.19" y1="8.38" x2="-4.19" y2="-4.19" width="0.1524" layer="21"/>
-<wire x1="-4.19" y1="-4.19" x2="8.38" y2="-4.19" width="0.1524" layer="21"/>
-<wire x1="8.38" y1="-4.19" x2="8.38" y2="8.38" width="0.1524" layer="21"/>
-<wire x1="8.38" y1="8.38" x2="-4.19" y2="8.38" width="0.1524" layer="21"/>
-</package>
 <package name="PCI-E_SLOT_36" urn="urn:adsk.eagle:footprint:9245/1" locally_modified="yes" library_version="1" library_locally_modified="yes">
 <description>Copy from  &lt;b&gt;con-pci_express(pci-e).lbr&lt;/b&gt; uploaded &lt;i&gt;Mon Jul 2 10:15:25 2007&lt;/i&gt; with Finished-Layer&lt;p&gt; 
 Library for PCI-Express x16 (PCI-E) connector. Includes connector and card edge pattern.&lt;br&gt;
@@ -14410,24 +14400,7 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <text x="15.04" y="-2.04" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
-<packages3d>
-<package3d name="IPBT-102-H1-T-D" urn="urn:adsk.eagle:package:13324986/2" type="model" library_version="1" library_locally_modified="yes">
-<packageinstances>
-<packageinstance name="IPBT-102-H1-T-D"/>
-</packageinstances>
-</package3d>
-</packages3d>
 <symbols>
-<symbol name="IPBT-102-H1-T-D" urn="urn:adsk.eagle:symbol:13324981/1" library_version="1" library_locally_modified="yes">
-<pin name="P$1" x="-10.16" y="5.08" length="middle"/>
-<pin name="P$2" x="-10.16" y="0" length="middle"/>
-<pin name="P$3" x="12.7" y="0" length="middle" rot="R180"/>
-<pin name="P$4" x="12.7" y="5.08" length="middle" rot="R180"/>
-<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="7.62" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="-2.54" x2="7.62" y2="7.62" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="-5.08" y2="7.62" width="0.1524" layer="94"/>
-</symbol>
 <symbol name="PCI-E-36" library_version="1" library_locally_modified="yes">
 <wire x1="0" y1="0" x2="15.24" y2="0" width="0.254" layer="94"/>
 <wire x1="15.24" y1="0" x2="15.24" y2="-50.8" width="0.254" layer="94"/>
@@ -14474,27 +14447,6 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="IPBT-102-H1-T-D" urn="urn:adsk.eagle:component:13325031/1" locally_modified="yes" library_version="1" library_locally_modified="yes">
-<gates>
-<gate name="G$1" symbol="IPBT-102-H1-T-D" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="IPBT-102-H1-T-D">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-<connect gate="G$1" pin="P$3" pad="P$3"/>
-<connect gate="G$1" pin="P$4" pad="P$4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13324986/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="PCIE-36-EDGE" library_version="1" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="PCI-E-36" x="0" y="0"/>
@@ -14547,20 +14499,20 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="ACC-MB-R0">
+<library name="ACC-MB-R0" urn="urn:adsk.eagle:library:13208985">
 <description>Generated from &lt;b&gt;ACC-MB-R0.sch&lt;/b&gt;&lt;p&gt;
 by exp-lbrs.ulp</description>
 <packages>
 </packages>
 <symbols>
-<symbol name="V+">
+<symbol name="V+" urn="urn:adsk.eagle:symbol:13209024/1" library_version="1" library_locally_modified="yes">
 <wire x1="0.889" y1="-1.27" x2="0" y2="0.127" width="0.254" layer="94"/>
 <wire x1="0" y1="0.127" x2="-0.889" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="-0.889" y1="-1.27" x2="0.889" y2="-1.27" width="0.254" layer="94"/>
 <pin name="V+" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 <text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 </symbol>
-<symbol name="V-">
+<symbol name="V-" urn="urn:adsk.eagle:symbol:13209025/1" library_version="1" library_locally_modified="yes">
 <wire x1="-0.889" y1="1.27" x2="0" y2="-0.127" width="0.254" layer="94"/>
 <wire x1="0" y1="-0.127" x2="0.889" y2="1.27" width="0.254" layer="94"/>
 <wire x1="-0.889" y1="1.27" x2="0.889" y2="1.27" width="0.254" layer="94"/>
@@ -14569,7 +14521,7 @@ by exp-lbrs.ulp</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="V+" prefix="P+">
+<deviceset name="V+" urn="urn:adsk.eagle:component:13209962/1" prefix="P+" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="V+" x="0" y="0"/>
@@ -14582,7 +14534,7 @@ by exp-lbrs.ulp</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="V-" prefix="P-">
+<deviceset name="V-" urn="urn:adsk.eagle:component:13209963/1" prefix="P-" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="V-" x="0" y="0"/>
@@ -14711,8 +14663,6 @@ Source: http://www.molex.com</description>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="U$5" library="_CUSTOM" deviceset="UCC27511AQDBVRQ1" device=""/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
@@ -14729,13 +14679,15 @@ Source: http://www.molex.com</description>
 <part name="U$6" library="PDM_2019_RevB" deviceset="_CUSTOM_111_CUSTOM_SQJ407EP-T1_GE3" device=""/>
 <part name="U$3" library="PDM_2019_RevB" deviceset="_CUSTOM_111_CUSTOM_SQJ407EP-T1_GE3" device=""/>
 <part name="U$10" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" deviceset="PCIE-36-EDGE" device=""/>
-<part name="U$1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" deviceset="IPBT-102-H1-T-D" device="" package3d_urn="urn:adsk.eagle:package:13324986/2"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="U$2" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" deviceset="PCIE-36-EDGE" device=""/>
-<part name="P+7" library="ACC-MB-R0" deviceset="V+" device=""/>
-<part name="P-5" library="ACC-MB-R0" deviceset="V-" device=""/>
+<part name="P+7" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="V+" device=""/>
+<part name="P-5" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="V-" device=""/>
 <part name="X5" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-8" device=""/>
+<part name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-8" device=""/>
+<part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14796,12 +14748,6 @@ allow DCDC to deliver current</text>
 <instance part="GND3" gate="1" x="285.75" y="163.83" smashed="yes">
 <attribute name="VALUE" x="283.21" y="161.29" size="1.778" layer="96"/>
 </instance>
-<instance part="GND5" gate="1" x="332.74" y="50.8" smashed="yes">
-<attribute name="VALUE" x="330.2" y="48.26" size="1.778" layer="96"/>
-</instance>
-<instance part="P+4" gate="1" x="299.72" y="73.66" smashed="yes">
-<attribute name="VALUE" x="297.18" y="68.58" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="U$5" gate="G$1" x="207.01" y="226.06"/>
 <instance part="R2" gate="G$1" x="234.95" y="173.99" rot="R90"/>
 <instance part="P+3" gate="1" x="194.31" y="247.65" smashed="yes">
@@ -14831,7 +14777,6 @@ allow DCDC to deliver current</text>
 <instance part="U$6" gate="G$1" x="256.54" y="213.36"/>
 <instance part="U$3" gate="G$1" x="256.54" y="228.6"/>
 <instance part="U$10" gate="G$1" x="346.71" y="88.9"/>
-<instance part="U$1" gate="G$1" x="314.96" y="57.15"/>
 <instance part="GND7" gate="1" x="340.36" y="35.56" smashed="yes">
 <attribute name="VALUE" x="337.82" y="33.02" size="1.778" layer="96"/>
 </instance>
@@ -14853,6 +14798,20 @@ allow DCDC to deliver current</text>
 <instance part="X5" gate="-6" x="62.23" y="135.89"/>
 <instance part="X5" gate="-7" x="62.23" y="133.35"/>
 <instance part="X5" gate="-8" x="62.23" y="130.81"/>
+<instance part="X1" gate="-1" x="317.5" y="66.04"/>
+<instance part="X1" gate="-2" x="317.5" y="63.5"/>
+<instance part="X1" gate="-3" x="317.5" y="60.96"/>
+<instance part="X1" gate="-4" x="317.5" y="58.42"/>
+<instance part="X1" gate="-5" x="317.5" y="55.88"/>
+<instance part="X1" gate="-6" x="317.5" y="53.34"/>
+<instance part="X1" gate="-7" x="317.5" y="50.8"/>
+<instance part="X1" gate="-8" x="317.5" y="48.26"/>
+<instance part="P+5" gate="1" x="312.42" y="78.74" smashed="yes">
+<attribute name="VALUE" x="309.88" y="73.66" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND1" gate="1" x="309.88" y="40.64" smashed="yes">
+<attribute name="VALUE" x="307.34" y="38.1" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14896,16 +14855,6 @@ allow DCDC to deliver current</text>
 <wire x1="162.56" y1="198.12" x2="162.56" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="195.58" x2="143.51" y2="195.58" width="0.1524" layer="91"/>
 <junction x="143.51" y="195.58"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="P$4"/>
-<wire x1="327.66" y1="62.23" x2="332.74" y2="62.23" width="0.1524" layer="91"/>
-<pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="332.74" y1="62.23" x2="332.74" y2="57.15" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="P$3"/>
-<wire x1="332.74" y1="57.15" x2="332.74" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="327.66" y1="57.15" x2="332.74" y2="57.15" width="0.1524" layer="91"/>
-<junction x="332.74" y="57.15"/>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
@@ -14954,6 +14903,10 @@ allow DCDC to deliver current</text>
 <wire x1="341.63" y1="43.18" x2="340.36" y2="43.18" width="0.1524" layer="91"/>
 <junction x="341.63" y="43.18"/>
 <wire x1="340.36" y1="43.18" x2="340.36" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="309.88" y1="46.99" x2="309.88" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V+" class="1">
@@ -15039,16 +14992,6 @@ allow DCDC to deliver current</text>
 <junction x="194.31" y="231.14"/>
 </segment>
 <segment>
-<pinref part="P+4" gate="1" pin="+12V"/>
-<pinref part="U$1" gate="G$1" pin="P$2"/>
-<wire x1="299.72" y1="71.12" x2="299.72" y2="62.23" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="62.23" x2="299.72" y2="57.15" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="57.15" x2="304.8" y2="57.15" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="P$1"/>
-<wire x1="304.8" y1="62.23" x2="299.72" y2="62.23" width="0.1524" layer="91"/>
-<junction x="299.72" y="62.23"/>
-</segment>
-<segment>
 <pinref part="P+6" gate="1" pin="+12V"/>
 <pinref part="U$10" gate="G$1" pin="B2"/>
 <wire x1="367.03" y1="63.5" x2="367.03" y2="66.04" width="0.1524" layer="91"/>
@@ -15093,6 +15036,10 @@ allow DCDC to deliver current</text>
 <wire x1="368.3" y1="53.34" x2="368.3" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="368.3" y1="63.5" x2="367.03" y2="63.5" width="0.1524" layer="91"/>
 <junction x="367.03" y="63.5"/>
+</segment>
+<segment>
+<pinref part="P+5" gate="1" pin="+12V"/>
+<wire x1="312.42" y1="76.2" x2="312.42" y2="67.31" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -15243,6 +15190,36 @@ allow DCDC to deliver current</text>
 <pinref part="U$7" gate="G$1" pin="G"/>
 <pinref part="U$6" gate="G$1" pin="G"/>
 <pinref part="U$3" gate="G$1" pin="G"/>
+</segment>
+</net>
+<net name="N$5" class="1">
+<segment>
+<pinref part="X1" gate="-1" pin="S"/>
+<wire x1="312.42" y1="66.04" x2="312.42" y2="67.31" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="66.04" x2="312.42" y2="66.04" width="0.1524" layer="91"/>
+<junction x="312.42" y="66.04"/>
+<pinref part="X1" gate="-5" pin="S"/>
+<wire x1="312.42" y1="66.04" x2="312.42" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="63.5" x2="312.42" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="55.88" x2="314.96" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-2" pin="S"/>
+<wire x1="314.96" y1="63.5" x2="312.42" y2="63.5" width="0.1524" layer="91"/>
+<junction x="312.42" y="63.5"/>
+</segment>
+</net>
+<net name="N$6" class="1">
+<segment>
+<pinref part="X1" gate="-8" pin="S"/>
+<wire x1="309.88" y1="48.26" x2="314.96" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="46.99" x2="309.88" y2="48.26" width="0.1524" layer="91"/>
+<junction x="309.88" y="48.26"/>
+<pinref part="X1" gate="-4" pin="S"/>
+<wire x1="314.96" y1="58.42" x2="309.88" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="58.42" x2="309.88" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-7" pin="S"/>
+<wire x1="309.88" y1="50.8" x2="309.88" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="50.8" x2="309.88" y2="50.8" width="0.1524" layer="91"/>
+<junction x="309.88" y="50.8"/>
 </segment>
 </net>
 </nets>

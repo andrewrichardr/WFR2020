@@ -4319,16 +4319,6 @@ by exp-lbrs.ulp</description>
 <description>Generated from &lt;b&gt;ACC-MB-R0.sch&lt;/b&gt;&lt;p&gt;
 by exp-lbrs.ulp</description>
 <packages>
-<package name="IPBT-102-H1-T-D" urn="urn:adsk.eagle:footprint:13324984/1" library_version="1" library_locally_modified="yes">
-<pad name="P$1" x="0" y="0" drill="1.78"/>
-<pad name="P$2" x="4.19" y="0" drill="1.78"/>
-<pad name="P$3" x="4.19" y="4.19" drill="1.78"/>
-<pad name="P$4" x="0" y="4.19" drill="1.78"/>
-<wire x1="-4.19" y1="8.38" x2="-4.19" y2="-4.19" width="0.1524" layer="21"/>
-<wire x1="-4.19" y1="-4.19" x2="8.38" y2="-4.19" width="0.1524" layer="21"/>
-<wire x1="8.38" y1="-4.19" x2="8.38" y2="8.38" width="0.1524" layer="21"/>
-<wire x1="8.38" y1="8.38" x2="-4.19" y2="8.38" width="0.1524" layer="21"/>
-</package>
 <package name="PCI-E_SLOT_36" urn="urn:adsk.eagle:footprint:9245/1" locally_modified="yes" library_version="1" library_locally_modified="yes">
 <description>Copy from  &lt;b&gt;con-pci_express(pci-e).lbr&lt;/b&gt; uploaded &lt;i&gt;Mon Jul 2 10:15:25 2007&lt;/i&gt; with Finished-Layer&lt;p&gt; 
 Library for PCI-Express x16 (PCI-E) connector. Includes connector and card edge pattern.&lt;br&gt;
@@ -4422,13 +4412,6 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <text x="15.04" y="-2.04" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
-<packages3d>
-<package3d name="IPBT-102-H1-T-D" urn="urn:adsk.eagle:package:13324986/2" type="model" library_version="1" library_locally_modified="yes">
-<packageinstances>
-<packageinstance name="IPBT-102-H1-T-D"/>
-</packageinstances>
-</package3d>
-</packages3d>
 </library>
 <library name="con-molex" urn="urn:adsk.eagle:library:165">
 <description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
@@ -4722,13 +4705,18 @@ design rules under a new name.</description>
 <element name="U$6" library="PDM_2019_RevB" package="_CUSTOM_111_CUSTOM_TRANS_SIRA90DP-T1-GE3" value="_CUSTOM_111_CUSTOM_SQJ407EP-T1_GE3" x="32" y="22.5" rot="R180"/>
 <element name="U$3" library="PDM_2019_RevB" package="_CUSTOM_111_CUSTOM_TRANS_SIRA90DP-T1-GE3" value="_CUSTOM_111_CUSTOM_SQJ407EP-T1_GE3" x="22" y="22.5" rot="R180"/>
 <element name="U$10" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" package="PCI-E_SLOT_36" value="PCIE-36-EDGE" x="0.5" y="-11.5"/>
-<element name="U$1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" package="IPBT-102-H1-T-D" package3d_urn="urn:adsk.eagle:package:13324986/2" value="IPBT-102-H1-T-D" x="14.5" y="8.25"/>
 <element name="U$2" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" package="PCI-E_SLOT_36" value="PCIE-36-EDGE" x="79.5" y="-11.5"/>
 <element name="X5" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="5566-8" value="5566-8" x="84" y="58.75">
 <attribute name="MF" value="MOLEX" x="84" y="58.75" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="84" y="58.75" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="84" y="58.75" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="84" y="58.75" size="1.778" layer="27" display="off"/>
+</element>
+<element name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="5566-8" value="5566-8" x="7.5" y="12.25" rot="R90">
+<attribute name="MF" value="MOLEX" x="7.5" y="12.25" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="7.5" y="12.25" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="7.5" y="12.25" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="7.5" y="12.25" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 </elements>
 <signals>
@@ -4763,8 +4751,6 @@ design rules under a new name.</description>
 <wire x1="30.25" y1="2.35" x2="29.2" y2="3.4" width="0.2" layer="1"/>
 <wire x1="34.35" y1="2.35" x2="30.25" y2="2.35" width="0.2" layer="1"/>
 <wire x1="44.2" y1="1.65" x2="46" y2="1.65" width="0.2" layer="1"/>
-<contactref element="U$1" pad="P$4"/>
-<contactref element="U$1" pad="P$3"/>
 <contactref element="U$10" pad="A2"/>
 <contactref element="U$10" pad="A3"/>
 <contactref element="U$10" pad="A4"/>
@@ -4792,6 +4778,21 @@ design rules under a new name.</description>
 <wire x1="14.4335" y1="-7.4385" x2="14.745" y2="-7.75" width="0.254" layer="16"/>
 <wire x1="10.0565" y1="-7.4385" x2="10.0565" y2="-2.18105625" width="0.254" layer="16"/>
 <wire x1="14.4335" y1="-2.18105625" x2="14.4335" y2="-7.4385" width="0.254" layer="16"/>
+<wire x1="21.16" y1="45.25" x2="21.16" y2="56.25" width="0" layer="19" extent="1-1"/>
+<wire x1="6.19" y1="55" x2="21.16" y2="56.25" width="0" layer="19" extent="1-1"/>
+<wire x1="29.2" y1="3.4" x2="21.16" y2="45.25" width="0" layer="19" extent="1-1"/>
+<wire x1="17.745" y1="-7.75" x2="18.745" y2="-7.75" width="0" layer="19" extent="16-16"/>
+<wire x1="16.745" y1="-7.75" x2="17.745" y2="-7.75" width="0" layer="19" extent="16-16"/>
+<wire x1="15.745" y1="-7.75" x2="16.745" y2="-7.75" width="0" layer="19" extent="16-16"/>
+<wire x1="14.745" y1="-7.75" x2="15.745" y2="-7.75" width="0" layer="19" extent="16-16"/>
+<wire x1="8.745" y1="-7.75" x2="9.745" y2="-7.75" width="0" layer="19" extent="16-16"/>
+<wire x1="7.745" y1="-7.75" x2="8.745" y2="-7.75" width="0" layer="19" extent="16-16"/>
+<wire x1="6.745" y1="-7.75" x2="7.745" y2="-7.75" width="0" layer="19" extent="16-16"/>
+<wire x1="5.745" y1="-7.75" x2="6.745" y2="-7.75" width="0" layer="19" extent="16-16"/>
+<wire x1="4.745" y1="-7.75" x2="5.745" y2="-7.75" width="0" layer="19" extent="16-16"/>
+<wire x1="3.745" y1="-7.75" x2="4.745" y2="-7.75" width="0" layer="19" extent="16-16"/>
+<wire x1="2.745" y1="-7.75" x2="3.745" y2="-7.75" width="0" layer="19" extent="16-16"/>
+<wire x1="1.745" y1="-7.75" x2="2.745" y2="-7.75" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="V+" class="1">
 <contactref element="INPUT_FUSE" pad="P$1"/>
@@ -4845,8 +4846,6 @@ design rules under a new name.</description>
 <contactref element="U$7" pad="5"/>
 <contactref element="U$6" pad="5"/>
 <contactref element="U$3" pad="5"/>
-<contactref element="U$1" pad="P$2"/>
-<contactref element="U$1" pad="P$1"/>
 <contactref element="U$10" pad="B2"/>
 <contactref element="U$10" pad="B3"/>
 <contactref element="U$10" pad="B4"/>
@@ -4861,7 +4860,6 @@ design rules under a new name.</description>
 <contactref element="U$10" pad="B15"/>
 <contactref element="U$10" pad="B16"/>
 <contactref element="U$10" pad="B17"/>
-<wire x1="14.5" y1="8.25" x2="14.5" y2="-7.505" width="0.254" layer="1"/>
 <wire x1="14.5" y1="-7.505" x2="14.745" y2="-7.75" width="0.254" layer="1"/>
 <wire x1="10.067" y1="-2.19155625" x2="10.73655625" y2="-1.522" width="0.254" layer="1"/>
 <wire x1="10.73655625" y1="-1.522" x2="13.75344375" y2="-1.522" width="0.254" layer="1"/>
@@ -4870,6 +4868,22 @@ design rules under a new name.</description>
 <wire x1="14.423" y1="-7.428" x2="14.745" y2="-7.75" width="0.254" layer="1"/>
 <wire x1="10.067" y1="-7.428" x2="10.067" y2="-2.19155625" width="0.254" layer="1"/>
 <wire x1="14.423" y1="-2.19155625" x2="14.423" y2="-7.428" width="0.254" layer="1"/>
+<wire x1="32" y1="21.42" x2="42" y2="21.42" width="0" layer="19" extent="1-1"/>
+<wire x1="22" y1="21.42" x2="32" y2="21.42" width="0" layer="19" extent="1-1"/>
+<wire x1="39.8" y1="4.45" x2="42" y2="21.42" width="0" layer="19" extent="1-1"/>
+<wire x1="18.745" y1="-7.75" x2="38.15" y2="3.15" width="0" layer="19" extent="1-1"/>
+<wire x1="17.745" y1="-7.75" x2="18.745" y2="-7.75" width="0" layer="19" extent="1-1"/>
+<wire x1="16.745" y1="-7.75" x2="17.745" y2="-7.75" width="0" layer="19" extent="1-1"/>
+<wire x1="15.745" y1="-7.75" x2="16.745" y2="-7.75" width="0" layer="19" extent="1-1"/>
+<wire x1="14.745" y1="-7.75" x2="15.745" y2="-7.75" width="0" layer="19" extent="1-1"/>
+<wire x1="8.745" y1="-7.75" x2="9.745" y2="-7.75" width="0" layer="19" extent="1-1"/>
+<wire x1="7.745" y1="-7.75" x2="8.745" y2="-7.75" width="0" layer="19" extent="1-1"/>
+<wire x1="6.745" y1="-7.75" x2="7.745" y2="-7.75" width="0" layer="19" extent="1-1"/>
+<wire x1="5.745" y1="-7.75" x2="6.745" y2="-7.75" width="0" layer="19" extent="1-1"/>
+<wire x1="4.745" y1="-7.75" x2="5.745" y2="-7.75" width="0" layer="19" extent="1-1"/>
+<wire x1="3.745" y1="-7.75" x2="4.745" y2="-7.75" width="0" layer="19" extent="1-1"/>
+<wire x1="2.745" y1="-7.75" x2="3.745" y2="-7.75" width="0" layer="19" extent="1-1"/>
+<wire x1="1.745" y1="-7.75" x2="2.745" y2="-7.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="U$4" pad="1"/>
@@ -4998,6 +5012,20 @@ design rules under a new name.</description>
 <wire x1="29.28" y1="24.4" x2="29.25" y2="24.4" width="0.2032" layer="1"/>
 <wire x1="20.095" y1="25.215" x2="19.28" y2="24.4" width="0.2032" layer="1"/>
 <wire x1="19.28" y1="24.4" x2="19.25" y2="24.4" width="0.2032" layer="1"/>
+</signal>
+<signal name="N$5" class="1">
+<contactref element="X1" pad="1"/>
+<contactref element="X1" pad="5"/>
+<contactref element="X1" pad="2"/>
+<wire x1="10.25" y1="18.55" x2="10.25" y2="14.35" width="0" layer="19" extent="1-1"/>
+<wire x1="4.75" y1="18.55" x2="10.25" y2="18.55" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$6" class="1">
+<contactref element="X1" pad="8"/>
+<contactref element="X1" pad="4"/>
+<contactref element="X1" pad="7"/>
+<wire x1="4.75" y1="5.95" x2="10.25" y2="5.95" width="0" layer="19" extent="1-1"/>
+<wire x1="4.75" y1="10.15" x2="4.75" y2="5.95" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
