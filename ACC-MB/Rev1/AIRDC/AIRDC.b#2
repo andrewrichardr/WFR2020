@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.999999999" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -168,8 +168,9 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
+<fusionsync huburn="a.YnVzaW5lc3M6bXl1d28yNA" projecturn="a.YnVzaW5lc3M6bXl1d28yNCNEMjAxOTA5MTgyMTU4NTEzMzE" f3durn="urn:adsk.wipprod:dm.lineage:D07s0LkuT0ukojVNvCv-RA" pcbguid="7bb856a0-4c43-4cc5-9bd3-b4092ee37fb4" lastpulledtime="" lastsyncedchangeguid="619e053e-abbf-ae5c-7534-f2e7db8a1a86"/>
 <plain>
-<wire x1="-22" y1="9" x2="84" y2="9" width="0" layer="20"/>
+<wire x1="-22" y1="9" x2="85" y2="9" width="0" layer="20"/>
 <polygon width="0.2" layer="21">
 <vertex x="8.719" y="50.34"/>
 <vertex x="8.719" y="54.34"/>
@@ -195,15 +196,12 @@
 <vertex x="40.29" y="22.34"/>
 </polygon>
 <dimension x1="63.29" y1="54.34" x2="63.29" y2="50.34" x3="58" y3="52.34" textsize="1.778" layer="25"/>
-<wire x1="84" y1="9" x2="84.48" y2="9" width="0" layer="20"/>
-<wire x1="-22" y1="33" x2="-22" y2="9" width="0" layer="20"/>
-<wire x1="-22" y1="33" x2="18" y2="72" width="0" layer="20"/>
-<wire x1="18" y1="72" x2="45" y2="72" width="0" layer="20"/>
-<wire x1="45" y1="72" x2="85" y2="33" width="0" layer="20"/>
-<wire x1="85" y1="33" x2="85" y2="9" width="0" layer="20"/>
-<wire x1="85" y1="9" x2="84.48" y2="9" width="0" layer="20"/>
 <dimension x1="-22" y1="9" x2="84" y2="9" x3="31" y3="6" textsize="1.778" layer="1"/>
 <dimension x1="18" y1="72" x2="18" y2="9" x3="-30" y3="40.5" textsize="1.778" layer="1"/>
+<wire x1="-22" y1="9" x2="-22" y2="72" width="0" layer="20"/>
+<wire x1="-22" y1="72" x2="85" y2="72" width="0" layer="20"/>
+<dimension x1="74" y1="22" x2="-11" y2="22" x3="31.5" y3="-5" textsize="1.778" layer="1"/>
+<wire x1="85" y1="72" x2="85" y2="9" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="ACC-MB-R0" urn="urn:adsk.eagle:library:13324935">
@@ -233,7 +231,7 @@ by exp-lbrs.ulp</description>
 <description>Generated from &lt;b&gt;ACC-MB-R0.sch&lt;/b&gt;&lt;p&gt;
 by exp-lbrs.ulp</description>
 <packages>
-<package name="15-24-6100" library_version="1" library_locally_modified="yes">
+<package name="15-24-6100" urn="urn:adsk.eagle:footprint:14396585/1" library_version="5" library_locally_modified="yes">
 <description>&lt;b&gt;Mini-Fit Jr.™ Vertical Header, 4.20mm Pitch, Dual Row, 10 Circuits, without Snap-in Plastic Peg PCB Lock, Tin, Natural&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/039281103_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
 <wire x1="-11" y1="4.5" x2="11" y2="4.5" width="0.254" layer="21"/>
 <wire x1="11" y1="4.5" x2="11" y2="-2.2" width="0.254" layer="21"/>
@@ -260,6 +258,98 @@ by exp-lbrs.ulp</description>
 <hole x="-8.4" y="-10.5" drill="3"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="15-24-6100" urn="urn:adsk.eagle:package:14396594/2" type="model" library_version="5" library_locally_modified="yes">
+<description>&lt;b&gt;Mini-Fit Jr.™ Vertical Header, 4.20mm Pitch, Dual Row, 10 Circuits, without Snap-in Plastic Peg PCB Lock, Tin, Natural&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/039281103_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
+<packageinstances>
+<packageinstance name="15-24-6100"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+<library name="Main" urn="urn:adsk.eagle:library:14107900">
+<description>Generated from &lt;b&gt;Main.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
+<packages>
+<package name="CAPPRD750W65D1800H3700B" urn="urn:adsk.eagle:footprint:14107903/1" library_version="1" library_locally_modified="yes">
+<description>Radial Polarized Capacitor, 7.50 mm pitch, 18.00 mm body diameter, 37.00 mm body height
+&lt;p&gt;Radial Polarized Capacitor package with 7.50 mm pitch, 0.65 mm lead diameter, 18.00 mm body diameter and 37.00 mm body height&lt;/p&gt;</description>
+<circle x="0" y="0" radius="9" width="0.12" layer="21"/>
+<circle x="0" y="0" radius="9" width="0.12" layer="51"/>
+<wire x1="-6.961" y1="6.961" x2="-6.211" y2="6.961" width="0.12" layer="21"/>
+<wire x1="-6.586" y1="7.336" x2="-6.586" y2="6.586" width="0.12" layer="21"/>
+<pad name="1" x="-3.75" y="0" drill="0.85" diameter="1.45"/>
+<pad name="2" x="3.75" y="0" drill="0.85" diameter="1.45"/>
+<text x="0" y="9.635" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-9.635" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="DIOAD1570W120L850D500B" urn="urn:adsk.eagle:footprint:14107902/1" library_version="1" library_locally_modified="yes">
+<description>Axial Diode, 15.70 mm pitch, 8.50 mm body length, 5.00 mm body diameter
+&lt;p&gt;Axial Diode package with 15.70 mm pitch, 1.20 mm lead diameter, 8.50 mm body length and 5.00 mm body diameter&lt;/p&gt;</description>
+<wire x1="-4.25" y1="2.5" x2="-4.25" y2="0" width="0.12" layer="21"/>
+<wire x1="-4.25" y1="0" x2="-4.25" y2="-2.5" width="0.12" layer="21"/>
+<wire x1="-4.25" y1="-2.5" x2="-3.1875" y2="-2.5" width="0.12" layer="21"/>
+<wire x1="-3.1875" y1="-2.5" x2="4.25" y2="-2.5" width="0.12" layer="21"/>
+<wire x1="4.25" y1="-2.5" x2="4.25" y2="0" width="0.12" layer="21"/>
+<wire x1="4.25" y1="0" x2="4.25" y2="2.5" width="0.12" layer="21"/>
+<wire x1="4.25" y1="2.5" x2="-3.1875" y2="2.5" width="0.12" layer="21"/>
+<wire x1="-3.1875" y1="2.5" x2="-4.25" y2="2.5" width="0.12" layer="21"/>
+<wire x1="-3.1875" y1="2.5" x2="-3.1875" y2="-2.5" width="0.12" layer="21"/>
+<wire x1="-4.25" y1="0" x2="-6.546" y2="0" width="0.12" layer="21"/>
+<wire x1="4.25" y1="0" x2="6.546" y2="0" width="0.12" layer="21"/>
+<wire x1="4.25" y1="-2.5" x2="-4.25" y2="-2.5" width="0.12" layer="51"/>
+<wire x1="-4.25" y1="-2.5" x2="-4.25" y2="2.5" width="0.12" layer="51"/>
+<wire x1="-4.25" y1="2.5" x2="4.25" y2="2.5" width="0.12" layer="51"/>
+<wire x1="4.25" y1="2.5" x2="4.25" y2="-2.5" width="0.12" layer="51"/>
+<pad name="1" x="-7.85" y="0" drill="1.4" diameter="2.1"/>
+<pad name="2" x="7.85" y="0" drill="1.4" diameter="2.1"/>
+<text x="0" y="3.135" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.135" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="RESAD976W63L650D250B" urn="urn:adsk.eagle:footprint:14107932/1" library_version="1" library_locally_modified="yes">
+<description>Axial Resistor, 9.76 mm pitch, 6.50 mm body length, 2.50 mm body diameter
+&lt;p&gt;Axial Resistor package with 9.76 mm pitch, 0.63 mm lead diameter, 6.50 mm body length and 2.50 mm body diameter&lt;/p&gt;</description>
+<wire x1="-3.25" y1="1.25" x2="-3.25" y2="0" width="0.12" layer="21"/>
+<wire x1="-3.25" y1="0" x2="-3.25" y2="-1.25" width="0.12" layer="21"/>
+<wire x1="-3.25" y1="-1.25" x2="3.25" y2="-1.25" width="0.12" layer="21"/>
+<wire x1="3.25" y1="-1.25" x2="3.25" y2="0" width="0.12" layer="21"/>
+<wire x1="3.25" y1="0" x2="3.25" y2="1.25" width="0.12" layer="21"/>
+<wire x1="3.25" y1="1.25" x2="-3.25" y2="1.25" width="0.12" layer="21"/>
+<wire x1="-3.25" y1="0" x2="-3.911" y2="0" width="0.12" layer="21"/>
+<wire x1="3.25" y1="0" x2="3.911" y2="0" width="0.12" layer="21"/>
+<wire x1="3.25" y1="-1.25" x2="-3.25" y2="-1.25" width="0.12" layer="51"/>
+<wire x1="-3.25" y1="-1.25" x2="-3.25" y2="1.25" width="0.12" layer="51"/>
+<wire x1="-3.25" y1="1.25" x2="3.25" y2="1.25" width="0.12" layer="51"/>
+<wire x1="3.25" y1="1.25" x2="3.25" y2="-1.25" width="0.12" layer="51"/>
+<pad name="1" x="-4.88" y="0" drill="0.83" diameter="1.43"/>
+<pad name="2" x="4.88" y="0" drill="0.83" diameter="1.43"/>
+<text x="0" y="1.885" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.885" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="CAPPRD750W65D1800H3700B" urn="urn:adsk.eagle:package:14108258/2" type="model" library_version="1" library_locally_modified="yes">
+<description>Radial Polarized Capacitor, 7.50 mm pitch, 18.00 mm body diameter, 37.00 mm body height
+&lt;p&gt;Radial Polarized Capacitor package with 7.50 mm pitch, 0.65 mm lead diameter, 18.00 mm body diameter and 37.00 mm body height&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="CAPPRD750W65D1800H3700B"/>
+</packageinstances>
+</package3d>
+<package3d name="DIOAD1570W120L850D500B" urn="urn:adsk.eagle:package:14108257/2" type="model" library_version="1" library_locally_modified="yes">
+<description>Axial Diode, 15.70 mm pitch, 8.50 mm body length, 5.00 mm body diameter
+&lt;p&gt;Axial Diode package with 15.70 mm pitch, 1.20 mm lead diameter, 8.50 mm body length and 5.00 mm body diameter&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="DIOAD1570W120L850D500B"/>
+</packageinstances>
+</package3d>
+<package3d name="RESAD976W63L650D250B" urn="urn:adsk.eagle:package:14108256/1" type="box" library_version="1" library_locally_modified="yes">
+<description>Axial Resistor, 9.76 mm pitch, 6.50 mm body length, 2.50 mm body diameter
+&lt;p&gt;Axial Resistor package with 9.76 mm pitch, 0.63 mm lead diameter, 6.50 mm body length and 2.50 mm body diameter&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="RESAD976W63L650D250B"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 </libraries>
 <attributes>
@@ -462,81 +552,112 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="U$1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" package="GV224" package3d_urn="urn:adsk.eagle:package:13209922/2" value="GV224" x="31.75" y="21.59"/>
-<element name="U$2" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="15-24-6100" value="15-24-6100" x="74.1716" y="27.6134" rot="MR0"/>
-<element name="U$3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="15-24-6100" value="15-24-6100" x="-11.1442" y="27.6436" rot="MR0"/>
+<element name="U$2" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="15-24-6100" package3d_urn="urn:adsk.eagle:package:14396594/2" value="15-24-6100" x="74" y="28"/>
+<element name="U$3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="15-24-6100" package3d_urn="urn:adsk.eagle:package:14396594/2" value="15-24-6100" x="-11" y="28"/>
+<element name="C1" library="Main" library_urn="urn:adsk.eagle:library:14107900" package="CAPPRD750W65D1800H3700B" package3d_urn="urn:adsk.eagle:package:14108258/2" value="15000u" x="-9" y="59" rot="R180"/>
+<element name="D1" library="Main" library_urn="urn:adsk.eagle:library:14107900" package="DIOAD1570W120L850D500B" package3d_urn="urn:adsk.eagle:package:14108257/2" value="10A" x="-2" y="45" rot="R90"/>
+<element name="R1" library="Main" library_urn="urn:adsk.eagle:library:14107900" package="RESAD976W63L650D250B" package3d_urn="urn:adsk.eagle:package:14108256/1" value="100" x="-7" y="40" rot="R90"/>
 </elements>
 <signals>
 <signal name="AUX_T2">
 <contactref element="U$1" pad="T2"/>
 <contactref element="U$3" pad="9"/>
 <contactref element="U$3" pad="4"/>
-<wire x1="40.132" y1="65.868" x2="40.132" y2="59.436" width="2.032" layer="16"/>
-<wire x1="12" y1="63" x2="18" y2="69" width="2.032" layer="16"/>
-<wire x1="18" y1="69" x2="37" y2="69" width="2.032" layer="16"/>
-<wire x1="37" y1="69" x2="40.132" y2="65.868" width="2.032" layer="16"/>
-<wire x1="-6.9442" y1="24.8936" x2="-6.9442" y2="30.3936" width="2" layer="16"/>
-<wire x1="-6.9442" y1="30.3936" x2="-6.9442" y2="44.0558" width="2" layer="16"/>
-<wire x1="-6.9442" y1="44.0558" x2="12" y2="63" width="2" layer="16"/>
+<wire x1="-15.2" y1="25.25" x2="-15.2" y2="30.75" width="1.27" layer="16"/>
+<wire x1="-15.2" y1="30.75" x2="-15.2" y2="60.8" width="1.27" layer="16"/>
+<wire x1="-15.2" y1="60.8" x2="-14" y2="62" width="1.27" layer="16"/>
+<wire x1="-14" y1="62" x2="6" y2="62" width="1.27" layer="16"/>
+<wire x1="35.696" y1="55" x2="40.132" y2="59.436" width="1.27" layer="16"/>
+<wire x1="6" y1="62" x2="13" y2="55" width="1.27" layer="16"/>
+<wire x1="13" y1="55" x2="35.696" y2="55" width="1.27" layer="16"/>
 </signal>
 <signal name="AUX_A2" class="2">
 <contactref element="U$1" pad="A2"/>
-<contactref element="U$2" pad="9"/>
-<contactref element="U$2" pad="10"/>
-<contactref element="U$2" pad="4"/>
-<contactref element="U$2" pad="5"/>
-<wire x1="72.36" y1="40.64" x2="45.085" y2="40.64" width="4" layer="1"/>
-<wire x1="78.3716" y1="30.3634" x2="78.3716" y2="34.6284" width="4" layer="1"/>
-<wire x1="78.3716" y1="34.6284" x2="72.36" y2="40.64" width="4" layer="1"/>
-<wire x1="78.3716" y1="24.8634" x2="78.3716" y2="30.3634" width="4" layer="1"/>
-<wire x1="78.3716" y1="24.8634" x2="82.5716" y2="24.8634" width="4" layer="1"/>
-<wire x1="78.3716" y1="30.3634" x2="82.5716" y2="30.3634" width="4" layer="1"/>
-<wire x1="82.5716" y1="30.3634" x2="82.5716" y2="24.8634" width="4" layer="1"/>
+<contactref element="U$2" pad="1"/>
+<contactref element="U$2" pad="6"/>
+<contactref element="U$2" pad="2"/>
+<contactref element="U$2" pad="7"/>
+<wire x1="45.085" y1="40.64" x2="77.36" y2="40.64" width="3" layer="1"/>
+<wire x1="82.4" y1="35.6" x2="82.4" y2="30.75" width="3" layer="1"/>
+<wire x1="77.36" y1="40.64" x2="82.4" y2="35.6" width="3" layer="1"/>
+<wire x1="82.4" y1="30.75" x2="82.4" y2="25.25" width="3" layer="1"/>
+<wire x1="78.2" y1="25.25" x2="82.4" y2="25.25" width="3" layer="1"/>
+<wire x1="78.2" y1="30.75" x2="82.4" y2="30.75" width="3" layer="1"/>
+<wire x1="78.2" y1="25.25" x2="78.2" y2="30.75" width="3" layer="1"/>
 </signal>
 <signal name="COIL_X2">
 <contactref element="U$1" pad="X2"/>
 <contactref element="U$3" pad="6"/>
 <contactref element="U$3" pad="1"/>
-<wire x1="-19.5442" y1="30.3936" x2="-19.5442" y2="24.8936" width="2" layer="16"/>
-<wire x1="-19.5442" y1="24.8936" x2="-19.5442" y2="23.5442" width="2" layer="16"/>
-<wire x1="-19.5442" y1="23.5442" x2="-9" y2="13" width="2" layer="16"/>
-<wire x1="27.224" y1="13" x2="35.814" y2="21.59" width="2" layer="16"/>
-<wire x1="-9" y1="13" x2="27.224" y2="13" width="2" layer="16"/>
+<wire x1="-2.6" y1="30.75" x2="-2.6" y2="25.25" width="1.27" layer="1"/>
+<wire x1="-2.6" y1="25.25" x2="5.65" y2="17" width="1.27" layer="1"/>
+<wire x1="31.224" y1="17" x2="35.814" y2="21.59" width="1.27" layer="1"/>
+<wire x1="5.65" y1="17" x2="31.224" y2="17" width="1.27" layer="1"/>
 </signal>
 <signal name="AUX_T1">
 <contactref element="U$1" pad="T1"/>
 <contactref element="U$3" pad="10"/>
 <contactref element="U$3" pad="5"/>
-<wire x1="23.368" y1="59.436" x2="8.436" y2="59.436" width="2.032" layer="1"/>
-<wire x1="8.436" y1="59.436" x2="3" y2="54" width="2.032" layer="1"/>
-<wire x1="3" y1="54" x2="-2.7442" y2="48.2558" width="2" layer="1"/>
-<wire x1="-2.7442" y1="48.2558" x2="-2.7442" y2="30.3936" width="2" layer="1"/>
-<wire x1="-2.7442" y1="30.3936" x2="-2.7442" y2="24.8936" width="2" layer="1"/>
+<wire x1="23.368" y1="59.436" x2="21.932" y2="58" width="1.27" layer="16"/>
+<wire x1="7" y1="64" x2="-15" y2="64" width="1.27" layer="16"/>
+<wire x1="-19.4" y1="59.6" x2="-19.4" y2="30.75" width="1.27" layer="16"/>
+<wire x1="21.932" y1="58" x2="13" y2="58" width="1.27" layer="16"/>
+<wire x1="13" y1="58" x2="7" y2="64" width="1.27" layer="16"/>
+<wire x1="-15" y1="64" x2="-19.4" y2="59.6" width="1.27" layer="16"/>
+<wire x1="-19.4" y1="30.75" x2="-19.4" y2="25.25" width="1.27" layer="16"/>
 </signal>
 <signal name="AUX_A1" class="2">
 <contactref element="U$1" pad="A1"/>
-<contactref element="U$2" pad="7"/>
-<contactref element="U$2" pad="6"/>
-<contactref element="U$2" pad="2"/>
-<contactref element="U$2" pad="1"/>
-<wire x1="18.415" y1="40.64" x2="30.055" y2="29" width="4" layer="16"/>
-<wire x1="38.1478875" y1="29" x2="39.6438875" y2="27.504" width="4" layer="16"/>
-<wire x1="39.6438875" y1="27.504" x2="41.496" y2="27.504" width="4" layer="16"/>
-<wire x1="44.1366" y1="24.8634" x2="65.7716" y2="24.8634" width="4" layer="16"/>
-<wire x1="30.055" y1="29" x2="38.1478875" y2="29" width="4" layer="16"/>
-<wire x1="41.496" y1="27.504" x2="44.1366" y2="24.8634" width="4" layer="16"/>
-<wire x1="65.7716" y1="24.8634" x2="65.7716" y2="30.3634" width="4" layer="16"/>
-<wire x1="69.9716" y1="30.3634" x2="65.7716" y2="30.3634" width="4" layer="16"/>
-<wire x1="69.9716" y1="24.8634" x2="65.7716" y2="24.8634" width="4" layer="16"/>
-<wire x1="69.9716" y1="24.8634" x2="69.9716" y2="30.3634" width="4" layer="16"/>
+<contactref element="U$2" pad="4"/>
+<contactref element="U$2" pad="5"/>
+<contactref element="U$2" pad="9"/>
+<contactref element="U$2" pad="10"/>
+<wire x1="18.415" y1="40.64" x2="31.055" y2="28" width="3" layer="16"/>
+<wire x1="31.055" y1="28" x2="64" y2="28" width="3" layer="16"/>
+<wire x1="64" y1="28" x2="65.6" y2="26.4" width="3" layer="16"/>
+<wire x1="65.6" y1="25.25" x2="65.6" y2="30.75" width="3" layer="16"/>
+<wire x1="65.6" y1="30.75" x2="68.95" y2="30.75" width="3" layer="16"/>
+<wire x1="69.8" y1="30.75" x2="65.6" y2="30.75" width="3" layer="16"/>
+<wire x1="69.8" y1="25.25" x2="65.6" y2="25.25" width="3" layer="16"/>
+<wire x1="69.8" y1="25.25" x2="69.8" y2="30.75" width="3" layer="16"/>
+<wire x1="65.6" y1="26.4" x2="65.6" y2="25.25" width="3" layer="16"/>
 </signal>
 <signal name="COIL_X1">
 <contactref element="U$1" pad="X1"/>
 <contactref element="U$3" pad="7"/>
 <contactref element="U$3" pad="2"/>
-<wire x1="-15.3442" y1="30.3936" x2="-15.3442" y2="24.8936" width="2" layer="16"/>
-<wire x1="-15.3442" y1="24.8936" x2="-11.4506" y2="21" width="2" layer="16"/>
-<wire x1="27.096" y1="21" x2="27.686" y2="21.59" width="2" layer="16"/>
-<wire x1="-11.4506" y1="21" x2="27.096" y2="21" width="2" layer="16"/>
+<contactref element="R1" pad="1"/>
+<contactref element="D1" pad="1"/>
+<wire x1="27.686" y1="21.59" x2="25.096" y2="19" width="1.27" layer="16"/>
+<wire x1="0.3561875" y1="19" x2="-1.2948125" y2="20.651" width="1.27" layer="16"/>
+<wire x1="-1.2948125" y1="20.651" x2="-2.201" y2="20.651" width="1.27" layer="16"/>
+<wire x1="-2.201" y1="20.651" x2="-6.8" y2="25.25" width="1.27" layer="16"/>
+<wire x1="25.096" y1="19" x2="0.3561875" y2="19" width="1.27" layer="16"/>
+<wire x1="-6.8" y1="25.25" x2="-6.8" y2="30.75" width="1.27" layer="16"/>
+<wire x1="-6.8" y1="30.75" x2="-6.8" y2="34.92" width="1.27" layer="16"/>
+<wire x1="-6.8" y1="34.92" x2="-7" y2="35.12" width="1.27" layer="16"/>
+<wire x1="-7" y1="35.12" x2="-4.03" y2="35.12" width="1.27" layer="16"/>
+<wire x1="-4.03" y1="35.12" x2="-2" y2="37.15" width="1.27" layer="16"/>
+</signal>
+<signal name="N$3">
+<contactref element="C1" pad="1"/>
+<contactref element="D1" pad="2"/>
+<contactref element="R1" pad="2"/>
+<wire x1="-7" y1="44.88" x2="-2" y2="49.88" width="1.27" layer="16"/>
+<wire x1="-2" y1="49.88" x2="-2" y2="52.85" width="1.27" layer="16"/>
+<wire x1="-2" y1="52.85" x2="-2" y2="55.75" width="1.27" layer="16"/>
+<wire x1="-2" y1="55.75" x2="-5.25" y2="59" width="1.27" layer="16"/>
+</signal>
+<signal name="GND">
+<contactref element="C1" pad="2"/>
+<contactref element="U$3" pad="3"/>
+<contactref element="U$3" pad="8"/>
+<polygon width="2" layer="1">
+<vertex x="-22" y="72"/>
+<vertex x="-22" y="9"/>
+<vertex x="5" y="9"/>
+<vertex x="5" y="72"/>
+</polygon>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -553,6 +674,11 @@ design rules under a new name.</description>
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports Fusion synchronisation.
+This feature will not be available in this version and saving
+the document will break the link to the Fusion PCB feature.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
