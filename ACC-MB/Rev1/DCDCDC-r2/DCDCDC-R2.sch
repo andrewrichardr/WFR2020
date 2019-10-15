@@ -4355,75 +4355,6 @@ diameter 6 mm, grid 5.08 mm</description>
 <text x="2.921" y="-2.667" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="0.508" y="-2.159" size="0.9906" layer="21" ratio="12">TT</text>
 </package>
-<package name="VICOR_CHIP_HEATSINK" urn="urn:adsk.eagle:footprint:13209035/1">
-<wire x1="-23.96" y1="11.4" x2="23.96" y2="11.4" width="0.127" layer="21"/>
-<wire x1="-23.96" y1="-11.4" x2="23.96" y2="-11.4" width="0.127" layer="21"/>
-<wire x1="-23.96" y1="11.4" x2="-23.96" y2="-11.4" width="0.127" layer="21"/>
-<wire x1="23.96" y1="11.4" x2="23.96" y2="-11.4" width="0.127" layer="21"/>
-<pad name="EN" x="-23.19" y="-1.38" drill="1.52" diameter="1.77"/>
-<pad name="FT" x="-23.19" y="-4.13" drill="1.52" diameter="1.77"/>
-<pad name="IN+" x="-23.19" y="8" drill="2.03" diameter="2.28"/>
-<pad name="IN-" x="-23.19" y="-8" drill="2.03" diameter="2.28"/>
-<pad name="OUT+_1" x="23.19" y="8.25" drill="2.03" diameter="2.41"/>
-<pad name="OUT+_2" x="23.19" y="-2.75" drill="2.03" diameter="2.41"/>
-<pad name="OUT-_1" x="23.19" y="2.75" drill="2.03" diameter="2.41"/>
-<pad name="OUT-_2" x="23.19" y="-8.25" drill="2.03" diameter="2.41"/>
-<pad name="TR" x="-23.19" y="1.38" drill="1.52" diameter="1.77"/>
-<text x="-13.97" y="12.7" size="1.27" layer="21">&gt;NAME</text>
-<text x="-13.97" y="-13.97" size="1.27" layer="21">&gt;VALUE</text>
-<hole x="-16.47" y="13.97" drill="3.1"/>
-<hole x="-16.47" y="-13.97" drill="3.1"/>
-<hole x="16.47" y="13.97" drill="3.1"/>
-<hole x="16.47" y="-13.97" drill="3.1"/>
-<polygon width="0.127" layer="40">
-<vertex x="-16.47" y="15.72" curve="90"/>
-<vertex x="-18.22" y="13.97" curve="90"/>
-<vertex x="-16.47" y="12.22" curve="90"/>
-<vertex x="-14.72" y="13.97" curve="90"/>
-</polygon>
-<polygon width="0.127" layer="41">
-<vertex x="-16.47" y="15.72" curve="90"/>
-<vertex x="-18.22" y="13.97" curve="90"/>
-<vertex x="-16.47" y="12.22" curve="90"/>
-<vertex x="-14.72" y="13.97" curve="90"/>
-</polygon>
-<polygon width="0.127" layer="40">
-<vertex x="-16.47" y="-12.22" curve="90"/>
-<vertex x="-18.22" y="-13.97" curve="90"/>
-<vertex x="-16.47" y="-15.72" curve="90"/>
-<vertex x="-14.72" y="-13.97" curve="90"/>
-</polygon>
-<polygon width="0.127" layer="41">
-<vertex x="-16.47" y="-12.22" curve="90"/>
-<vertex x="-18.22" y="-13.97" curve="90"/>
-<vertex x="-16.47" y="-15.72" curve="90"/>
-<vertex x="-14.72" y="-13.97" curve="90"/>
-</polygon>
-<polygon width="0.127" layer="40">
-<vertex x="16.47" y="15.72" curve="90"/>
-<vertex x="14.72" y="13.97" curve="90"/>
-<vertex x="16.47" y="12.22" curve="90"/>
-<vertex x="18.22" y="13.97" curve="90"/>
-</polygon>
-<polygon width="0.127" layer="41">
-<vertex x="16.47" y="15.72" curve="90"/>
-<vertex x="14.72" y="13.97" curve="90"/>
-<vertex x="16.47" y="12.22" curve="90"/>
-<vertex x="18.22" y="13.97" curve="90"/>
-</polygon>
-<polygon width="0.127" layer="40">
-<vertex x="16.47" y="-12.22" curve="90"/>
-<vertex x="14.72" y="-13.97" curve="90"/>
-<vertex x="16.47" y="-15.72" curve="90"/>
-<vertex x="18.22" y="-13.97" curve="90"/>
-</polygon>
-<polygon width="0.127" layer="41">
-<vertex x="16.47" y="-12.22" curve="90"/>
-<vertex x="14.72" y="-13.97" curve="90"/>
-<vertex x="16.47" y="-15.72" curve="90"/>
-<vertex x="18.22" y="-13.97" curve="90"/>
-</polygon>
-</package>
 <package name="_CUSTOM_PARTS_LF_885" urn="urn:adsk.eagle:footprint:13209054/1">
 <wire x1="-2.4" y1="3.6" x2="2.4" y2="3.6" width="0.127" layer="21"/>
 <wire x1="-2.4" y1="-3.6" x2="2.4" y2="-3.6" width="0.127" layer="21"/>
@@ -7013,11 +6944,6 @@ diameter 6 mm, grid 5.08 mm</description>
 <packageinstance name="TT5D6"/>
 </packageinstances>
 </package3d>
-<package3d name="VICOR_CHIP_HEATSINK" urn="urn:adsk.eagle:package:13209498/1" type="box">
-<packageinstances>
-<packageinstance name="VICOR_CHIP_HEATSINK"/>
-</packageinstances>
-</package3d>
 <package3d name="_CUSTOM_PARTS_LF_885" urn="urn:adsk.eagle:package:13209479/1" type="box" library_version="1" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="_CUSTOM_PARTS_LF_885"/>
@@ -7677,23 +7603,6 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 <text x="1.016" y="-4.191" size="1.778" layer="96">&gt;VALUE</text>
 <text x="0" y="2.54" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
 <text x="0" y="-5.08" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
-</symbol>
-<symbol name="VICOR_CHIP" urn="urn:adsk.eagle:symbol:13324936/1" library_version="1" library_locally_modified="yes">
-<wire x1="-2.54" y1="20.32" x2="20.32" y2="20.32" width="0.254" layer="94"/>
-<wire x1="20.32" y1="20.32" x2="20.32" y2="0" width="0.254" layer="94"/>
-<wire x1="20.32" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="20.32" width="0.254" layer="94"/>
-<pin name="EN" x="10.16" y="-5.08" length="middle" rot="R90"/>
-<pin name="FT" x="12.7" y="-5.08" length="middle" rot="R90"/>
-<pin name="IN+" x="0" y="-5.08" length="middle" rot="R90"/>
-<pin name="IN-" x="17.78" y="-5.08" length="middle" rot="R90"/>
-<pin name="OUT+_1" x="0" y="25.4" length="middle" rot="R270"/>
-<pin name="OUT+_2" x="12.7" y="25.4" length="middle" rot="R270"/>
-<pin name="OUT-_1" x="5.08" y="25.4" length="middle" rot="R270"/>
-<pin name="OUT-_2" x="17.78" y="25.4" length="middle" rot="R270"/>
-<pin name="TR" x="7.62" y="-5.08" length="middle" rot="R90"/>
-<text x="0" y="7.62" size="1.27" layer="96">&gt;VALUE</text>
-<text x="12.7" y="7.62" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="A3L-LOC" urn="urn:adsk.eagle:symbol:13324961/1" library_version="1" library_locally_modified="yes">
 <wire x1="288.29" y1="3.81" x2="342.265" y2="3.81" width="0.1016" layer="94"/>
@@ -9484,32 +9393,6 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:13209894/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="VICOR_CHIP_WITH_HEATSINK" urn="urn:adsk.eagle:component:13325022/1" library_version="1" library_locally_modified="yes">
-<gates>
-<gate name="G$1" symbol="VICOR_CHIP" x="0" y="5.08"/>
-</gates>
-<devices>
-<device name="" package="VICOR_CHIP_HEATSINK">
-<connects>
-<connect gate="G$1" pin="EN" pad="EN"/>
-<connect gate="G$1" pin="FT" pad="FT"/>
-<connect gate="G$1" pin="IN+" pad="IN+"/>
-<connect gate="G$1" pin="IN-" pad="IN-"/>
-<connect gate="G$1" pin="OUT+_1" pad="OUT+_1"/>
-<connect gate="G$1" pin="OUT+_2" pad="OUT+_2"/>
-<connect gate="G$1" pin="OUT-_1" pad="OUT-_1"/>
-<connect gate="G$1" pin="OUT-_2" pad="OUT-_2"/>
-<connect gate="G$1" pin="TR" pad="TR"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13209498/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -14780,6 +14663,75 @@ Source: VISHAY wscwsn.pdf</description>
 <text x="-8.75" y="3.9" size="1.27" layer="25">&gt;NAME</text>
 <text x="-8.75" y="-5.15" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="VICOR_CHIP_HEATSINK" urn="urn:adsk.eagle:footprint:13209035/1" library_version="13">
+<wire x1="-23.96" y1="11.4" x2="23.96" y2="11.4" width="0.127" layer="21"/>
+<wire x1="-23.96" y1="-11.4" x2="23.96" y2="-11.4" width="0.127" layer="21"/>
+<wire x1="-23.96" y1="11.4" x2="-23.96" y2="-11.4" width="0.127" layer="21"/>
+<wire x1="23.96" y1="11.4" x2="23.96" y2="-11.4" width="0.127" layer="21"/>
+<pad name="EN" x="-23.19" y="-1.38" drill="1.52" diameter="1.77"/>
+<pad name="FT" x="-23.19" y="-4.13" drill="1.52" diameter="1.77"/>
+<pad name="IN+" x="-23.19" y="8" drill="2.03" diameter="2.28"/>
+<pad name="IN-" x="-23.19" y="-8" drill="2.03" diameter="2.28"/>
+<pad name="OUT+_1" x="23.19" y="8.25" drill="2.03" diameter="2.41"/>
+<pad name="OUT+_2" x="23.19" y="-2.75" drill="2.03" diameter="2.41"/>
+<pad name="OUT-_1" x="23.19" y="2.75" drill="2.03" diameter="2.41"/>
+<pad name="OUT-_2" x="23.19" y="-8.25" drill="2.03" diameter="2.41"/>
+<pad name="TR" x="-23.19" y="1.38" drill="1.52" diameter="1.77"/>
+<text x="-13.97" y="12.7" size="1.27" layer="21">&gt;NAME</text>
+<text x="-13.97" y="-13.97" size="1.27" layer="21">&gt;VALUE</text>
+<hole x="-16.47" y="13.97" drill="3.1"/>
+<hole x="-16.47" y="-13.97" drill="3.1"/>
+<hole x="16.47" y="13.97" drill="3.1"/>
+<hole x="16.47" y="-13.97" drill="3.1"/>
+<polygon width="0.127" layer="40">
+<vertex x="-16.47" y="15.72" curve="90"/>
+<vertex x="-18.22" y="13.97" curve="90"/>
+<vertex x="-16.47" y="12.22" curve="90"/>
+<vertex x="-14.72" y="13.97" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-16.47" y="15.72" curve="90"/>
+<vertex x="-18.22" y="13.97" curve="90"/>
+<vertex x="-16.47" y="12.22" curve="90"/>
+<vertex x="-14.72" y="13.97" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="40">
+<vertex x="-16.47" y="-12.22" curve="90"/>
+<vertex x="-18.22" y="-13.97" curve="90"/>
+<vertex x="-16.47" y="-15.72" curve="90"/>
+<vertex x="-14.72" y="-13.97" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-16.47" y="-12.22" curve="90"/>
+<vertex x="-18.22" y="-13.97" curve="90"/>
+<vertex x="-16.47" y="-15.72" curve="90"/>
+<vertex x="-14.72" y="-13.97" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="40">
+<vertex x="16.47" y="15.72" curve="90"/>
+<vertex x="14.72" y="13.97" curve="90"/>
+<vertex x="16.47" y="12.22" curve="90"/>
+<vertex x="18.22" y="13.97" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="16.47" y="15.72" curve="90"/>
+<vertex x="14.72" y="13.97" curve="90"/>
+<vertex x="16.47" y="12.22" curve="90"/>
+<vertex x="18.22" y="13.97" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="40">
+<vertex x="16.47" y="-12.22" curve="90"/>
+<vertex x="14.72" y="-13.97" curve="90"/>
+<vertex x="16.47" y="-15.72" curve="90"/>
+<vertex x="18.22" y="-13.97" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="16.47" y="-12.22" curve="90"/>
+<vertex x="14.72" y="-13.97" curve="90"/>
+<vertex x="16.47" y="-15.72" curve="90"/>
+<vertex x="18.22" y="-13.97" curve="90"/>
+</polygon>
+</package>
 </packages>
 <packages3d>
 <package3d name="L_1510_NONSTANDARD" urn="urn:adsk.eagle:package:13209483/2" type="model" library_version="5" library_locally_modified="yes">
@@ -15683,6 +15635,11 @@ Source: VISHAY wscwsn.pdf</description>
 <packageinstance name="WSC6927"/>
 </packageinstances>
 </package3d>
+<package3d name="VICOR_CHIP_HEATSINK" urn="urn:adsk.eagle:package:13209498/2" type="model" library_version="13">
+<packageinstances>
+<packageinstance name="VICOR_CHIP_HEATSINK"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="L-US" urn="urn:adsk.eagle:symbol:13208997/1" library_version="5" library_locally_modified="yes">
@@ -15800,6 +15757,23 @@ Source: VISHAY wscwsn.pdf</description>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
 <text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="VICOR_CHIP" urn="urn:adsk.eagle:symbol:13209011/1" library_version="13">
+<wire x1="-2.54" y1="20.32" x2="20.32" y2="20.32" width="0.254" layer="94"/>
+<wire x1="20.32" y1="20.32" x2="20.32" y2="0" width="0.254" layer="94"/>
+<wire x1="20.32" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="20.32" width="0.254" layer="94"/>
+<pin name="EN" x="10.16" y="-5.08" length="middle" rot="R90"/>
+<pin name="FT" x="12.7" y="-5.08" length="middle" rot="R90"/>
+<pin name="IN+" x="0" y="-5.08" length="middle" rot="R90"/>
+<pin name="IN-" x="17.78" y="-5.08" length="middle" rot="R90"/>
+<pin name="OUT+_1" x="0" y="25.4" length="middle" rot="R270"/>
+<pin name="OUT+_2" x="12.7" y="25.4" length="middle" rot="R270"/>
+<pin name="OUT-_1" x="5.08" y="25.4" length="middle" rot="R270"/>
+<pin name="OUT-_2" x="17.78" y="25.4" length="middle" rot="R270"/>
+<pin name="TR" x="7.62" y="-5.08" length="middle" rot="R90"/>
+<text x="0" y="7.62" size="1.27" layer="96">&gt;VALUE</text>
+<text x="12.7" y="7.62" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -17630,6 +17604,32 @@ Source: www.kingbright.com</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="VICOR_CHIP_WITH_HEATSINK" urn="urn:adsk.eagle:component:13209947/1" locally_modified="yes" library_version="13">
+<gates>
+<gate name="G$1" symbol="VICOR_CHIP" x="0" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="VICOR_CHIP_HEATSINK">
+<connects>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="FT" pad="FT"/>
+<connect gate="G$1" pin="IN+" pad="IN+"/>
+<connect gate="G$1" pin="IN-" pad="IN-"/>
+<connect gate="G$1" pin="OUT+_1" pad="OUT+_1"/>
+<connect gate="G$1" pin="OUT+_2" pad="OUT+_2"/>
+<connect gate="G$1" pin="OUT-_1" pad="OUT-_1"/>
+<connect gate="G$1" pin="OUT-_2" pad="OUT-_2"/>
+<connect gate="G$1" pin="TR" pad="TR"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13209498/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -17647,7 +17647,6 @@ Source: www.kingbright.com</description>
 </classes>
 <parts>
 <part name="FRAME1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" deviceset="A3L-LOC" device=""/>
-<part name="DCM290P138T600A40" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" deviceset="VICOR_CHIP_WITH_HEATSINK" device="" package3d_urn="urn:adsk.eagle:package:13209498/1" value="600W 400 to 12V"/>
 <part name="P+2" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" deviceset="V+" device=""/>
 <part name="P-1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" deviceset="V-" device=""/>
 <part name="P+1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" deviceset="+12V" device=""/>
@@ -17683,6 +17682,7 @@ Source: www.kingbright.com</description>
 <part name="R4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1"/>
 <part name="P+5" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="+12V" device=""/>
 <part name="GND1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
+<part name="U$8" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="VICOR_CHIP_WITH_HEATSINK" device="" package3d_urn="urn:adsk.eagle:package:13209498/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -17715,10 +17715,6 @@ allow DCDC to deliver current</text>
 <attribute name="DRAWING_NAME" x="344.17" y="15.24" size="2.54" layer="94"/>
 <attribute name="LAST_DATE_TIME" x="344.17" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="357.505" y="5.08" size="2.54" layer="94"/>
-</instance>
-<instance part="DCM290P138T600A40" gate="G$1" x="105.41" y="219.71" smashed="yes" rot="R270">
-<attribute name="VALUE" x="111.252" y="217.424" size="1.27" layer="96" rot="R270"/>
-<attribute name="NAME" x="113.03" y="219.71" size="1.27" layer="95" rot="R270"/>
 </instance>
 <instance part="P+2" gate="1" x="27.94" y="229.87" smashed="yes">
 <attribute name="VALUE" x="25.4" y="227.33" size="1.778" layer="96" rot="R90"/>
@@ -17795,6 +17791,7 @@ allow DCDC to deliver current</text>
 <instance part="R4" gate="G$1" x="19.05" y="118.11" rot="R90"/>
 <instance part="P+5" gate="1" x="19.05" y="139.7"/>
 <instance part="GND1" gate="1" x="19.05" y="107.95"/>
+<instance part="U$8" gate="G$1" x="105.41" y="219.71" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -17825,10 +17822,8 @@ allow DCDC to deliver current</text>
 <junction x="234.95" y="167.64"/>
 </segment>
 <segment>
-<pinref part="DCM290P138T600A40" gate="G$1" pin="OUT-_1"/>
 <wire x1="130.81" y1="214.63" x2="143.51" y2="214.63" width="0.1524" layer="91"/>
 <wire x1="143.51" y1="214.63" x2="143.51" y2="201.93" width="0.1524" layer="91"/>
-<pinref part="DCM290P138T600A40" gate="G$1" pin="OUT-_2"/>
 <wire x1="143.51" y1="201.93" x2="143.51" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="143.51" y1="195.58" x2="143.51" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="130.81" y1="201.93" x2="143.51" y2="201.93" width="0.1524" layer="91"/>
@@ -17838,6 +17833,8 @@ allow DCDC to deliver current</text>
 <wire x1="162.56" y1="198.12" x2="162.56" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="195.58" x2="143.51" y2="195.58" width="0.1524" layer="91"/>
 <junction x="143.51" y="195.58"/>
+<pinref part="U$8" gate="G$1" pin="OUT-_1"/>
+<pinref part="U$8" gate="G$1" pin="OUT-_2"/>
 </segment>
 <segment>
 <wire x1="187.96" y1="106.68" x2="187.96" y2="104.14" width="0.1524" layer="91"/>
@@ -17904,11 +17901,11 @@ allow DCDC to deliver current</text>
 <junction x="86.36" y="196.85"/>
 <pinref part="CFILTER_2" gate="G$1" pin="2"/>
 <wire x1="95.25" y1="209.55" x2="95.25" y2="196.85" width="0.1524" layer="91"/>
-<pinref part="DCM290P138T600A40" gate="G$1" pin="IN-"/>
 <wire x1="100.33" y1="201.93" x2="99.06" y2="201.93" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="201.93" x2="99.06" y2="196.85" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="196.85" x2="95.25" y2="196.85" width="0.1524" layer="91"/>
 <junction x="95.25" y="196.85"/>
+<pinref part="U$8" gate="G$1" pin="IN-"/>
 </segment>
 <segment>
 <wire x1="60.96" y1="118.11" x2="58.42" y2="118.11" width="0.1524" layer="91"/>
@@ -18023,7 +18020,6 @@ allow DCDC to deliver current</text>
 <net name="N$3" class="1">
 <segment>
 <pinref part="L_IN" gate="G$1" pin="2"/>
-<pinref part="DCM290P138T600A40" gate="G$1" pin="IN+"/>
 <wire x1="78.74" y1="219.71" x2="86.36" y2="219.71" width="0.1524" layer="91"/>
 <pinref part="CFILTER_1" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="219.71" x2="95.25" y2="219.71" width="0.1524" layer="91"/>
@@ -18036,6 +18032,7 @@ allow DCDC to deliver current</text>
 <pinref part="R_IN" gate="G$1" pin="2"/>
 <wire x1="76.2" y1="231.14" x2="86.36" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="231.14" x2="86.36" y2="219.71" width="0.1524" layer="91"/>
+<pinref part="U$8" gate="G$1" pin="IN+"/>
 </segment>
 </net>
 <net name="V+_FUSED" class="1">
@@ -18052,9 +18049,7 @@ allow DCDC to deliver current</text>
 </net>
 <net name="DCDC_OUT" class="1">
 <segment>
-<pinref part="DCM290P138T600A40" gate="G$1" pin="OUT+_1"/>
 <wire x1="130.81" y1="219.71" x2="162.56" y2="219.71" width="0.1524" layer="91"/>
-<pinref part="DCM290P138T600A40" gate="G$1" pin="OUT+_2"/>
 <wire x1="130.81" y1="207.01" x2="162.56" y2="207.01" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="207.01" x2="162.56" y2="219.71" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="219.71" x2="177.8" y2="219.71" width="0.1524" layer="91"/>
@@ -18063,6 +18058,8 @@ allow DCDC to deliver current</text>
 <pinref part="COUT_EXT" gate="G$1" pin="+"/>
 <wire x1="162.56" y1="205.74" x2="162.56" y2="207.01" width="0.1524" layer="91"/>
 <junction x="162.56" y="207.01"/>
+<pinref part="U$8" gate="G$1" pin="OUT+_1"/>
+<pinref part="U$8" gate="G$1" pin="OUT+_2"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>

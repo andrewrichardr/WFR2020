@@ -3,7 +3,7 @@
 <eagle version="9.1.3">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -168,7 +168,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXl1d28yNA" projecturn="a.YnVzaW5lc3M6bXl1d28yNCNEMjAxOTA5MTgyMTU4NTEzMzE" f3durn="urn:adsk.wipprod:dm.lineage:KdqQoOW4S9aXWgVKPaNH7g" pcbguid="69c35114-97a4-4077-a167-8c1e457fcf1d" lastpulledtime="" lastsyncedchangeguid="d77eccc2-89de-dfe6-d82c-65e7db473ef0"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXl1d28yNA" projecturn="a.YnVzaW5lc3M6bXl1d28yNCNEMjAxOTA5MTgyMTU4NTEzMzE" f3durn="urn:adsk.wipprod:dm.lineage:KdqQoOW4S9aXWgVKPaNH7g" pcbguid="69c35114-97a4-4077-a167-8c1e457fcf1d" lastpulledtime="" lastsyncedchangeguid="f7b17d19-e8dc-1c70-029e-08abc6707e82"/>
 <plain>
 <wire x1="0" y1="0" x2="210" y2="0" width="0" layer="20"/>
 <wire x1="210" y1="0" x2="210" y2="180" width="0" layer="20"/>
@@ -199,16 +199,12 @@ Fuse</text>
 <wire x1="204" y1="3" x2="144" y2="3" width="0.1524" layer="121"/>
 <wire x1="144" y1="3" x2="144" y2="112" width="0.1524" layer="121"/>
 <dimension x1="141" y1="2" x2="121" y2="2" x3="131" y3="30" textsize="1.778" layer="1"/>
-<wire x1="85" y1="82" x2="39" y2="82" width="0.1524" layer="21"/>
-<wire x1="39" y1="82" x2="39" y2="113" width="0.1524" layer="21"/>
+<wire x1="85" y1="84" x2="39" y2="84" width="0.1524" layer="21"/>
+<wire x1="39" y1="84" x2="39" y2="113" width="0.1524" layer="21"/>
 <wire x1="86" y1="28" x2="41" y2="28" width="0.1524" layer="21"/>
 <wire x1="41" y1="28" x2="41" y2="4" width="0.1524" layer="21"/>
 <wire x1="41" y1="4" x2="40" y2="3" width="0.1524" layer="21"/>
 <wire x1="121" y1="179" x2="120" y2="179" width="0.1524" layer="21"/>
-<wire x1="120" y1="179" x2="20" y2="179" width="0.1524" layer="21"/>
-<wire x1="20" y1="179" x2="20" y2="153" width="0.1524" layer="21"/>
-<wire x1="20" y1="153" x2="120" y2="153" width="0.1524" layer="21"/>
-<wire x1="120" y1="153" x2="120" y2="179" width="0.1524" layer="21"/>
 <wire x1="87" y1="96" x2="87" y2="4" width="0.1524" layer="21"/>
 <wire x1="87" y1="4" x2="99" y2="4" width="0.1524" layer="21"/>
 <wire x1="99" y1="4" x2="99" y2="96" width="0.1524" layer="21"/>
@@ -223,6 +219,7 @@ Fuse</text>
 <dimension x1="99" y1="16" x2="99" y2="85" x3="78" y3="50.5" textsize="1.778" layer="1"/>
 <dimension x1="130" y1="165" x2="130" y2="15" x3="125" y3="90" textsize="1.778" layer="1"/>
 <dimension x1="85" y1="132" x2="85" y2="49" x3="104" y3="90.5" textsize="1.778" layer="1"/>
+<dimension x1="62" y1="158" x2="62" y2="103" x3="48" y3="130.5" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="Main" urn="urn:adsk.eagle:library:14107900">
@@ -635,8 +632,8 @@ design rules under a new name.</description>
 <element name="IMD_HV" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="5566-10-BMI" package3d_urn="urn:adsk.eagle:package:14400593/6" value="15-24-7100" x="96" y="132" rot="R90"/>
 <element name="HVIB_HV" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="5566-10-BMI" package3d_urn="urn:adsk.eagle:package:14400593/6" value="15-24-7100" x="92" y="85" rot="R270"/>
 <element name="HVIB_LV" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="5566-10-BMI" package3d_urn="urn:adsk.eagle:package:14400593/6" value="15-24-7100" x="92" y="16" rot="R270"/>
-<element name="DCDC_LV" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="5566-10-BMI" package3d_urn="urn:adsk.eagle:package:14400593/6" value="15-24-7100" x="31" y="174" rot="R180"/>
-<element name="DCDC_HV" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="5566-10-BMI" package3d_urn="urn:adsk.eagle:package:14400593/6" value="15-24-7100" x="109" y="174" rot="R180"/>
+<element name="DCDC_LV" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="5566-10-BMI" package3d_urn="urn:adsk.eagle:package:14400593/6" value="15-24-7100" x="56" y="103" rot="R270"/>
+<element name="DCDC_HV" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="5566-10-BMI" package3d_urn="urn:adsk.eagle:package:14400593/6" value="15-24-7100" x="56" y="158" rot="R270"/>
 <element name="IMD_LV" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="5566-10-BMI" package3d_urn="urn:adsk.eagle:package:14400593/6" value="15-24-7100" x="96" y="49" rot="R90"/>
 </elements>
 <signals>
@@ -659,8 +656,8 @@ design rules under a new name.</description>
 <wire x1="89.25" y1="93.4" x2="94.75" y2="93.4" width="0" layer="19" extent="1-1"/>
 <wire x1="133.25" y1="156.6" x2="98.75" y2="123.6" width="0" layer="19" extent="1-1"/>
 <wire x1="138.75" y1="156.6" x2="133.25" y2="156.6" width="0" layer="19" extent="1-1"/>
-<wire x1="117.4" y1="171.25" x2="133.25" y2="156.6" width="0" layer="19" extent="1-1"/>
-<wire x1="117.4" y1="176.75" x2="117.4" y2="171.25" width="0" layer="19" extent="1-1"/>
+<wire x1="58.75" y1="166.4" x2="133.25" y2="156.6" width="0" layer="19" extent="1-1"/>
+<wire x1="53.25" y1="166.4" x2="58.75" y2="166.4" width="0" layer="19" extent="1-1"/>
 <wire x1="166.92" y1="129.095" x2="138.75" y2="156.6" width="0" layer="19" extent="1-1"/>
 <wire x1="196.25" y1="96.8" x2="166.92" y2="129.095" width="0" layer="19" extent="1-1"/>
 <wire x1="196.25" y1="92.6" x2="196.25" y2="96.8" width="0" layer="19" extent="1-1"/>
@@ -682,9 +679,9 @@ design rules under a new name.</description>
 <contactref element="HVIB_HV" pad="5"/>
 <contactref element="HVIB_HV" pad="10"/>
 <wire x1="93.25" y1="140.4" x2="98.75" y2="140.4" width="0" layer="19" extent="1-1"/>
-<wire x1="100.6" y1="171.25" x2="98.75" y2="140.4" width="0" layer="19" extent="1-1"/>
-<wire x1="100.6" y1="176.75" x2="100.6" y2="171.25" width="0" layer="19" extent="1-1"/>
-<wire x1="133.25" y1="173.4" x2="100.6" y2="171.25" width="0" layer="19" extent="1-1"/>
+<wire x1="58.75" y1="149.6" x2="98.75" y2="140.4" width="0" layer="19" extent="1-1"/>
+<wire x1="53.25" y1="149.6" x2="58.75" y2="149.6" width="0" layer="19" extent="1-1"/>
+<wire x1="133.25" y1="173.4" x2="58.75" y2="149.6" width="0" layer="19" extent="1-1"/>
 <wire x1="138.75" y1="173.4" x2="133.25" y2="173.4" width="0" layer="19" extent="1-1"/>
 <wire x1="166.92" y1="163.095" x2="138.75" y2="173.4" width="0" layer="19" extent="1-1"/>
 <wire x1="94.75" y1="76.6" x2="98.75" y2="140.4" width="0" layer="19" extent="1-1"/>
@@ -752,11 +749,11 @@ design rules under a new name.</description>
 <contactref element="HVIB_LV" pad="7"/>
 <contactref element="AIR_P_LV" pad="8"/>
 <contactref element="AIR_P_LV" pad="3"/>
-<wire x1="35.2" y1="176.75" x2="39.4" y2="176.75" width="0" layer="19" extent="1-1"/>
-<wire x1="31" y1="176.75" x2="35.2" y2="176.75" width="0" layer="19" extent="1-1"/>
-<wire x1="26.8" y1="176.75" x2="31" y2="176.75" width="0" layer="19" extent="1-1"/>
-<wire x1="22.6" y1="176.75" x2="26.8" y2="176.75" width="0" layer="19" extent="1-1"/>
-<wire x1="98.75" y1="57.4" x2="39.4" y2="176.75" width="0" layer="19" extent="1-1"/>
+<wire x1="53.25" y1="107.2" x2="53.25" y2="111.4" width="0" layer="19" extent="1-1"/>
+<wire x1="53.25" y1="103" x2="53.25" y2="107.2" width="0" layer="19" extent="1-1"/>
+<wire x1="53.25" y1="98.8" x2="53.25" y2="103" width="0" layer="19" extent="1-1"/>
+<wire x1="53.25" y1="94.6" x2="53.25" y2="98.8" width="0" layer="19" extent="1-1"/>
+<wire x1="98.75" y1="57.4" x2="53.25" y2="111.4" width="0" layer="19" extent="1-1"/>
 <wire x1="94.75" y1="20.2" x2="98.75" y2="57.4" width="0" layer="19" extent="1-1"/>
 <wire x1="138.75" y1="19.2" x2="94.75" y2="20.2" width="0" layer="19" extent="1-1"/>
 <wire x1="138.75" y1="23.4" x2="138.75" y2="19.2" width="0" layer="19" extent="1-1"/>
@@ -779,10 +776,10 @@ design rules under a new name.</description>
 <contactref element="HVIB_LV" pad="8"/>
 <contactref element="HVIB_LV" pad="9"/>
 <contactref element="HVIB_LV" pad="10"/>
-<wire x1="35.2" y1="171.25" x2="39.4" y2="171.25" width="0" layer="19" extent="1-1"/>
-<wire x1="26.8" y1="171.25" x2="35.2" y2="171.25" width="0" layer="19" extent="1-1"/>
-<wire x1="22.6" y1="171.25" x2="26.8" y2="171.25" width="0" layer="19" extent="1-1"/>
-<wire x1="93.25" y1="57.4" x2="39.4" y2="171.25" width="0" layer="19" extent="1-1"/>
+<wire x1="58.75" y1="107.2" x2="58.75" y2="111.4" width="0" layer="19" extent="1-1"/>
+<wire x1="58.75" y1="98.8" x2="58.75" y2="107.2" width="0" layer="19" extent="1-1"/>
+<wire x1="58.75" y1="94.6" x2="58.75" y2="98.8" width="0" layer="19" extent="1-1"/>
+<wire x1="93.25" y1="57.4" x2="58.75" y2="111.4" width="0" layer="19" extent="1-1"/>
 <wire x1="94.75" y1="16" x2="93.25" y2="57.4" width="0" layer="19" extent="1-1"/>
 <wire x1="94.75" y1="11.8" x2="94.75" y2="16" width="0" layer="19" extent="1-1"/>
 <wire x1="94.75" y1="7.6" x2="94.75" y2="11.8" width="0" layer="19" extent="1-1"/>

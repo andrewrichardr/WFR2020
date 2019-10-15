@@ -1,0 +1,712 @@
+ bad connections
+# of Data Points
+# of Inputs
+# of Throws
+&nbsp;</div>Active Building Blocks
+&nbsp;</div>Active Components
+&nbsp;</div>Analog and Hybrid Chips
+&nbsp;</div>Digital Chips
+&nbsp;</div>Drag
+&nbsp;</div>Inputs and Sources
+&nbsp;</div>Logic Gates, Input and Output
+&nbsp;</div>Outputs and Labels
+&nbsp;</div>Passive Components
+(Alt-drag)
+(S-right)
+(space or Shift-drag)
+1-of-4 Decoder
+2-Bit Comparator
+2-to-1 Mux
+3- and 4-Way Light Switches
+3-Way Light Switches
+4-Bit Ripple Counter
+555 Timer
+555 Timer Chip
+7-Segment LED Decoder
+7-segment driver/display
+741 (inverting amplifier)
+741 Current Limits
+741 Internals
+741 Slew Rate
+8-Bit Ripple Counter
+<Strong>RUN</Strong>&nbsp;/&nbsp;Stop
+<strong>RUN</strong>&nbsp;/&nbsp;Stop
+A/C
+A/C Circuits
+A/C source
+AC Trigger
+ADC
+AM Detector
+AM Source
+About
+Active Filters
+Add 555 Timer
+Add 7 Segment Decoder
+Add 7 Segment LED
+Add A/C Sweep
+Add A/C Voltage Source (1-terminal)
+Add A/C Voltage Source (2-terminal)
+Add ADC
+Add AM Source
+Add AND Gate
+Add Ammeter
+Add Analog Output
+Add Analog Switch (SPDT)
+Add Analog Switch (SPST)
+Add Antenna
+Add Audio Output
+Add Box
+Add CCII+
+Add CCII-
+Add Capacitor
+Add Capacitor (polarized)
+Add Clock
+Add Counter
+Add Current Source
+Add Custom Logic
+Add D Flip-Flop
+Add DAC
+Add Data Export
+Add Decade Counter
+Add Demultiplexer
+Add Diode
+Add FM Source
+Add Full Adder
+Add Ground
+Add Half Adder
+Add Inductor
+Add Inverter
+Add JFET (N-Channel)
+Add JFET (P-Channel)
+Add JK Flip-Flop
+Add LED
+Add Labeled Node
+Add Lamp (beta)
+Add Latch
+Add Logic Input
+Add Logic Output
+Add MOSFET (N-Channel)
+Add MOSFET (P-Channel)
+Add Memristor
+Add Monostable
+Add Multiplexer
+Add NAND Gate
+Add NOR Gate
+Add OR Gate
+Add Op Amp (+ on top)
+Add Op Amp (- on top)
+Add PISO shift register
+Add Phase Comparator
+Add Potentiometer
+Add Push Switch
+Add Relay
+Add Resistor
+Add SCR
+Add SIPO shift register
+Add SPDT Switch
+Add Schmitt Trigger
+Add Schmitt Trigger (Inverting)
+Add Sequence generator
+Add Spark Gap
+Add Square Wave Source (1-terminal)
+Add Switch
+Add T Flip-Flop
+Add Tapped Transformer
+Add Test Point
+Add Text
+Add Transformer
+Add Transistor (bipolar, NPN)
+Add Transistor (bipolar, PNP)
+Add Transmission Line
+Add Triode
+Add Tristate Buffer
+Add Tunnel Diode
+Add VCO
+Add Variable Voltage
+Add Voltage Source (1-terminal)
+Add Voltage Source (2-terminal)
+Add Voltmeter/Scobe Probe
+Add Wire
+Add XOR Gate
+Add Zener Diode
+Allpass
+Allpass w/ Square
+Ammeter
+Amplifier
+Amplifiers
+Analog/Digital
+Apply
+Astable Multivib
+Band-pass Filter
+Band-pass with Ringing
+Base Voltage
+Basics
+Bessel vs Butterworth
+Beta
+Beta/hFE
+Bidirectional
+Binary Value
+Binary-Weighted DAC
+Bistable Multivib (Flip-Flop)
+Bit 0 set
+Bit 1 set
+Bit 2 set
+Bit 3 set
+Bit 4 set
+Bit 5 set
+Bit 6 set
+Bit 7 set
+Blank Circuit
+Blocking Inductive Kickback
+Blue Value (0-1)
+Breakdown voltage
+Breakdown voltage (volts)
+Butterworth Low-Pass (10 pole)
+C2
+CC2
+CCII+
+CCII+ Implementation
+CCII-
+CCII- Implementation
+CGAND
+CGOR
+CMOS
+CMOS Flip-Flop
+CMOS Inverter
+CMOS Inverter (slow transition)
+CMOS Inverter (w/capacitance)
+CMOS Master-Slave Flip-Flop
+CMOS Multiplexer
+CMOS NAND
+CMOS NOR
+CMOS Transmission Gate
+CMOS XOR
+Cancel
+Capacitance (F)
+Capacitance Multiplier
+Capacitor
+Capacitor loop with no resistance!
+Caps in Parallel
+Caps in Series
+Caps of Various Capacitances
+Caps w/ Various Frequencies
+Carrier Frequency (Hz)
+Center
+Center Circuit
+Center Off
+Centre Circuit
+Circuits
+Class-D Amplifier
+Clocked SR Flip-Flop
+Coil Resistance (ohms)
+Collector Voltage
+Colpitts Oscillator
+Combinational Logic
+Common-Emitter Amplifier
+Common-Mode Input
+Common-Mode w/Current Source
+Common-Source Amplifier
+Complement (F210)
+Conventional Current Motion
+Convergence failed!
+Cooldown Time (s)
+Copy
+Copy</div>Ctrl-C
+Counter
+Counters
+Coupled LC's
+Coupling Coefficient
+Critically Damped LRC
+Crossbar Memory
+Crossover
+Current
+Current (A)
+Current Amplifier
+Current Conveyor
+Current Differentiator
+Current Integrator
+Current Mirror
+Current Ramp
+Current Required
+Current Source
+Current Source Ramp
+Current Speed
+Current-Controlled Voltage Source
+Cut
+Cut</div>Ctrl-X
+D flip-flop
+D/C
+DAC
+DC Offset (V)
+DC Restoration
+DTL
+DTL Inverter
+DTL NAND
+DTL NOR
+Darlington Pair
+Decimal Counter
+Delay (s)
+Delayed Buffer
+Delete
+Delta-Sigma ADC
+Deviation (Hz)
+Differential Amplifier
+Differential Amplifiers
+Differential Input
+Differentiator
+Digital Sine Wave
+Digital Symbol
+Diode
+Diode I/V Curve
+Diode Limiter
+Diodes
+Divide-by-2
+Divide-by-3
+Drag All
+Drag Column
+Drag Post
+Drag Row
+Drag Selected
+Drain Voltage
+Draw
+Draw Bar On Top
+Duplicate
+Duplicate</div>Ctrl-D
+Duration (s)
+Duty Cycle
+Dynamic RAM
+ECL
+ECL NOR/OR
+Edge-Triggered D Flip-Flop
+Edit
+Edit Component
+Emitter Follower
+Emitter-Coupled LC Oscillator
+European Resistors
+Exclusive OR
+Export As Link
+Export As Local File
+Export As Text
+Export To Dropbox
+F211
+F220
+F221
+FM Source
+File
+Flash ADC
+Flip X
+Flip Y
+Flip-Flops
+Follower
+Frequency
+Frequency (Hz)
+Frequency Doubler
+Full Adder
+Full-Wave Rectifier
+Full-Wave Rectifier w/ Filter
+Fwd Voltage @ 1A
+Gate Voltage
+Gate-Cathode Resistance (ohms)
+Gilbert Cell Multiplier
+Gray Code Counter
+Green Value (0-1)
+Gyrator
+Half Adder
+Half-Flash (Subranging) ADC
+Half-Wave Rectifier
+Half-Wave Rectifier (inverting)
+Hard-Switching 1
+Hard-Switching 2
+Hartley Oscillator
+High Voltage
+High Voltage (V)
+High-Pass Filter (RC)
+High-Pass Filter (RL)
+Hold current (amps)
+Holding Current (A)
+Holding current (A)
+Howland Current Source
+I-to-V Converter
+I/V Curve
+Impedance (ohms)
+Impedance Matching (L-Section)
+Impedance Matching (Shunt Stub)
+Impedances of Same Magnitude
+Import From Dropbox
+Import From Local File
+Import From Text
+Improved
+Inductance (H)
+Inductive Kickback
+Inductor
+Inductor Simulator
+Inductors in Parallel
+Inductors in Series
+Inductors of Various Inductances
+Inductors w/ Various Frequencies
+Info Text
+Inputs
+Integrator
+Internals
+Invert reset pin
+Inverter Amplifier
+Inverter Oscillator
+Inverting Amplifier
+InvertingSchmitt
+JFET Current Source
+JFET Follower
+JFET Follower w/zero offset
+JFETs
+JK Flip-Flop
+JK flip-flop
+Johnson Counter
+LC Ladder
+LC Modes (2)
+LC Modes (3)
+LC Oscillator
+LED
+LED Flasher
+LRC Circuit
+Latch
+Leading-Edge Detector
+Light Switch
+Lissajous Figures
+Log Amplifier
+Logarithmic
+Logic Families
+Long-Distance Power Transmission
+Low Voltage
+Low-Pass Filter
+Low-Pass Filter (RC)
+Low-Pass Filter (RL)
+Low-duty-cycle Oscillator
+Lower threshold (V)
+MOSFETs
+Majority Logic
+Marx Generator
+Master-Slave Flip-Flop
+Matrix error
+Max Brightness Current (A)
+Max Frequency (Hz)
+Max Output (V)
+Max Resistance (ohms)
+Max Reverse Voltage
+Max Scale
+Max Voltage
+Memristor
+Memristors
+Min Frequency (Hz)
+Min Output (V)
+Min Resistance (ohms)
+Min Voltage
+Misc Devices
+Mismatched lines (Pulse)
+Mismatched lines (Standing Wave)
+Missing Pulse Detector
+Mobility (um^2/(s*V))
+Model Name
+Momentary Switch
+Monostable
+Monostable Multivib (One-Shot)
+Monostable Multivibrator
+Multiplexer
+Multivibrators
+NMOS
+NMOS Inverter
+NMOS Inverter 2
+NMOS NAND
+NPN Transistor
+Negative Impedance Converter
+No path for current source!
+Nominal Power
+Nominal Voltage
+Noninverting Amplifier
+Normally closed
+Norton's Theorem
+Notch Filter
+Number of Poles
+OK
+Off Resistance (ohms)
+Off resistance (ohms)
+Ohm's Law
+On Current (A)
+On Resistance (ohms)
+On resistance (ohms)
+One shot
+Op-Amp
+Op-Amp Feedback
+Op-Amps
+Options
+Oscillators
+Other Options...
+Other Passive Circuits
+Outputs
+P2P Voltage
+PISO shift register
+PNP Transistor
+Parallel Resonance
+Passive Filters
+Paste</div>Ctrl-V
+Peak Detector
+Period
+Period (s)
+Phase Comparator (Type II)
+Phase Comparator Internals
+Phase Offset (degrees)
+Phase-Locked Loops
+Phase-Sequence Network
+Phase-Shift Oscillator
+Plot X/Y
+Potentiometer
+Potentiometer Divider
+Power Brightness
+Power Factor
+Power Factor Correction
+Primary Inductance (H)
+Pulse
+Pulse Sequencer
+Pulse Width
+Pulse Width Modulator
+Push-Pull Follower
+R-2R Ladder DAC
+RMS Current
+RMS Voltage
+RTL
+RTL Inverter
+RTL NAND
+RTL NOR
+Range for voltage color (V)
+Ratio
+Red Value (0-1)
+Redo</div>Ctrl-Y
+Relaxation Oscillator
+Relay
+Relay AND
+Relay Counter
+Relay Flip-Flop
+Relay Mux
+Relay OR
+Relay Toggle Flip-Flop
+Relay XOR
+Relays
+Remove
+Reset
+Reset Pin
+Resistance (ohms)
+Resistor Cube
+Resistor Grid
+Resistor Grid 2
+Resistors
+Retriggerable
+Ring Modulator
+Rossler Circuit
+SCR
+SIPO shift register
+SR Flip-Flop
+Sample-and-Hold
+Sampling Rate
+Sawtooth
+Sawtooth Generator
+Sawtooth Oscillator
+Sawtooth Wave Generator
+Scale 2x
+Schmitt
+Schmitt Inputs
+Schmitt Trigger
+Schmitt Trigger (inverting)
+Scopes
+Select All</div>Ctrl-A
+Select Y
+Select/Drag Sel
+Sequence generator
+Sequential Logic
+Series Resonance
+Series/Parallel
+Set Pin
+Seven Segment LED Decoder
+Show Bulk
+Show Conductance
+Show Current
+Show Cursor Cross Hairs
+Show Frequency
+Show Ib
+Show Ic
+Show Ie
+Show Negative Peak Value
+Show Peak Value
+Show Power
+Show Power Consumed
+Show Resistance
+Show Scale
+Show Spectrum
+Show V vs I
+Show Value
+Show Values
+Show Vbc
+Show Vbe
+Show Vce
+Show Vce vs Ic
+Show Voltage
+Signal Frequency (Hz)
+Silicon-Controlled Rectifiers
+Simple TL
+Simple, with distortion
+Simulation Speed
+Sine Wave
+Sine Wave Generator
+Singular matrix!
+Size
+Slew Rate (V/ns)
+Slider Text
+Small Grid
+Source Follower
+Spark Gap
+Speed 1/2x
+Speed 2x
+Spike Generator
+Square Wave
+Square Wave Generator
+Stack
+Stack All
+Standing Wave
+Step-Down Transformer
+Step-Up Transformer
+Stub Frequency Response
+Summing Amplifier
+Swap Coil Direction
+Swap D/S
+Swap E/C
+Sweep Time (s)
+Switch
+Switch Group
+Switch-Tree DAC
+Switchable Filter
+Switched-Capacitor Filter
+Synchronous Counter
+T flip-flop
+TTL
+TTL Inverter
+TTL NAND
+TTL NOR
+Termination
+Ternary
+Tesla Coil
+Test Point
+Text
+Thevenin's Theorem
+Threshold
+Threshold Voltage
+Time step size (s)
+Total Width (nm)
+Traffic Light
+Transformer
+Transformer w/ DC
+Transformers
+Transistors
+Transmission Lines
+Trapezoidal Approximation
+Triangle
+Triangle Wave
+Triangle Wave Generator
+Triangle-to-Sine Converter
+Trigger Current (A)
+Triode
+Triodes
+Tunnel Diodes
+Twin-T Filter
+Type I PLL
+Type II PLL
+Type II PLL (fast)
+Undo</div>Ctrl-Z
+Unity-Gain Phase Splitter
+Unstack
+Unstack All
+Upper threshold (V)
+VCCS
+VCO
+VCVS High-Pass Filter
+VCVS Low-Pass Filter
+Value
+View in Scope
+Voltage
+Voltage Divider
+Voltage Doubler
+Voltage Doubler 2
+Voltage Inverter
+Voltage Multipliers
+Voltage Quadrupler
+Voltage Reference
+Voltage Reference w/ Follower
+Voltage Regulator
+Voltage Tripler
+Voltage source/wire loop with no resistance!
+Voltage-Controlled Oscillator
+Volume Control
+Warmup Time (s)
+Waveform
+Waveform Clipper
+Weak Coupling
+Wheatstone Bridge
+White Background
+Width of Doped Region (nm)
+XOR Phase Detector
+Zener Diodes
+Zener Voltage @ 5mA
+Zener diode
+analog switch
+analog switch (SPDT)
+audio output
+capacitor
+capacitor (polarized)
+chip
+closed
+current source
+cutoff
+data export
+decade counter
+diode
+f.3db = 
+fc = 
+fwd active
+ground
+high
+inductor
+inverter
+kg1
+lamp
+logic input
+logic output
+low
+memristor
+mu
+n-MOSFET
+nan/infinite matrix!
+op-amp
+open
+output
+p-MOSFET
+phase comparator
+potentiometer
+pulse gen
+push switch (SPST)
+res.f = 
+resistor
+saturation
+sawtooth gen
+spark gap
+square wave gen
+sweep 
+switch (
+switch (SPST)
+time step = 
+transformer
+transistor
+transmission line
+tri-state buffer
+triangle gen
+triode
+tunnel diode
+voltage source
+voltmeter
+wire
+wire loop detected

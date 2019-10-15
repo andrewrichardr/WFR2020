@@ -168,7 +168,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXl1d28yNA" projecturn="a.YnVzaW5lc3M6bXl1d28yNCNEMjAxOTA5MTgyMTU4NTEzMzE" f3durn="urn:adsk.wipprod:dm.lineage:KdqQoOW4S9aXWgVKPaNH7g" pcbguid="69c35114-97a4-4077-a167-8c1e457fcf1d" lastpulledtime="" lastsyncedchangeguid="51e98245-7b4a-b63d-a952-cdb1035cd45c"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXl1d28yNA" projecturn="a.YnVzaW5lc3M6bXl1d28yNCNEMjAxOTA5MTgyMTU4NTEzMzE" f3durn="urn:adsk.wipprod:dm.lineage:KdqQoOW4S9aXWgVKPaNH7g" pcbguid="69c35114-97a4-4077-a167-8c1e457fcf1d" lastpulledtime="" lastsyncedchangeguid="f7b2ddac-410c-f4c1-32de-ceb25bf5cdb9"/>
 <plain>
 <wire x1="0" y1="0" x2="210" y2="0" width="0" layer="20"/>
 <wire x1="210" y1="0" x2="210" y2="180" width="0" layer="20"/>
@@ -206,37 +206,34 @@ Fuse</text>
 <wire x1="41" y1="4" x2="40" y2="3" width="0.1524" layer="21"/>
 <wire x1="121" y1="179" x2="120" y2="179" width="0.1524" layer="21"/>
 <wire x1="87" y1="96" x2="87" y2="4" width="0.1524" layer="21"/>
-<wire x1="87" y1="4" x2="99" y2="4" width="0.1524" layer="21"/>
-<wire x1="99" y1="4" x2="99" y2="96" width="0.1524" layer="21"/>
-<wire x1="99" y1="96" x2="89" y2="96" width="0.1524" layer="21"/>
 <dimension x1="191" y1="15" x2="191" y2="100" x3="219" y3="57.5" textsize="1.778" layer="1"/>
-<dimension x1="99" y1="16" x2="99" y2="85" x3="78" y3="50.5" textsize="1.778" layer="1"/>
+<dimension x1="81" y1="97" x2="81" y2="166" x3="60" y3="131.5" textsize="1.778" layer="1"/>
 <dimension x1="130" y1="165" x2="130" y2="15" x3="125" y3="90" textsize="1.778" layer="1"/>
 <dimension x1="85" y1="132" x2="85" y2="49" x3="104" y3="90.5" textsize="1.778" layer="1"/>
 <dimension x1="62" y1="158" x2="62" y2="103" x3="48" y3="130.5" textsize="1.778" layer="1"/>
 <polygon width="0.2" layer="21">
-<vertex x="42" y="125.3"/>
-<vertex x="46" y="125.3"/>
+<vertex x="42" y="141.3"/>
+<vertex x="46" y="141.3"/>
 <vertex x="46" y="80.7"/>
 <vertex x="42" y="80.7"/>
 </polygon>
 <polygon width="0.2" layer="21">
-<vertex x="76.3" y="126"/>
-<vertex x="76.3" y="122"/>
-<vertex x="41.7" y="122"/>
-<vertex x="41.7" y="126"/>
+<vertex x="86.3" y="142"/>
+<vertex x="86.3" y="138"/>
+<vertex x="41.7" y="138"/>
+<vertex x="41.7" y="142"/>
 </polygon>
 <polygon width="0.2" layer="21">
-<vertex x="72" y="125.3"/>
-<vertex x="76" y="125.3"/>
-<vertex x="76" y="64.7"/>
-<vertex x="72" y="64.7"/>
+<vertex x="84" y="142.3"/>
+<vertex x="88" y="142.3"/>
+<vertex x="88" y="64.7"/>
+<vertex x="84" y="64.7"/>
 </polygon>
 <polygon width="0.2" layer="21">
 <vertex x="119.3" y="69"/>
 <vertex x="119.3" y="65"/>
-<vertex x="72.7" y="65"/>
-<vertex x="72.7" y="69"/>
+<vertex x="83.7" y="65"/>
+<vertex x="83.7" y="69"/>
 </polygon>
 <polygon width="0.2" layer="21">
 <vertex x="209.3" y="84"/>
@@ -740,13 +737,13 @@ design rules under a new name.</description>
 <element name="U$1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="MAINFUSEASSY" package3d_urn="urn:adsk.eagle:package:14400224/2" value="MAINFUSEASSY" x="10" y="61" rot="R90"/>
 <element name="AIR_P_HV" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="5566-10-BMI" package3d_urn="urn:adsk.eagle:package:14400593/6" value="15-24-7100" x="199" y="101" rot="R90"/>
 <element name="AIR_P_LV" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="5566-10-BMI" package3d_urn="urn:adsk.eagle:package:14400593/6" value="15-24-7100" x="199" y="14" rot="R90"/>
-<element name="AIR_N_HV" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="5566-10-BMI" package3d_urn="urn:adsk.eagle:package:14400593/6" value="15-24-7100" x="31" y="100" rot="R270"/>
-<element name="AIR_N_LV" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="5566-10-BMI" package3d_urn="urn:adsk.eagle:package:14400593/6" value="15-24-7100" x="31" y="15" rot="R270"/>
+<element name="AIR_N_HV" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="5566-10-BMI" package3d_urn="urn:adsk.eagle:package:14400593/6" value="15-24-7100" x="37" y="100" rot="R270"/>
+<element name="AIR_N_LV" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="5566-10-BMI" package3d_urn="urn:adsk.eagle:package:14400593/6" value="15-24-7100" x="37" y="15" rot="R270"/>
 <element name="DIS_PRE_CHARGE_HV" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="5566-10-BMI" package3d_urn="urn:adsk.eagle:package:14400593/6" value="15-24-7100" x="136" y="165" rot="R90"/>
 <element name="DIS_PRE_CHARGE_LV" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="5566-10-BMI" package3d_urn="urn:adsk.eagle:package:14400593/6" value="15-24-7100" x="136" y="15" rot="R90"/>
 <element name="IMD_HV" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="5566-10-BMI" package3d_urn="urn:adsk.eagle:package:14400593/6" value="15-24-7100" x="96" y="132" rot="R90"/>
-<element name="HVIB_HV" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="5566-10-BMI" package3d_urn="urn:adsk.eagle:package:14400593/6" value="15-24-7100" x="90" y="85" rot="R270"/>
-<element name="HVIB_LV" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="5566-10-BMI" package3d_urn="urn:adsk.eagle:package:14400593/6" value="15-24-7100" x="90" y="16" rot="R270"/>
+<element name="HVIB_HV" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="5566-10-BMI" package3d_urn="urn:adsk.eagle:package:14400593/6" value="15-24-7100" x="82" y="166" rot="R270"/>
+<element name="HVIB_LV" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="5566-10-BMI" package3d_urn="urn:adsk.eagle:package:14400593/6" value="15-24-7100" x="82" y="97" rot="R270"/>
 <element name="DCDC_LV" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="5566-10-BMI" package3d_urn="urn:adsk.eagle:package:14400593/6" value="15-24-7100" x="56" y="103" rot="R270"/>
 <element name="DCDC_HV" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="5566-10-BMI" package3d_urn="urn:adsk.eagle:package:14400593/6" value="15-24-7100" x="56" y="158" rot="R270"/>
 <element name="IMD_LV" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="5566-10-BMI" package3d_urn="urn:adsk.eagle:package:14400593/6" value="15-24-7100" x="96" y="49" rot="R90"/>
@@ -791,16 +788,6 @@ design rules under a new name.</description>
 <wire x1="114" y1="143" x2="114" y2="134" width="3" layer="16"/>
 <wire x1="114" y1="134" x2="103.6" y2="123.6" width="3" layer="16"/>
 <wire x1="98.75" y1="123.6" x2="93.25" y2="123.6" width="3" layer="16"/>
-<wire x1="64.6" y1="166.4" x2="58.75" y2="166.4" width="3" layer="16"/>
-<wire x1="88.4" y1="123.6" x2="77" y2="135" width="3" layer="16"/>
-<wire x1="77" y1="135" x2="77" y2="154" width="3" layer="16"/>
-<wire x1="77" y1="154" x2="64.6" y2="166.4" width="3" layer="16"/>
-<wire x1="58.75" y1="166.4" x2="53.25" y2="166.4" width="3" layer="16"/>
-<wire x1="87.25" y1="93.4" x2="92.75" y2="93.4" width="3" layer="16"/>
-<wire x1="83" y1="97.65" x2="87.25" y2="93.4" width="3" layer="16"/>
-<wire x1="93.25" y1="123.6" x2="88.4" y2="123.6" width="3" layer="16"/>
-<wire x1="88.4" y1="123.6" x2="83" y2="118.2" width="3" layer="16"/>
-<wire x1="83" y1="118.2" x2="83" y2="97.65" width="3" layer="16"/>
 <contactref element="INPUT_FUSE" pad="P$1"/>
 <wire x1="202" y1="123.75" x2="202" y2="119" width="2.54" layer="1"/>
 <wire x1="207" y1="100.05" x2="203.75" y2="96.8" width="2.54" layer="1"/>
@@ -808,6 +795,14 @@ design rules under a new name.</description>
 <wire x1="207" y1="114" x2="207" y2="100.05" width="2.54" layer="1"/>
 <wire x1="201.75" y1="96.8" x2="201.75" y2="92.6" width="2.54" layer="1"/>
 <wire x1="203.75" y1="96.8" x2="201.75" y2="96.8" width="2.54" layer="1"/>
+<wire x1="53.25" y1="166.4" x2="58.75" y2="166.4" width="3" layer="16"/>
+<wire x1="58.75" y1="166.4" x2="65.4" y2="166.4" width="3" layer="16"/>
+<wire x1="73.4" y1="174.4" x2="79.25" y2="174.4" width="3" layer="16"/>
+<wire x1="65.4" y1="166.4" x2="73.4" y2="174.4" width="3" layer="16"/>
+<wire x1="79.25" y1="174.4" x2="84.75" y2="174.4" width="3" layer="16"/>
+<wire x1="84.75" y1="174.4" x2="93.6" y2="174.4" width="3" layer="16"/>
+<wire x1="111.4" y1="156.6" x2="133.25" y2="156.6" width="3" layer="16"/>
+<wire x1="93.6" y1="174.4" x2="111.4" y2="156.6" width="3" layer="16"/>
 </signal>
 <signal name="HV-_DRY">
 <contactref element="U$4" pad="1"/>
@@ -823,28 +818,32 @@ design rules under a new name.</description>
 <contactref element="HVIB_HV" pad="10"/>
 <wire x1="102.4" y1="140.4" x2="98.75" y2="140.4" width="3" layer="1"/>
 <wire x1="98.75" y1="140.4" x2="93.25" y2="140.4" width="3" layer="1"/>
-<wire x1="28.25" y1="91.6" x2="28.25" y2="95.8" width="3" layer="1"/>
-<wire x1="28.25" y1="95.8" x2="33.75" y2="95.8" width="3" layer="1"/>
-<wire x1="33.75" y1="95.8" x2="33.75" y2="91.6" width="3" layer="1"/>
-<wire x1="33.75" y1="91.6" x2="28.25" y2="91.6" width="3" layer="1"/>
-<wire x1="28.25" y1="95.8" x2="24.2" y2="95.8" width="3" layer="1"/>
-<wire x1="24.2" y1="95.8" x2="21" y2="99" width="3" layer="1"/>
-<wire x1="21" y1="99" x2="21" y2="122.35" width="3" layer="1"/>
-<wire x1="21" y1="122.35" x2="48.25" y2="149.6" width="3" layer="1"/>
 <wire x1="53.25" y1="149.6" x2="58.75" y2="149.6" width="3" layer="1"/>
-<wire x1="58.75" y1="149.6" x2="76.4" y2="149.6" width="3" layer="1"/>
-<wire x1="85.6" y1="140.4" x2="93.25" y2="140.4" width="3" layer="1"/>
-<wire x1="76.4" y1="149.6" x2="85.6" y2="140.4" width="3" layer="1"/>
-<wire x1="87.25" y1="76.6" x2="92.75" y2="76.6" width="3" layer="1"/>
-<wire x1="92.75" y1="76.6" x2="99.6" y2="76.6" width="3" layer="1"/>
-<wire x1="99.6" y1="76.6" x2="107" y2="84" width="3" layer="1"/>
-<wire x1="148.4" y1="140.4" x2="103.6" y2="140.4" width="3" layer="1"/>
-<wire x1="107" y1="84" x2="107" y2="137" width="3" layer="1"/>
-<wire x1="107" y1="137" x2="103.6" y2="140.4" width="3" layer="1"/>
-<wire x1="48.25" y1="149.6" x2="53.25" y2="149.6" width="3" layer="1"/>
+<wire x1="148.4" y1="140.4" x2="98.75" y2="140.4" width="3" layer="1"/>
+<wire x1="43.25" y1="149.6" x2="53.25" y2="149.6" width="3" layer="1"/>
 <wire x1="166.92" y1="163.095" x2="166.92" y2="158.92" width="3" layer="1"/>
 <wire x1="166.92" y1="158.92" x2="148.4" y2="140.4" width="3" layer="1"/>
-<wire x1="103.6" y1="140.4" x2="98.75" y2="140.4" width="3" layer="1"/>
+<wire x1="93.25" y1="140.4" x2="92.566" y2="141.084" width="3" layer="1"/>
+<wire x1="92.566" y1="141.084" x2="91.0265125" y2="141.084" width="3" layer="1"/>
+<wire x1="91.0265125" y1="141.084" x2="88" y2="144.1105125" width="3" layer="1"/>
+<wire x1="88" y1="149.9105125" x2="89.326" y2="151.2365125" width="3" layer="1"/>
+<wire x1="89.326" y1="151.2365125" x2="89.326" y2="154.5634875" width="3" layer="1"/>
+<wire x1="89.326" y1="154.5634875" x2="89" y2="154.8894875" width="3" layer="1"/>
+<wire x1="89" y1="154.8894875" x2="89" y2="155" width="3" layer="1"/>
+<wire x1="88" y1="144.1105125" x2="88" y2="149.9105125" width="3" layer="1"/>
+<wire x1="89" y1="155" x2="86.4" y2="157.6" width="3" layer="1"/>
+<wire x1="86.4" y1="157.6" x2="84.75" y2="157.6" width="3" layer="1"/>
+<wire x1="84.75" y1="157.6" x2="79.25" y2="157.6" width="3" layer="1"/>
+<wire x1="79.25" y1="157.6" x2="71.25" y2="149.6" width="3" layer="1"/>
+<wire x1="71.25" y1="149.6" x2="58.75" y2="149.6" width="3" layer="1"/>
+<wire x1="39.75" y1="91.6" x2="39.75" y2="95.8" width="3" layer="1"/>
+<wire x1="39.75" y1="95.8" x2="34.25" y2="95.8" width="3" layer="1"/>
+<wire x1="34.25" y1="95.8" x2="34.25" y2="91.6" width="3" layer="1"/>
+<wire x1="34.25" y1="91.6" x2="39.75" y2="91.6" width="3" layer="1"/>
+<wire x1="34.25" y1="95.8" x2="33.2" y2="95.8" width="3" layer="1"/>
+<wire x1="30" y1="136.35" x2="43.25" y2="149.6" width="3" layer="1"/>
+<wire x1="33.2" y1="95.8" x2="30" y2="99" width="3" layer="1"/>
+<wire x1="30" y1="99" x2="30" y2="136.35" width="3" layer="1"/>
 </signal>
 <signal name="N$23">
 <contactref element="U$3" pad="2"/>
@@ -889,9 +888,9 @@ design rules under a new name.</description>
 <contactref element="AIR_N_HV" pad="1"/>
 <contactref element="AIR_N_HV" pad="6"/>
 <contactref element="AIR_N_HV" pad="7"/>
-<wire x1="33.75" y1="104.2" x2="33.75" y2="108.4" width="0" layer="19" extent="1-1"/>
-<wire x1="28.25" y1="108.4" x2="33.75" y2="108.4" width="0" layer="19" extent="1-1"/>
-<wire x1="28.25" y1="104.2" x2="28.25" y2="108.4" width="0" layer="19" extent="1-1"/>
+<wire x1="39.75" y1="104.2" x2="39.75" y2="108.4" width="0" layer="19" extent="1-1"/>
+<wire x1="34.25" y1="108.4" x2="39.75" y2="108.4" width="0" layer="19" extent="1-1"/>
+<wire x1="34.25" y1="104.2" x2="34.25" y2="108.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SAFETY-">
 <contactref element="AIR_N_LV" pad="7"/>
@@ -899,8 +898,8 @@ design rules under a new name.</description>
 <contactref element="AIR_P_LV" pad="5"/>
 <contactref element="AIR_P_LV" pad="10"/>
 <wire x1="196.25" y1="22.4" x2="201.75" y2="22.4" width="0" layer="19" extent="1-1"/>
-<wire x1="33.75" y1="19.2" x2="196.25" y2="22.4" width="0" layer="19" extent="1-1"/>
-<wire x1="28.25" y1="19.2" x2="33.75" y2="19.2" width="0" layer="19" extent="1-1"/>
+<wire x1="39.75" y1="19.2" x2="196.25" y2="22.4" width="0" layer="19" extent="1-1"/>
+<wire x1="34.25" y1="19.2" x2="39.75" y2="19.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="AIR_N_LV" pad="3"/>
@@ -922,9 +921,9 @@ design rules under a new name.</description>
 <polygon width="1" layer="16">
 <vertex x="-14" y="80"/>
 <vertex x="47" y="80"/>
-<vertex x="47" y="121"/>
-<vertex x="71" y="121"/>
-<vertex x="71" y="64"/>
+<vertex x="47" y="137"/>
+<vertex x="83" y="137"/>
+<vertex x="83" y="64"/>
 <vertex x="123" y="64"/>
 <vertex x="123" y="79"/>
 <vertex x="223" y="79"/>
@@ -950,9 +949,9 @@ design rules under a new name.</description>
 <vertex x="0" y="80"/>
 <vertex x="47" y="80"/>
 <vertex x="48" y="81"/>
-<vertex x="48" y="121"/>
-<vertex x="71" y="121"/>
-<vertex x="71" y="64"/>
+<vertex x="48" y="137"/>
+<vertex x="83" y="137"/>
+<vertex x="83" y="64"/>
 <vertex x="123" y="64"/>
 <vertex x="123" y="79"/>
 <vertex x="216" y="79"/>
@@ -963,7 +962,7 @@ design rules under a new name.</description>
 <contactref element="LED1" pad="A"/>
 <contactref element="LED2" pad="A"/>
 <wire x1="133.25" y1="19.2" x2="186.73" y2="11" width="0" layer="19" extent="1-1"/>
-<wire x1="92.75" y1="16" x2="133.25" y2="19.2" width="0" layer="19" extent="1-1"/>
+<wire x1="84.75" y1="97" x2="133.25" y2="19.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DISCHARGE">
 <contactref element="DIS_PRE_CHARGE_LV" pad="1"/>

@@ -1022,7 +1022,6 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 <part name="H2" library="Main" library_urn="urn:adsk.eagle:library:14107900" deviceset="MOUNT-HOLE" device="5.5" package3d_urn="urn:adsk.eagle:package:14108246/1"/>
 <part name="H3" library="Main" library_urn="urn:adsk.eagle:library:14107900" deviceset="MOUNT-HOLE" device="5.5" package3d_urn="urn:adsk.eagle:package:14108246/1"/>
 <part name="H4" library="Main" library_urn="urn:adsk.eagle:library:14107900" deviceset="MOUNT-HOLE" device="5.5" package3d_urn="urn:adsk.eagle:package:14108246/1"/>
-<part name="GND11" library="Main" library_urn="urn:adsk.eagle:library:14107900" deviceset="GND" device=""/>
 <part name="GND12" library="Main" library_urn="urn:adsk.eagle:library:14107900" deviceset="GND" device=""/>
 <part name="U$3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" deviceset="TO247RESISTORHEATINK" device="" package3d_urn="urn:adsk.eagle:package:13209502/3" value=""/>
 <part name="U$4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" deviceset="TO247RESISTORHEATINK" device="" package3d_urn="urn:adsk.eagle:package:13209502/3" value=""/>
@@ -1039,7 +1038,6 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 <part name="HVIB_LV" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="15-24-7100" device="" package3d_urn="urn:adsk.eagle:package:14400593/6"/>
 <part name="DCDC_LV" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="15-24-7100" device="" package3d_urn="urn:adsk.eagle:package:14400593/6"/>
 <part name="DCDC_HV" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="15-24-7100" device="" package3d_urn="urn:adsk.eagle:package:14400593/6"/>
-<part name="GND4" library="Main" library_urn="urn:adsk.eagle:library:14107900" deviceset="GND" device=""/>
 <part name="GND5" library="Main" library_urn="urn:adsk.eagle:library:14107900" deviceset="GND" device=""/>
 <part name="GND2" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
 <part name="P+2" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="+12V" device=""/>
@@ -1050,6 +1048,8 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 <part name="P+1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="+12V" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND3" library="Main" library_urn="urn:adsk.eagle:library:14107900" deviceset="GND" device=""/>
+<part name="GND8" library="Main" library_urn="urn:adsk.eagle:library:14107900" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1072,7 +1072,6 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 <instance part="H2" gate="G$1" x="15.24" y="213.36"/>
 <instance part="H3" gate="G$1" x="15.24" y="205.74"/>
 <instance part="H4" gate="G$1" x="15.24" y="198.12"/>
-<instance part="GND11" gate="1" x="53.34" y="83.82"/>
 <instance part="GND12" gate="1" x="109.22" y="50.8"/>
 <instance part="U$3" gate="G$1" x="137.16" y="198.12"/>
 <instance part="U$4" gate="G$1" x="137.16" y="187.96"/>
@@ -1081,8 +1080,8 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 <instance part="X13" gate="-3" x="167.64" y="193.04"/>
 <instance part="X13" gate="-4" x="167.64" y="190.5"/>
 <instance part="U$1" gate="G$1" x="45.72" y="210.82"/>
-<instance part="AIR_P_HV" gate="G$1" x="48.26" y="111.76"/>
-<instance part="AIR_P_LV" gate="G$1" x="48.26" y="66.04"/>
+<instance part="AIR_P_HV" gate="G$1" x="50.8" y="124.46" rot="R180"/>
+<instance part="AIR_P_LV" gate="G$1" x="53.34" y="86.36" rot="R180"/>
 <instance part="AIR_N_HV" gate="G$1" x="106.68" y="111.76"/>
 <instance part="AIR_N_LV" gate="G$1" x="106.68" y="66.04"/>
 <instance part="DIS_PRE_CHARGE_HV" gate="G$1" x="182.88" y="111.76"/>
@@ -1092,7 +1091,6 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 <instance part="HVIB_LV" gate="G$1" x="335.28" y="53.34" rot="R270"/>
 <instance part="DCDC_LV" gate="G$1" x="279.4" y="193.04"/>
 <instance part="DCDC_HV" gate="G$1" x="279.4" y="154.94"/>
-<instance part="GND4" gate="1" x="50.8" y="50.8"/>
 <instance part="GND5" gate="1" x="116.84" y="86.36"/>
 <instance part="GND2" gate="1" x="182.88" y="66.04"/>
 <instance part="P+2" gate="1" x="162.56" y="86.36"/>
@@ -1107,6 +1105,8 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 <instance part="GND7" gate="1" x="356.87" y="40.64" smashed="yes">
 <attribute name="VALUE" x="354.33" y="38.1" size="1.778" layer="96"/>
 </instance>
+<instance part="GND3" gate="1" x="53.34" y="101.6"/>
+<instance part="GND8" gate="1" x="50.8" y="68.58"/>
 </instances>
 <busses>
 </busses>
@@ -1121,18 +1121,6 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 <junction x="109.22" y="55.88"/>
 <pinref part="AIR_N_LV" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="55.88" x2="114.3" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="AIR_P_LV" gate="G$1" pin="3"/>
-<wire x1="50.8" y1="60.96" x2="50.8" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="GND4" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="AIR_P_LV" gate="G$1" pin="8"/>
-<wire x1="50.8" y1="73.66" x2="50.8" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="83.82" x2="50.8" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="86.36" x2="53.34" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="GND11" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="AIR_N_LV" gate="G$1" pin="8"/>
@@ -1185,30 +1173,20 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 <pinref part="HVIB_LV" gate="G$1" pin="7"/>
 <junction x="342.9" y="48.26"/>
 </segment>
+<segment>
+<wire x1="50.8" y1="78.74" x2="50.8" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="GND8" gate="1" pin="GND"/>
+<pinref part="AIR_P_LV" gate="G$1" pin="8"/>
+</segment>
+<segment>
+<wire x1="50.8" y1="91.44" x2="50.8" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="101.6" x2="50.8" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="104.14" x2="53.34" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+<pinref part="AIR_P_LV" gate="G$1" pin="3"/>
+</segment>
 </net>
 <net name="HV+_WET" class="0">
-<segment>
-<wire x1="53.34" y1="124.46" x2="27.94" y2="124.46" width="0.1524" layer="91"/>
-<label x="27.94" y="124.46" size="1.778" layer="95"/>
-<pinref part="AIR_P_HV" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="106.68" x2="53.34" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="104.14" x2="55.88" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="AIR_P_HV" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="104.14" x2="55.88" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="104.14" x2="58.42" y2="104.14" width="0.1524" layer="91"/>
-<junction x="55.88" y="104.14"/>
-<wire x1="58.42" y1="104.14" x2="58.42" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="121.92" x2="58.42" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="124.46" x2="53.34" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="AIR_P_HV" gate="G$1" pin="6"/>
-<wire x1="55.88" y1="119.38" x2="55.88" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="121.92" x2="58.42" y2="121.92" width="0.1524" layer="91"/>
-<junction x="58.42" y="121.92"/>
-<pinref part="AIR_P_HV" gate="G$1" pin="7"/>
-<wire x1="53.34" y1="119.38" x2="53.34" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="121.92" x2="55.88" y2="121.92" width="0.1524" layer="91"/>
-<junction x="55.88" y="121.92"/>
-</segment>
 <segment>
 <label x="160.02" y="124.46" size="1.778" layer="95"/>
 <wire x1="177.8" y1="124.46" x2="160.02" y2="124.46" width="0.1524" layer="91"/>
@@ -1223,29 +1201,30 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 <pinref part="DIS_PRE_CHARGE_HV" gate="G$1" pin="3"/>
 <pinref part="DIS_PRE_CHARGE_HV" gate="G$1" pin="8"/>
 </segment>
+<segment>
+<wire x1="50.8" y1="134.62" x2="25.4" y2="134.62" width="0.1524" layer="91"/>
+<label x="25.4" y="134.62" size="1.778" layer="95"/>
+<wire x1="50.8" y1="116.84" x2="50.8" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="114.3" x2="53.34" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="114.3" x2="53.34" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="114.3" x2="55.88" y2="114.3" width="0.1524" layer="91"/>
+<junction x="53.34" y="114.3"/>
+<wire x1="55.88" y1="114.3" x2="55.88" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="132.08" x2="55.88" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="134.62" x2="50.8" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="129.54" x2="53.34" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="132.08" x2="55.88" y2="132.08" width="0.1524" layer="91"/>
+<junction x="55.88" y="132.08"/>
+<wire x1="50.8" y1="129.54" x2="50.8" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="132.08" x2="53.34" y2="132.08" width="0.1524" layer="91"/>
+<junction x="53.34" y="132.08"/>
+<pinref part="AIR_P_HV" gate="G$1" pin="4"/>
+<pinref part="AIR_P_HV" gate="G$1" pin="5"/>
+<pinref part="AIR_P_HV" gate="G$1" pin="9"/>
+<pinref part="AIR_P_HV" gate="G$1" pin="10"/>
+</segment>
 </net>
 <net name="HV+_DRY" class="0">
-<segment>
-<wire x1="48.26" y1="121.92" x2="45.72" y2="121.92" width="0.1524" layer="91"/>
-<label x="27.94" y="121.92" size="1.778" layer="95"/>
-<pinref part="AIR_P_HV" gate="G$1" pin="10"/>
-<wire x1="45.72" y1="121.92" x2="43.18" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="121.92" x2="27.94" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="119.38" x2="45.72" y2="121.92" width="0.1524" layer="91"/>
-<junction x="45.72" y="121.92"/>
-<pinref part="AIR_P_HV" gate="G$1" pin="9"/>
-<wire x1="48.26" y1="119.38" x2="48.26" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="121.92" x2="43.18" y2="106.68" width="0.1524" layer="91"/>
-<junction x="43.18" y="121.92"/>
-<wire x1="43.18" y1="106.68" x2="43.18" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="104.14" x2="45.72" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="AIR_P_HV" gate="G$1" pin="5"/>
-<wire x1="45.72" y1="104.14" x2="45.72" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="104.14" x2="48.26" y2="104.14" width="0.1524" layer="91"/>
-<junction x="45.72" y="104.14"/>
-<pinref part="AIR_P_HV" gate="G$1" pin="4"/>
-<wire x1="48.26" y1="104.14" x2="48.26" y2="106.68" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <label x="109.22" y="198.12" size="1.778" layer="95"/>
 <wire x1="127" y1="198.12" x2="125.73" y2="198.12" width="0.1524" layer="91"/>
@@ -1301,6 +1280,27 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 <junction x="340.36" y="86.36"/>
 <pinref part="HVIB_HV" gate="G$1" pin="1"/>
 <pinref part="HVIB_HV" gate="G$1" pin="6"/>
+</segment>
+<segment>
+<wire x1="45.72" y1="132.08" x2="43.18" y2="132.08" width="0.1524" layer="91"/>
+<label x="25.4" y="132.08" size="1.778" layer="95"/>
+<wire x1="43.18" y1="132.08" x2="40.64" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="132.08" x2="25.4" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="129.54" x2="43.18" y2="132.08" width="0.1524" layer="91"/>
+<junction x="43.18" y="132.08"/>
+<wire x1="45.72" y1="129.54" x2="45.72" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="132.08" x2="40.64" y2="116.84" width="0.1524" layer="91"/>
+<junction x="40.64" y="132.08"/>
+<wire x1="40.64" y1="116.84" x2="40.64" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="114.3" x2="43.18" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="114.3" x2="43.18" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="114.3" x2="45.72" y2="114.3" width="0.1524" layer="91"/>
+<junction x="43.18" y="114.3"/>
+<wire x1="45.72" y1="114.3" x2="45.72" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="AIR_P_HV" gate="G$1" pin="1"/>
+<pinref part="AIR_P_HV" gate="G$1" pin="6"/>
+<pinref part="AIR_P_HV" gate="G$1" pin="2"/>
+<pinref part="AIR_P_HV" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="HV-_WET" class="0">
@@ -1409,34 +1409,21 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 </net>
 <net name="SAFETY+" class="0">
 <segment>
-<wire x1="33.02" y1="78.74" x2="43.18" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="78.74" x2="12.7" y2="78.74" width="0.1524" layer="91"/>
-<label x="12.7" y="78.74" size="1.778" layer="95"/>
-<wire x1="43.18" y1="78.74" x2="53.34" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="AIR_P_LV" gate="G$1" pin="7"/>
-<wire x1="53.34" y1="78.74" x2="53.34" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="78.74" x2="60.96" y2="78.74" width="0.1524" layer="91"/>
-<junction x="53.34" y="78.74"/>
-<wire x1="60.96" y1="78.74" x2="60.96" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="58.42" x2="53.34" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="AIR_P_LV" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="58.42" x2="53.34" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="96.52" x2="43.18" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="96.52" x2="12.7" y2="96.52" width="0.1524" layer="91"/>
+<label x="12.7" y="96.52" size="1.778" layer="95"/>
+<wire x1="43.18" y1="96.52" x2="53.34" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="96.52" x2="53.34" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="96.52" x2="60.96" y2="96.52" width="0.1524" layer="91"/>
+<junction x="53.34" y="96.52"/>
+<wire x1="60.96" y1="96.52" x2="60.96" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="76.2" x2="53.34" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="76.2" x2="53.34" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="AIR_P_LV" gate="G$1" pin="4"/>
+<pinref part="AIR_P_LV" gate="G$1" pin="9"/>
 </segment>
 </net>
 <net name="SAFETY-" class="0">
-<segment>
-<wire x1="30.48" y1="81.28" x2="43.18" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="81.28" x2="12.7" y2="81.28" width="0.1524" layer="91"/>
-<label x="12.7" y="81.28" size="1.778" layer="95"/>
-<pinref part="AIR_P_LV" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="60.96" x2="58.42" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="60.96" x2="58.42" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="AIR_P_LV" gate="G$1" pin="6"/>
-<wire x1="58.42" y1="73.66" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="73.66" x2="58.42" y2="81.28" width="0.1524" layer="91"/>
-<junction x="58.42" y="73.66"/>
-<wire x1="58.42" y1="81.28" x2="43.18" y2="81.28" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <wire x1="101.6" y1="78.74" x2="111.76" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="78.74" x2="81.28" y2="78.74" width="0.1524" layer="91"/>
@@ -1449,6 +1436,19 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 <wire x1="119.38" y1="58.42" x2="111.76" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="AIR_N_LV" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="58.42" x2="111.76" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="30.48" y1="99.06" x2="43.18" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="99.06" x2="12.7" y2="99.06" width="0.1524" layer="91"/>
+<label x="12.7" y="99.06" size="1.778" layer="95"/>
+<wire x1="55.88" y1="78.74" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="78.74" x2="58.42" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="91.44" x2="55.88" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="91.44" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
+<junction x="58.42" y="91.44"/>
+<wire x1="58.42" y1="99.06" x2="43.18" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="AIR_P_LV" gate="G$1" pin="5"/>
+<pinref part="AIR_P_LV" gate="G$1" pin="10"/>
 </segment>
 </net>
 <net name="N$23" class="0">
