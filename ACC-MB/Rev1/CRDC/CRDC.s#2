@@ -6062,6 +6062,14 @@ Source: www.kingbright.com</description>
 <wire x1="121.92" y1="116.84" x2="119.38" y2="116.84" width="0.1524" layer="91"/>
 <junction x="119.38" y="116.84"/>
 </segment>
+<segment>
+<wire x1="182.88" y1="180.34" x2="187.96" y2="180.34" width="0.1524" layer="91"/>
+<label x="180.34" y="180.34" size="1.778" layer="95"/>
+<wire x1="196.85" y1="180.34" x2="195.58" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="195.58" y1="180.34" x2="187.96" y2="180.34" width="0.1524" layer="91"/>
+<junction x="195.58" y="180.34"/>
+</segment>
 </net>
 <net name="DISCHARGE" class="0">
 <segment>
@@ -6205,28 +6213,6 @@ Source: www.kingbright.com</description>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="LED2" gate="G$1" pin="C"/>
 <wire x1="213.36" y1="153.67" x2="213.36" y2="157.48" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="HV+_DRY_AUX" class="2">
-<segment>
-<wire x1="182.88" y1="180.34" x2="187.96" y2="180.34" width="0.1524" layer="91"/>
-<label x="180.34" y="180.34" size="1.778" layer="95"/>
-<wire x1="196.85" y1="180.34" x2="195.58" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="195.58" y1="180.34" x2="187.96" y2="180.34" width="0.1524" layer="91"/>
-<junction x="195.58" y="180.34"/>
-</segment>
-<segment>
-<pinref part="U$4" gate="G$1" pin="9"/>
-<wire x1="111.76" y1="104.14" x2="111.76" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="109.22" x2="101.6" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="4"/>
-<wire x1="101.6" y1="109.22" x2="81.28" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="91.44" x2="111.76" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="83.82" x2="101.6" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="83.82" x2="101.6" y2="109.22" width="0.1524" layer="91"/>
-<junction x="101.6" y="109.22"/>
-<label x="81.28" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="HV-_DRY_AUX" class="2">

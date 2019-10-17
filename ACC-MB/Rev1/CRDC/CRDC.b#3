@@ -642,8 +642,14 @@ design rules under a new name.</description>
 <wire x1="78.938675" y1="33" x2="90" y2="33" width="2.54" layer="16"/>
 <wire x1="90" y1="33" x2="93" y2="36" width="2.54" layer="16"/>
 <wire x1="89" y1="61" x2="87" y2="61" width="2.54" layer="16"/>
-<wire x1="93" y1="36" x2="93" y2="57" width="2.54" layer="16"/>
+<wire x1="93" y1="36" x2="93" y2="55" width="2.54" layer="16"/>
+<wire x1="93" y1="55" x2="93" y2="57" width="2.54" layer="16"/>
 <wire x1="93" y1="57" x2="89" y2="61" width="2.54" layer="16"/>
+<contactref element="R2" pad="1"/>
+<wire x1="134.41" y1="49.9065875" x2="134.41" y2="49.08" width="2.54" layer="1"/>
+<wire x1="127.9275" y1="55.5625" x2="93.5625" y2="55.5625" width="2.54" layer="16"/>
+<wire x1="134.41" y1="49.08" x2="127.9275" y2="55.5625" width="2.54" layer="16"/>
+<wire x1="93.5625" y1="55.5625" x2="93" y2="55" width="2.54" layer="16"/>
 </signal>
 <signal name="DISCHARGE">
 <contactref element="U$2" pad="L1"/>
@@ -745,34 +751,15 @@ design rules under a new name.</description>
 <wire x1="184" y1="34.27" x2="187.68" y2="34.27" width="1" layer="1"/>
 <wire x1="187.68" y1="34.27" x2="188" y2="33.95" width="1" layer="1"/>
 </signal>
-<signal name="HV+_DRY_AUX" class="2">
-<contactref element="R2" pad="1"/>
-<contactref element="U$4" pad="9"/>
-<contactref element="U$4" pad="4"/>
-<wire x1="30.8" y1="15.25" x2="30.8" y2="20.75" width="2.54" layer="1"/>
-<wire x1="30.8" y1="20.75" x2="30.8" y2="28.8" width="2.54" layer="1"/>
-<wire x1="76" y1="45" x2="87" y2="56" width="2.54" layer="1"/>
-<wire x1="87" y1="56" x2="128.3165875" y2="56" width="2.54" layer="1"/>
-<wire x1="30.8" y1="28.8" x2="47" y2="45" width="2.54" layer="1"/>
-<wire x1="47" y1="45" x2="76" y2="45" width="2.54" layer="1"/>
-<wire x1="128.3165875" y1="56" x2="134.41" y2="49.9065875" width="2.54" layer="1"/>
-<wire x1="134.41" y1="49.9065875" x2="134.41" y2="49.08" width="2.54" layer="1"/>
-</signal>
 <signal name="HV-_DRY_AUX" class="2">
 <contactref element="U$2" pad="NC"/>
 <contactref element="U$4" pad="10"/>
 <contactref element="U$4" pad="5"/>
-<wire x1="26.6" y1="20.75" x2="26.6" y2="15.25" width="2.54" layer="1"/>
-<wire x1="26.6" y1="15.25" x2="26.6" y2="13.4" width="2.54" layer="1"/>
-<wire x1="26.6" y1="13.4" x2="37" y2="3" width="2.54" layer="1"/>
-<wire x1="37" y1="3" x2="62" y2="3" width="2.54" layer="1"/>
-<wire x1="62" y1="3" x2="80" y2="21" width="2.54" layer="1"/>
-<wire x1="80" y1="21" x2="90" y2="21" width="2.54" layer="1"/>
-<wire x1="90" y1="21" x2="101" y2="32" width="2.54" layer="1"/>
-<wire x1="101" y1="40.3634125" x2="108.4765875" y2="47.84" width="2.54" layer="1"/>
-<wire x1="108.4765875" y1="47.84" x2="121.24" y2="47.84" width="2.54" layer="1"/>
-<wire x1="101" y1="32" x2="101" y2="40.3634125" width="2.54" layer="1"/>
-<wire x1="121.24" y1="47.84" x2="124.24" y2="50.84" width="2.54" layer="1"/>
+<wire x1="26.6" y1="15.25" x2="26.6" y2="20.75" width="2.54" layer="1"/>
+<wire x1="26.6" y1="20.75" x2="26.6" y2="28.6" width="2.54" layer="1"/>
+<wire x1="119.4" y1="46" x2="124.24" y2="50.84" width="2.54" layer="1"/>
+<wire x1="26.6" y1="28.6" x2="44" y2="46" width="2.54" layer="1"/>
+<wire x1="44" y1="46" x2="119.4" y2="46" width="2.54" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

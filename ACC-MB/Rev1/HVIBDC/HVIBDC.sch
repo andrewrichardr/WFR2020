@@ -12681,12 +12681,24 @@ by exp-lbrs.ulp</description>
 <hole x="8.4" y="-10.5" drill="3"/>
 <hole x="-8.4" y="-10.5" drill="3"/>
 </package>
+<package name="7792" urn="urn:adsk.eagle:footprint:14511283/1" library_version="14" library_locally_modified="yes">
+<hole x="0" y="5" drill="1.9"/>
+<hole x="0" y="0" drill="1.9"/>
+<hole x="7.5" y="0" drill="1.9"/>
+<hole x="7.5" y="5" drill="1.9"/>
+<wire x1="0" y1="10.08" x2="7.5" y2="10.08" width="0.127" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="15-24-6100" urn="urn:adsk.eagle:package:14396594/2" type="model" library_version="5" library_locally_modified="yes">
 <description>&lt;b&gt;Mini-Fit Jr.™ Vertical Header, 4.20mm Pitch, Dual Row, 10 Circuits, without Snap-in Plastic Peg PCB Lock, Tin, Natural&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/039281103_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
 <packageinstances>
 <packageinstance name="15-24-6100"/>
+</packageinstances>
+</package3d>
+<package3d name="7792" urn="urn:adsk.eagle:package:14511284/2" type="model" library_version="14" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="7792"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -12729,6 +12741,9 @@ by exp-lbrs.ulp</description>
 <pin name="9" x="0" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
 <pin name="10" x="-2.54" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
 </symbol>
+<symbol name="7792" urn="urn:adsk.eagle:symbol:14511281/1" library_version="14" library_locally_modified="yes">
+<text x="0" y="0" size="1.27" layer="94">7792</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="15-24-6100" urn="urn:adsk.eagle:component:14396603/2" library_version="5" library_locally_modified="yes">
@@ -12758,6 +12773,21 @@ by exp-lbrs.ulp</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="7792" urn="urn:adsk.eagle:component:14511285/1" locally_modified="yes" library_version="14" library_locally_modified="yes">
+<gates>
+<gate name="G$1" symbol="7792" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="7792">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14511284/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -12769,7 +12799,7 @@ by exp-lbrs.ulp</description>
 <class number="0" name="default" width="1" drill="0">
 <clearance class="0" value="0.1524"/>
 </class>
-<class number="1" name="LVs" width="0" drill="0">
+<class number="1" name="LV" width="0" drill="0">
 <clearance class="1" value="0.0005"/>
 </class>
 </classes>
@@ -12822,6 +12852,8 @@ by exp-lbrs.ulp</description>
 <part name="P+4" library="Main" library_urn="urn:adsk.eagle:library:14107900" deviceset="V+" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="U$3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="7792" device="" package3d_urn="urn:adsk.eagle:package:14511284/2"/>
+<part name="U$4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="7792" device="" package3d_urn="urn:adsk.eagle:package:14511284/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -13047,6 +13079,8 @@ and supply current regulator</text>
 <instance part="GND2" gate="1" x="358.14" y="52.07" smashed="yes">
 <attribute name="VALUE" x="355.6" y="49.53" size="1.778" layer="96"/>
 </instance>
+<instance part="U$3" gate="G$1" x="25.4" y="218.44"/>
+<instance part="U$4" gate="G$1" x="25.4" y="214.63"/>
 </instances>
 <busses>
 </busses>
@@ -13297,7 +13331,7 @@ and supply current regulator</text>
 <pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="TSAL_GRN_GND" class="0">
+<net name="TSAL_GRN_GND" class="1">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -13315,7 +13349,7 @@ and supply current regulator</text>
 <label x="306.07" y="59.69" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="ACC_LGHT" class="0">
+<net name="ACC_LGHT" class="1">
 <segment>
 <wire x1="280.67" y1="58.42" x2="280.67" y2="57.15" width="0.1524" layer="91"/>
 <pinref part="U$10" gate="G$1" pin="D"/>
@@ -13324,7 +13358,7 @@ and supply current regulator</text>
 <label x="306.07" y="57.15" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="TSAL_RED_GND" class="0">
+<net name="TSAL_RED_GND" class="1">
 <segment>
 <wire x1="300.99" y1="217.17" x2="313.69" y2="217.17" width="0.1524" layer="91"/>
 <label x="314.96" y="217.17" size="1.778" layer="95"/>

@@ -2960,6 +2960,13 @@ Source: VISHAY wscwsn.pdf</description>
 <text x="-8.75" y="3.9" size="1.27" layer="25">&gt;NAME</text>
 <text x="-8.75" y="-5.15" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="7792" urn="urn:adsk.eagle:footprint:14511283/1" library_version="14" library_locally_modified="yes">
+<hole x="0" y="5" drill="1.9"/>
+<hole x="0" y="0" drill="1.9"/>
+<hole x="7.5" y="0" drill="1.9"/>
+<hole x="7.5" y="5" drill="1.9"/>
+<wire x1="0" y1="10.08" x2="7.5" y2="10.08" width="0.127" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="15-24-6100" urn="urn:adsk.eagle:package:14396594/2" type="model" library_version="5" library_locally_modified="yes">
@@ -3856,6 +3863,11 @@ Source: VISHAY wscwsn.pdf</description>
 <packageinstance name="WSC6927"/>
 </packageinstances>
 </package3d>
+<package3d name="7792" urn="urn:adsk.eagle:package:14511284/2" type="model" library_version="14" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="7792"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="CON-2X05" urn="urn:adsk.eagle:symbol:14396576/1" library_version="5" library_locally_modified="yes">
@@ -3951,6 +3963,9 @@ Source: VISHAY wscwsn.pdf</description>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
 <text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="7792" urn="urn:adsk.eagle:symbol:14511281/1" library_version="14" library_locally_modified="yes">
+<text x="0" y="0" size="1.27" layer="94">7792</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5749,6 +5764,21 @@ Source: www.kingbright.com</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="7792" urn="urn:adsk.eagle:component:14511285/1" locally_modified="yes" library_version="14" library_locally_modified="yes">
+<gates>
+<gate name="G$1" symbol="7792" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="7792">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14511284/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="Main" urn="urn:adsk.eagle:library:14107900">
@@ -5992,6 +6022,8 @@ by exp-lbrs.ulp</description>
 <part name="LED2" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
 <part name="R2" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1"/>
 <part name="GND4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
+<part name="U$4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="7792" device="" package3d_urn="urn:adsk.eagle:package:14511284/2"/>
+<part name="U$5" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="7792" device="" package3d_urn="urn:adsk.eagle:package:14511284/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -6031,6 +6063,8 @@ by exp-lbrs.ulp</description>
 <instance part="LED2" gate="G$1" x="152.4" y="137.16"/>
 <instance part="R2" gate="G$1" x="152.4" y="123.19" rot="R90"/>
 <instance part="GND4" gate="1" x="152.4" y="113.03"/>
+<instance part="U$4" gate="G$1" x="35.56" y="200.66"/>
+<instance part="U$5" gate="G$1" x="35.56" y="193.04"/>
 </instances>
 <busses>
 </busses>

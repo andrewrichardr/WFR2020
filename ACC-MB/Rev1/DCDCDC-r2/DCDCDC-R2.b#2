@@ -168,7 +168,7 @@
 <layer number="255" name="Accent" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXl1d28yNA" projecturn="a.YnVzaW5lc3M6bXl1d28yNCNEMjAxOTA5MTgyMTU4NTEzMzE" f3durn="urn:adsk.wipprod:dm.lineage:U_-0G6fwRzqBO_3Lu0JAiA" pcbguid="ece931dd-8bcb-4325-baf8-111b939a3e73" lastpulledtime="" lastsyncedchangeguid="07639025-2a20-f54b-1a95-872b400ec342"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXl1d28yNA" projecturn="a.YnVzaW5lc3M6bXl1d28yNCNEMjAxOTA5MTgyMTU4NTEzMzE" f3durn="urn:adsk.wipprod:dm.lineage:U_-0G6fwRzqBO_3Lu0JAiA" pcbguid="ece931dd-8bcb-4325-baf8-111b939a3e73" lastpulledtime="" lastsyncedchangeguid="f72a1cdb-3279-a903-43ca-0946fb17ffcd"/>
 <plain>
 <wire x1="92.5" y1="66.5" x2="2.75" y2="66.5" width="0" layer="20"/>
 <polygon width="0.1524" layer="21" pour="hatch">

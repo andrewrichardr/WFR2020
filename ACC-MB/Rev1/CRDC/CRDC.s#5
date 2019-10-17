@@ -345,7 +345,7 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 <packageinstance name="15-24-6100"/>
 </packageinstances>
 </package3d>
-<package3d name="V23079B1203B301" urn="urn:adsk.eagle:package:14396595/1" type="box" library_version="1" library_locally_modified="yes">
+<package3d name="V23079B1203B301" urn="urn:adsk.eagle:package:14396595/2" type="model" library_version="5" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="V23079B1203B301"/>
 </packageinstances>
@@ -549,7 +549,7 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="V23079B1203B301" urn="urn:adsk.eagle:component:14396604/1" library_version="1" library_locally_modified="yes">
+<deviceset name="V23079B1203B301" urn="urn:adsk.eagle:component:14396604/1" locally_modified="yes" library_version="5" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="V23079B1203B301" x="0" y="0"/>
 </gates>
@@ -566,7 +566,7 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:14396595/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14396595/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -692,7 +692,7 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 <part name="GND3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
 <part name="U$4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="15-24-6100" device="" package3d_urn="urn:adsk.eagle:package:14396594/2"/>
 <part name="U$6" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="15-24-6100" device="" package3d_urn="urn:adsk.eagle:package:14396594/2"/>
-<part name="U$7" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="V23079B1203B301" device="" package3d_urn="urn:adsk.eagle:package:14396595/1"/>
+<part name="U$7" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="V23079B1203B301" device="" package3d_urn="urn:adsk.eagle:package:14396595/2"/>
 <part name="GND4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
 <part name="P+1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="+12V" device=""/>
 <part name="P+2" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="+12V" device=""/>

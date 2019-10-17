@@ -12831,8 +12831,7 @@ by exp-lbrs.ulp</description>
 <text x="195.58" y="248.92" size="6.4516" layer="97">LOW VOLTAGE CIRCUIT</text>
 <text x="209.55" y="95.25" size="3.81" layer="97">Mosfets to drive dashboard troubleshooting
 LEDs, and Accumulator indicator light</text>
-<wire x1="207.01" y1="95.25" x2="295.91" y2="95.25" width="0.1524" layer="97"/>
-<wire x1="207.01" y1="95.25" x2="278.13" y2="63.5" width="0.1524" layer="97"/>
+<wire x1="219.71" y1="101.6" x2="295.91" y2="95.25" width="0.1524" layer="97"/>
 <text x="298.45" y="151.13" size="3.81" layer="97">Clock to generate 4hz TSAL signal</text>
 <text x="299.72" y="232.41" size="3.81" layer="97">Mosfets to drive red TSAL LED</text>
 <text x="229.87" y="238.76" size="3.81" layer="97">Mosfet to drive green TSAL LED</text>

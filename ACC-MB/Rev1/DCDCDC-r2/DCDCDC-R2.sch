@@ -14732,6 +14732,13 @@ Source: VISHAY wscwsn.pdf</description>
 <vertex x="18.22" y="-13.97" curve="90"/>
 </polygon>
 </package>
+<package name="7792" urn="urn:adsk.eagle:footprint:14511283/1" library_version="14" library_locally_modified="yes">
+<hole x="0" y="5" drill="1.9"/>
+<hole x="0" y="0" drill="1.9"/>
+<hole x="7.5" y="0" drill="1.9"/>
+<hole x="7.5" y="5" drill="1.9"/>
+<wire x1="0" y1="10.08" x2="7.5" y2="10.08" width="0.127" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="L_1510_NONSTANDARD" urn="urn:adsk.eagle:package:13209483/2" type="model" library_version="5" library_locally_modified="yes">
@@ -15640,6 +15647,11 @@ Source: VISHAY wscwsn.pdf</description>
 <packageinstance name="VICOR_CHIP_HEATSINK"/>
 </packageinstances>
 </package3d>
+<package3d name="7792" urn="urn:adsk.eagle:package:14511284/2" type="model" library_version="14" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="7792"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="L-US" urn="urn:adsk.eagle:symbol:13208997/1" library_version="5" library_locally_modified="yes">
@@ -15774,6 +15786,9 @@ Source: VISHAY wscwsn.pdf</description>
 <pin name="TR" x="7.62" y="-5.08" length="middle" rot="R90"/>
 <text x="0" y="7.62" size="1.27" layer="96">&gt;VALUE</text>
 <text x="12.7" y="7.62" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="7792" urn="urn:adsk.eagle:symbol:14511281/1" library_version="14" library_locally_modified="yes">
+<text x="0" y="0" size="1.27" layer="94">7792</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -17630,6 +17645,21 @@ Source: www.kingbright.com</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="7792" urn="urn:adsk.eagle:component:14511285/1" locally_modified="yes" library_version="14" library_locally_modified="yes">
+<gates>
+<gate name="G$1" symbol="7792" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="7792">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14511284/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -17683,6 +17713,8 @@ Source: www.kingbright.com</description>
 <part name="P+5" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="+12V" device=""/>
 <part name="GND1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
 <part name="U$8" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="VICOR_CHIP_WITH_HEATSINK" device="" package3d_urn="urn:adsk.eagle:package:13209498/2"/>
+<part name="U$9" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="7792" device="" package3d_urn="urn:adsk.eagle:package:14511284/2"/>
+<part name="U$10" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="7792" device="" package3d_urn="urn:adsk.eagle:package:14511284/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -17792,6 +17824,8 @@ allow DCDC to deliver current</text>
 <instance part="P+5" gate="1" x="19.05" y="139.7"/>
 <instance part="GND1" gate="1" x="19.05" y="107.95"/>
 <instance part="U$8" gate="G$1" x="105.41" y="219.71" rot="R270"/>
+<instance part="U$9" gate="G$1" x="27.94" y="152.4"/>
+<instance part="U$10" gate="G$1" x="44.45" y="152.4"/>
 </instances>
 <busses>
 </busses>

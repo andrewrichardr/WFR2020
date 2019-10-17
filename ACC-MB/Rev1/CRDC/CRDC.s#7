@@ -169,13 +169,13 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="ACC-MB-R0">
+<library name="ACC-MB-R0" urn="urn:adsk.eagle:library:13324935">
 <description>Generated from &lt;b&gt;ACC-MB-R0.sch&lt;/b&gt;&lt;p&gt;
 by exp-lbrs.ulp</description>
 <packages>
 </packages>
 <symbols>
-<symbol name="A3L-LOC">
+<symbol name="A3L-LOC" urn="urn:adsk.eagle:symbol:13324961/1" library_version="1" library_locally_modified="yes">
 <wire x1="288.29" y1="3.81" x2="342.265" y2="3.81" width="0.1016" layer="94"/>
 <wire x1="342.265" y1="3.81" x2="373.38" y2="3.81" width="0.1016" layer="94"/>
 <wire x1="373.38" y1="3.81" x2="383.54" y2="3.81" width="0.1016" layer="94"/>
@@ -203,7 +203,7 @@ by exp-lbrs.ulp</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="A3L-LOC" prefix="FRAME" uservalue="yes">
+<deviceset name="A3L-LOC" urn="urn:adsk.eagle:component:13325014/1" prefix="FRAME" uservalue="yes" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
 DIN A3, landscape with location and doc. field</description>
 <gates>
@@ -296,10 +296,17 @@ by exp-lbrs.ulp</description>
 Flat</text>
 <hole x="5.08" y="21.59" drill="4"/>
 <hole x="5.08" y="16.51" drill="4"/>
-<hole x="-7.62" y="25.4" drill="4"/>
-<hole x="-7.62" y="7.62" drill="4"/>
-<hole x="17.78" y="7.62" drill="4"/>
-<hole x="17.78" y="25.4" drill="4"/>
+</package>
+<package name="HEATSINK40X40X15" library_version="1" library_locally_modified="yes">
+<hole x="0" y="0" drill="4"/>
+<hole x="33" y="0" drill="4"/>
+<hole x="33" y="33" drill="4"/>
+<hole x="0" y="33" drill="4"/>
+<wire x1="-4" y1="-3" x2="-4" y2="36" width="0.1524" layer="21"/>
+<wire x1="-4" y1="36" x2="37" y2="36" width="0.1524" layer="21"/>
+<wire x1="37" y1="36" x2="37" y2="-4" width="0.1524" layer="21"/>
+<wire x1="37" y1="-4" x2="-4" y2="-4" width="0.1524" layer="21"/>
+<wire x1="-4" y1="-4" x2="-4" y2="-3" width="0.1524" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -440,6 +447,10 @@ Flat</text>
 <pin name="1" x="-3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="2" x="3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
+<symbol name="HEATSINK40X40X15" library_version="1" library_locally_modified="yes">
+<text x="0" y="0" size="1.778" layer="94">heatsink
+40x40x15</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" urn="urn:adsk.eagle:component:13209960/1" prefix="GND" library_version="1" library_locally_modified="yes">
@@ -549,6 +560,18 @@ Flat</text>
 </device>
 </devices>
 </deviceset>
+<deviceset name="HEATSINK40X40X15" library_version="1" library_locally_modified="yes">
+<gates>
+<gate name="G$1" symbol="HEATSINK40X40X15" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HEATSINK40X40X15">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -568,7 +591,7 @@ Flat</text>
 </class>
 </classes>
 <parts>
-<part name="FRAME3" library="ACC-MB-R0" deviceset="A3L-LOC" device=""/>
+<part name="FRAME3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" deviceset="A3L-LOC" device=""/>
 <part name="GND1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
 <part name="GND2" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
 <part name="GND3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
@@ -582,6 +605,8 @@ Flat</text>
 <part name="U$2" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="G81C335" device=""/>
 <part name="U$3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="TO-247-HORIZONTAL" device=""/>
 <part name="U$5" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="TO-247-HORIZONTAL" device=""/>
+<part name="U$8" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="HEATSINK40X40X15" device=""/>
+<part name="U$9" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="HEATSINK40X40X15" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -609,6 +634,8 @@ Flat</text>
 <instance part="U$2" gate="G$1" x="228.6" y="167.64"/>
 <instance part="U$3" gate="G$1" x="93.98" y="177.8"/>
 <instance part="U$5" gate="G$1" x="200.66" y="180.34"/>
+<instance part="U$8" gate="G$1" x="91.44" y="182.88"/>
+<instance part="U$9" gate="G$1" x="198.12" y="185.42"/>
 </instances>
 <busses>
 </busses>

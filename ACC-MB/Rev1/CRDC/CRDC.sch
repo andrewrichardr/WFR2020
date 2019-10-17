@@ -2965,6 +2965,13 @@ Source: VISHAY wscwsn.pdf</description>
 <wire x1="10" y1="50" x2="10" y2="59.92" width="0" layer="46"/>
 <wire x1="0" y1="50" x2="10" y2="50" width="0" layer="46"/>
 </package>
+<package name="7792" urn="urn:adsk.eagle:footprint:14511283/1" library_version="14" library_locally_modified="yes">
+<hole x="0" y="5" drill="1.9"/>
+<hole x="0" y="0" drill="1.9"/>
+<hole x="7.5" y="0" drill="1.9"/>
+<hole x="7.5" y="5" drill="1.9"/>
+<wire x1="0" y1="10.08" x2="7.5" y2="10.08" width="0.127" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="TO-247-2H" urn="urn:adsk.eagle:package:13209919/2" type="model" library_version="1" library_locally_modified="yes">
@@ -3889,6 +3896,11 @@ Source: VISHAY wscwsn.pdf</description>
 <packageinstance name="BENDER_IRR155"/>
 </packageinstances>
 </package3d>
+<package3d name="7792" urn="urn:adsk.eagle:package:14511284/2" type="model" library_version="14" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="7792"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="GND" urn="urn:adsk.eagle:symbol:13209022/1" library_version="1" library_locally_modified="yes">
@@ -4080,6 +4092,9 @@ Source: VISHAY wscwsn.pdf</description>
 <text x="0" y="0" size="1.27" layer="94">BENDER
 IRR155
 MOUNTS</text>
+</symbol>
+<symbol name="7792" urn="urn:adsk.eagle:symbol:14511281/1" library_version="14" library_locally_modified="yes">
+<text x="0" y="0" size="1.27" layer="94">7792</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5980,6 +5995,21 @@ Source: www.kingbright.com</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="7792" urn="urn:adsk.eagle:component:14511285/1" locally_modified="yes" library_version="14" library_locally_modified="yes">
+<gates>
+<gate name="G$1" symbol="7792" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="7792">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14511284/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -6022,6 +6052,8 @@ Source: www.kingbright.com</description>
 <part name="R3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1"/>
 <part name="GND6" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
 <part name="U$3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="BENDER_IRR155" device="" package3d_urn="urn:adsk.eagle:package:14400200/2"/>
+<part name="U$5" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="7792" device="" package3d_urn="urn:adsk.eagle:package:14511284/2"/>
+<part name="U$10" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="7792" device="" package3d_urn="urn:adsk.eagle:package:14511284/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -6058,6 +6090,8 @@ Source: www.kingbright.com</description>
 <instance part="R3" gate="G$1" x="213.36" y="148.59" rot="R90"/>
 <instance part="GND6" gate="1" x="213.36" y="138.43"/>
 <instance part="U$3" gate="G$1" x="22.86" y="200.66"/>
+<instance part="U$5" gate="G$1" x="17.78" y="177.8"/>
+<instance part="U$10" gate="G$1" x="17.78" y="172.72"/>
 </instances>
 <busses>
 </busses>
