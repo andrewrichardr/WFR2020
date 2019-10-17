@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.2" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -197,11 +197,11 @@
 </polygon>
 <dimension x1="63.29" y1="54.34" x2="63.29" y2="50.34" x3="58" y3="52.34" textsize="1.778" layer="25"/>
 <dimension x1="-22" y1="9" x2="84" y2="9" x3="31" y3="6" textsize="1.778" layer="1"/>
-<dimension x1="18" y1="72.6" x2="18" y2="9" x3="-30" y3="40.8" textsize="1.778" layer="1"/>
-<wire x1="-22" y1="9" x2="-22" y2="72.6" width="0" layer="20"/>
-<wire x1="-22" y1="72.6" x2="85" y2="72.6" width="0" layer="20"/>
+<dimension x1="18" y1="71.6" x2="18" y2="9" x3="-30" y3="40.3" textsize="1.778" layer="1"/>
+<wire x1="-22" y1="9" x2="-22" y2="71.6" width="0" layer="20"/>
+<wire x1="-22" y1="71.6" x2="85" y2="71.6" width="0" layer="20"/>
 <dimension x1="74" y1="22" x2="-11" y2="22" x3="31.5" y3="-5" textsize="1.778" layer="1"/>
-<wire x1="85" y1="72.6" x2="85" y2="9" width="0" layer="20"/>
+<wire x1="85" y1="71.6" x2="85" y2="9" width="0" layer="20"/>
 <polygon width="0.2" layer="21">
 <vertex x="62.66" y="50.719"/>
 <vertex x="58.66" y="50.719"/>
@@ -708,8 +708,8 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="-4" y="69" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-4.635" y="66.46" size="1.27" layer="27"/>
 </element>
-<element name="U$4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="7792" package3d_urn="urn:adsk.eagle:package:14511284/2" value="7792" x="-19.5" y="62.5" smashed="yes"/>
-<element name="U$5" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="7792" package3d_urn="urn:adsk.eagle:package:14511284/2" value="7792" x="75" y="62.5" smashed="yes"/>
+<element name="U$4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="7792" package3d_urn="urn:adsk.eagle:package:14511284/2" value="7792" x="-19.5" y="61.5" smashed="yes"/>
+<element name="U$5" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="7792" package3d_urn="urn:adsk.eagle:package:14511284/2" value="7792" x="75" y="61.5" smashed="yes"/>
 </elements>
 <signals>
 <signal name="AUX_T2">
@@ -721,9 +721,9 @@ design rules under a new name.</description>
 <wire x1="35.696" y1="55" x2="40.132" y2="59.436" width="1.27" layer="16"/>
 <wire x1="6" y1="62" x2="13" y2="55" width="1.27" layer="16"/>
 <wire x1="13" y1="55" x2="35.696" y2="55" width="1.27" layer="16"/>
-<wire x1="-15.2" y1="47.78841875" x2="-7.5776" y2="55.41081875" width="1.27" layer="16"/>
-<wire x1="-7.5776" y1="55.41081875" x2="-7.5776" y2="59.52954375" width="1.27" layer="16"/>
-<wire x1="-7.5776" y1="59.52954375" x2="-5.10714375" y2="62" width="1.27" layer="16"/>
+<wire x1="-15.2" y1="47.78841875" x2="-7.1776" y2="55.81081875" width="1.27" layer="16"/>
+<wire x1="-7.1776" y1="55.81081875" x2="-7.1776" y2="59.92954375" width="1.27" layer="16"/>
+<wire x1="-7.1776" y1="59.92954375" x2="-5.10714375" y2="62" width="1.27" layer="16"/>
 <wire x1="-15.2" y1="30.75" x2="-15.2" y2="47.78841875" width="1.27" layer="16"/>
 </signal>
 <signal name="AUX_A2" class="2">
@@ -770,10 +770,10 @@ design rules under a new name.</description>
 <wire x1="-19.4" y1="48.6" x2="-19.4" y2="30.75" width="1.27" layer="16"/>
 <wire x1="21.932" y1="58" x2="13" y2="58" width="1.27" layer="16"/>
 <wire x1="13" y1="58" x2="7" y2="64" width="1.27" layer="16"/>
-<wire x1="-5.916665625" y1="64" x2="-10" y2="60.5" width="1.27" layer="16"/>
+<wire x1="-5.916665625" y1="64" x2="-9.4" y2="61.014284375" width="1.27" layer="16"/>
 <wire x1="-19.4" y1="30.75" x2="-19.4" y2="25.25" width="1.27" layer="16"/>
-<wire x1="-10" y1="60.5" x2="-10" y2="58" width="1.27" layer="16"/>
-<wire x1="-10" y1="58" x2="-19.4" y2="48.6" width="1.27" layer="16"/>
+<wire x1="-9.4" y1="61.014284375" x2="-9.4" y2="58.6" width="1.27" layer="16"/>
+<wire x1="-9.4" y1="58.6" x2="-19.4" y2="48.6" width="1.27" layer="16"/>
 </signal>
 <signal name="AUX_A1" class="2">
 <contactref element="U$1" pad="A1"/>
