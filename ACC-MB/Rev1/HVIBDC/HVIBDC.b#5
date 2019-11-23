@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.05" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -3144,20 +3144,20 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="69" y="36" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="LED2" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="LED3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="" x="-12" y="45" rot="R270"/>
-<element name="R13" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1" value="" x="-4" y="41" rot="R90">
-<attribute name="SPICEPREFIX" value="R" x="-4" y="41" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="R13" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1" value="" x="-4" y="41" rot="MR90">
+<attribute name="SPICEPREFIX" value="R" x="-4" y="41" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="LED3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="LED3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="" x="-7" y="40" rot="R270"/>
-<element name="R14" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1" value="" x="-4" y="37" rot="R90">
-<attribute name="SPICEPREFIX" value="R" x="-4" y="37" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="R14" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1" value="" x="-4" y="37" rot="MR90">
+<attribute name="SPICEPREFIX" value="R" x="-4" y="37" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="LED4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="LED3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="" x="-12" y="40" rot="R270"/>
 <element name="R15" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1" value="" x="-9" y="36" rot="R90">
 <attribute name="SPICEPREFIX" value="R" x="-9" y="36" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="LED5" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="LED3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="" x="-7" y="45" rot="R270"/>
-<element name="R18" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1" value="" x="-2" y="43" rot="MR90">
-<attribute name="SPICEPREFIX" value="R" x="-2" y="43" size="1.778" layer="28" rot="MR90" display="off"/>
+<element name="R18" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1" value="" x="-1.5" y="42.95" rot="MR90">
+<attribute name="SPICEPREFIX" value="R" x="-1.5" y="42.95" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 </elements>
 <signals>
@@ -3212,7 +3212,7 @@ design rules under a new name.</description>
 <wire x1="13.9" y1="33" x2="14.19" y2="33.29" width="1" layer="16"/>
 <contactref element="U$2" pad="7"/>
 <contactref element="R18" pad="1"/>
-<wire x1="1.2" y1="19.75" x2="-2" y2="42.05" width="0" layer="19" extent="1-1"/>
+<wire x1="1.2" y1="19.75" x2="-1.5" y2="42" width="0" layer="19" extent="1-1"/>
 <wire x1="7.05" y1="30.04" x2="1.2" y2="19.75" width="0" layer="19" extent="1-1"/>
 <wire x1="5.5" y1="33" x2="7.05" y2="30.04" width="0" layer="19" extent="16-16"/>
 <wire x1="7.8" y1="34.55" x2="7.6" y2="35.1" width="0" layer="19" extent="1-16"/>
@@ -3409,7 +3409,13 @@ design rules under a new name.</description>
 <wire x1="16.4" y1="29.05" x2="16.4" y2="23.4" width="1.27" layer="16"/>
 <wire x1="1.25" y1="14.25" x2="1.2" y2="14.25" width="1.27" layer="16"/>
 <contactref element="R14" pad="1"/>
-<wire x1="1.2" y1="14.25" x2="-4" y2="36.05" width="0" layer="19" extent="1-1"/>
+<wire x1="3.9126" y1="16.9126" x2="3.2" y2="17.6252" width="0.254" layer="16"/>
+<wire x1="3.2" y1="17.6252" x2="3.2" y2="22.4" width="0.254" layer="16"/>
+<wire x1="3.2" y1="22.4" x2="1.55" y2="24.05" width="0.254" layer="16"/>
+<wire x1="1.55" y1="29.25" x2="-1.55" y2="32.35" width="0.254" layer="16"/>
+<wire x1="1.55" y1="24.05" x2="1.55" y2="29.25" width="0.254" layer="16"/>
+<wire x1="-1.55" y1="32.35" x2="-1.55" y2="33.6" width="0.254" layer="16"/>
+<wire x1="-1.55" y1="33.6" x2="-4" y2="36.05" width="0.254" layer="16"/>
 </signal>
 <signal name="ACC_LGHT" class="1">
 <contactref element="U$10" pad="2"/>
@@ -3421,7 +3427,15 @@ design rules under a new name.</description>
 <wire x1="40.24715" y1="17" x2="13.15" y2="17" width="1.27" layer="16"/>
 <wire x1="10.4" y1="14.25" x2="5.4" y2="14.25" width="1.27" layer="16"/>
 <contactref element="R13" pad="1"/>
-<wire x1="5.4" y1="14.25" x2="-4" y2="40.05" width="0" layer="19" extent="1-1"/>
+<wire x1="5.4" y1="14.25" x2="2.65" y2="11.5" width="0.254" layer="16"/>
+<wire x1="0.5" y1="11.5" x2="-0.85" y2="12.85" width="0.254" layer="16"/>
+<wire x1="-0.85" y1="12.85" x2="-0.85" y2="27.55" width="0.254" layer="16"/>
+<wire x1="-8.4" y1="35.1" x2="-8.4" y2="39.6" width="0.254" layer="16"/>
+<wire x1="-8.4" y1="39.6" x2="-7.85" y2="40.15" width="0.254" layer="16"/>
+<wire x1="-4.1" y1="40.15" x2="-4" y2="40.05" width="0.254" layer="16"/>
+<wire x1="2.65" y1="11.5" x2="0.5" y2="11.5" width="0.254" layer="16"/>
+<wire x1="-0.85" y1="27.55" x2="-8.4" y2="35.1" width="0.254" layer="16"/>
+<wire x1="-7.85" y1="40.15" x2="-4.1" y2="40.15" width="0.254" layer="16"/>
 </signal>
 <signal name="TSAL_RED_GND" class="1">
 <contactref element="U$13" pad="2"/>
@@ -3431,7 +3445,9 @@ design rules under a new name.</description>
 <wire x1="37.25" y1="22.25" x2="37.25" y2="25.15" width="1.27" layer="1"/>
 <wire x1="-0.25" y1="17" x2="32" y2="17" width="1.27" layer="1"/>
 <contactref element="R15" pad="1"/>
-<wire x1="-3" y1="14.25" x2="-9" y2="35.05" width="0" layer="19" extent="1-1"/>
+<wire x1="-9" y1="35.05" x2="-9" y2="33.7" width="0.254" layer="1"/>
+<wire x1="-0.25" y1="24.95" x2="-0.25" y2="17" width="0.254" layer="1"/>
+<wire x1="-9" y1="33.7" x2="-0.25" y2="24.95" width="0.254" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="R1" pad="2"/>
@@ -3587,23 +3603,30 @@ design rules under a new name.</description>
 <signal name="N$17" class="1">
 <contactref element="R13" pad="2"/>
 <contactref element="LED2" pad="K"/>
-<wire x1="-12" y1="43.73" x2="-4" y2="41.95" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.22" y1="41.95" x2="-12" y2="43.73" width="0.254" layer="16"/>
+<wire x1="-4" y1="41.95" x2="-6.35091875" y2="41.95" width="0.254" layer="16"/>
+<wire x1="-6.35091875" y1="41.95" x2="-6.61071875" y2="42.2098" width="0.254" layer="16"/>
+<wire x1="-6.61071875" y1="42.2098" x2="-7.38928125" y2="42.2098" width="0.254" layer="16"/>
+<wire x1="-7.38928125" y1="42.2098" x2="-7.64908125" y2="41.95" width="0.254" layer="16"/>
+<wire x1="-7.64908125" y1="41.95" x2="-10.22" y2="41.95" width="0.254" layer="16"/>
 </signal>
 <signal name="N$19" class="1">
 <contactref element="R14" pad="2"/>
 <contactref element="LED3" pad="K"/>
-<wire x1="-7" y1="38.73" x2="-4" y2="37.95" width="0" layer="19" extent="1-1"/>
+<wire x1="-4" y1="37.95" x2="-6.22" y2="37.95" width="0.254" layer="16"/>
+<wire x1="-6.22" y1="37.95" x2="-7" y2="38.73" width="0.254" layer="16"/>
 </signal>
 <signal name="N$25" class="1">
 <contactref element="R15" pad="2"/>
 <contactref element="LED4" pad="K"/>
-<wire x1="-12" y1="38.73" x2="-9" y2="36.95" width="0" layer="19" extent="1-1"/>
+<wire x1="-9" y1="36.95" x2="-10.78" y2="38.73" width="0.254" layer="1"/>
+<wire x1="-10.78" y1="38.73" x2="-12" y2="38.73" width="0.254" layer="1"/>
 </signal>
 <signal name="N$27">
 <contactref element="R18" pad="2"/>
 <contactref element="LED5" pad="K"/>
-<wire x1="-2" y1="43.95" x2="-6.78" y2="43.95" width="1" layer="16"/>
-<wire x1="-6.78" y1="43.95" x2="-7" y2="43.73" width="1" layer="16"/>
+<wire x1="-7" y1="43.73" x2="-1.67" y2="43.73" width="1" layer="16"/>
+<wire x1="-1.67" y1="43.73" x2="-1.5" y2="43.9" width="1" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
