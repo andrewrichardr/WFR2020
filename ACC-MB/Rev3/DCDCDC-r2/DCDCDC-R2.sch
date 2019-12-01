@@ -7782,7 +7782,7 @@ Source: VISHAY wscwsn.pdf</description>
 <pad name="R1" x="9.94" y="3.4" drill="1.6" shape="square"/>
 <pad name="R2" x="9.92" y="0" drill="1.6" shape="square"/>
 </package>
-<package name="15-24-6100" urn="urn:adsk.eagle:footprint:14396585/1" locally_modified="yes" library_version="28" library_locally_modified="yes">
+<package name="15-24-6100" urn="urn:adsk.eagle:footprint:14396585/2" library_version="30" library_locally_modified="yes">
 <description>&lt;b&gt;Mini-Fit Jr.™ Vertical Header, 4.20mm Pitch, Dual Row, 10 Circuits, without Snap-in Plastic Peg PCB Lock, Tin, Natural&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/039281103_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
 <wire x1="-11" y1="4.5" x2="11" y2="4.5" width="0.254" layer="21"/>
 <wire x1="11" y1="4.5" x2="11" y2="-2.2" width="0.254" layer="21"/>
@@ -13012,7 +13012,7 @@ Source: VISHAY wscwsn.pdf</description>
 <packageinstance name="3568"/>
 </packageinstances>
 </package3d>
-<package3d name="15-24-6100" urn="urn:adsk.eagle:package:14396594/2" type="model" library_version="28" library_locally_modified="yes">
+<package3d name="15-24-6100" urn="urn:adsk.eagle:package:14396594/3" type="model" library_version="30" library_locally_modified="yes">
 <description>&lt;b&gt;Mini-Fit Jr.™ Vertical Header, 4.20mm Pitch, Dual Row, 10 Circuits, without Snap-in Plastic Peg PCB Lock, Tin, Natural&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/039281103_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
 <packageinstances>
 <packageinstance name="15-24-6100"/>
@@ -16054,7 +16054,7 @@ Source: www.kingbright.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="15-24-6100" urn="urn:adsk.eagle:component:14396603/2" library_version="28" library_locally_modified="yes">
+<deviceset name="15-24-6100" urn="urn:adsk.eagle:component:14396603/3" library_version="30" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="CON-2X05" x="-2.54" y="0"/>
 </gates>
@@ -16073,7 +16073,7 @@ Source: www.kingbright.com</description>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:14396594/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14396594/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -21400,8 +21400,8 @@ Source: VISHAY wscwsn.pdf</description>
 <part name="R6" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1"/>
 <part name="GND8" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
 <part name="U$13" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="39-28-1103" device="" package3d_urn="urn:adsk.eagle:package:14745616/3"/>
-<part name="U$9" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="15-24-6100" device="" package3d_urn="urn:adsk.eagle:package:14396594/2"/>
-<part name="U$10" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="15-24-6100" device="" package3d_urn="urn:adsk.eagle:package:14396594/2"/>
+<part name="U$9" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="15-24-6100" device="" package3d_urn="urn:adsk.eagle:package:14396594/3"/>
+<part name="U$10" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="15-24-6100" device="" package3d_urn="urn:adsk.eagle:package:14396594/3"/>
 <part name="U$18" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="SANACE40" device="" package3d_urn="urn:adsk.eagle:package:15010781/2" value="9GAX0412P3S0031"/>
 <part name="U$12" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="VICOR_HEATSINK_DOUBLE" device="" package3d_urn="urn:adsk.eagle:package:15094638/2"/>
 <part name="U$14" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="7792" device="" package3d_urn="urn:adsk.eagle:package:14511284/4"/>
@@ -21411,6 +21411,12 @@ Source: VISHAY wscwsn.pdf</description>
 <part name="P+6" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" deviceset="+12V" device=""/>
 <part name="U$20" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="BENDER_IRR155" device="" package3d_urn="urn:adsk.eagle:package:14400200/2"/>
 <part name="U$11" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="0100-020" device=""/>
+<part name="R27" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R2512" package3d_urn="urn:adsk.eagle:package:13209595/1" value="CRM2512-JW-102ELF"/>
+<part name="R7" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R2512" package3d_urn="urn:adsk.eagle:package:13209595/1" value="CRM2512-JW-102ELF"/>
+<part name="R9" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R2512" package3d_urn="urn:adsk.eagle:package:13209595/1" value="CRM2512-JW-102ELF"/>
+<part name="R10" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R2512" package3d_urn="urn:adsk.eagle:package:13209595/1" value="CRM2512-JW-102ELF"/>
+<part name="P-3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" deviceset="V-" device=""/>
+<part name="P+8" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" deviceset="V+" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21625,6 +21631,28 @@ allow DCDC to deliver current</text>
 <attribute name="NAME" x="29.21" y="214.757" size="1.778" layer="95"/>
 <attribute name="VALUE" x="29.21" y="210.439" size="1.778" layer="96"/>
 </instance>
+<instance part="R27" gate="G$1" x="36.83" y="171.45" smashed="yes">
+<attribute name="NAME" x="33.02" y="172.9486" size="1.778" layer="95"/>
+<attribute name="VALUE" x="33.02" y="168.148" size="1.778" layer="96"/>
+</instance>
+<instance part="R7" gate="G$1" x="49.53" y="171.45" smashed="yes">
+<attribute name="NAME" x="45.72" y="172.9486" size="1.778" layer="95"/>
+<attribute name="VALUE" x="45.72" y="168.148" size="1.778" layer="96"/>
+</instance>
+<instance part="R9" gate="G$1" x="62.23" y="171.45" smashed="yes">
+<attribute name="NAME" x="58.42" y="172.9486" size="1.778" layer="95"/>
+<attribute name="VALUE" x="58.42" y="168.148" size="1.778" layer="96"/>
+</instance>
+<instance part="R10" gate="G$1" x="74.93" y="171.45" smashed="yes">
+<attribute name="NAME" x="71.12" y="172.9486" size="1.778" layer="95"/>
+<attribute name="VALUE" x="71.12" y="168.148" size="1.778" layer="96"/>
+</instance>
+<instance part="P-3" gate="1" x="27.94" y="167.64" smashed="yes">
+<attribute name="VALUE" x="22.86" y="170.18" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="P+8" gate="1" x="83.82" y="175.26" smashed="yes">
+<attribute name="VALUE" x="81.28" y="172.72" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -21757,6 +21785,12 @@ allow DCDC to deliver current</text>
 <pinref part="U$9" gate="G$1" pin="4"/>
 <wire x1="171.45" y1="99.06" x2="168.91" y2="99.06" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="80.01" y1="171.45" x2="83.82" y2="171.45" width="0.1524" layer="91"/>
+<pinref part="P+8" gate="1" pin="V+"/>
+<wire x1="83.82" y1="171.45" x2="83.82" y2="172.72" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="V-" class="1">
 <segment>
@@ -21797,6 +21831,12 @@ allow DCDC to deliver current</text>
 <pinref part="U$9" gate="G$1" pin="7"/>
 <wire x1="176.53" y1="111.76" x2="179.07" y2="111.76" width="0.1524" layer="91"/>
 <junction x="179.07" y="111.76"/>
+</segment>
+<segment>
+<pinref part="R27" gate="G$1" pin="1"/>
+<wire x1="31.75" y1="171.45" x2="27.94" y2="171.45" width="0.1524" layer="91"/>
+<pinref part="P-3" gate="1" pin="V-"/>
+<wire x1="27.94" y1="170.18" x2="27.94" y2="171.45" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -22126,6 +22166,27 @@ allow DCDC to deliver current</text>
 <junction x="109.22" y="77.47"/>
 <pinref part="U$13" gate="G$1" pin="5"/>
 <junction x="111.76" y="77.47"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="R27" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="41.91" y1="171.45" x2="44.45" y2="171.45" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="54.61" y1="171.45" x2="57.15" y2="171.45" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="67.31" y1="171.45" x2="69.85" y2="171.45" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

@@ -6842,9 +6842,9 @@ Big oval pads</description>
 <clearance class="0" value="0.2"/>
 </class>
 <class number="2" name="HV" width="1.27" drill="0">
-<clearance class="0" value="1.5"/>
-<clearance class="1" value="1.5"/>
-<clearance class="2" value="1.5"/>
+<clearance class="0" value="1.6"/>
+<clearance class="1" value="1.6"/>
+<clearance class="2" value="1.6"/>
 </class>
 </classes>
 <parts>
@@ -7561,12 +7561,9 @@ Big oval pads</description>
 <wire x1="72.39" y1="201.93" x2="72.39" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="DIS_PRE_CHARGE_LV" gate="G$1" pin="7"/>
-<wire x1="121.92" y1="86.36" x2="119.38" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="86.36" x2="116.84" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="86.36" x2="114.3" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="DIS_PRE_CHARGE_LV" gate="G$1" pin="8"/>
-<junction x="119.38" y="86.36"/>
 <pinref part="DIS_PRE_CHARGE_LV" gate="G$1" pin="9"/>
 <junction x="116.84" y="86.36"/>
 <pinref part="DIS_PRE_CHARGE_LV" gate="G$1" pin="10"/>
@@ -7761,6 +7758,12 @@ Big oval pads</description>
 <wire x1="109.22" y1="121.92" x2="105.41" y2="121.92" width="0.1524" layer="91"/>
 <junction x="109.22" y="121.92"/>
 <pinref part="P+7" gate="1" pin="V+"/>
+<pinref part="DIS_PRE_CHARGE_HV" gate="G$1" pin="9"/>
+<wire x1="111.76" y1="121.92" x2="114.3" y2="121.92" width="0.1524" layer="91"/>
+<junction x="111.76" y="121.92"/>
+<pinref part="DIS_PRE_CHARGE_HV" gate="G$1" pin="4"/>
+<wire x1="114.3" y1="109.22" x2="111.76" y2="109.22" width="0.1524" layer="91"/>
+<junction x="111.76" y="109.22"/>
 </segment>
 <segment>
 <pinref part="AIR_N_HV" gate="G$1" pin="9"/>
@@ -7853,6 +7856,12 @@ Big oval pads</description>
 <wire x1="121.92" y1="109.22" x2="124.46" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="109.22" x2="124.46" y2="124.46" width="0.1524" layer="91"/>
 <junction x="124.46" y="124.46"/>
+<pinref part="DIS_PRE_CHARGE_HV" gate="G$1" pin="2"/>
+<wire x1="119.38" y1="109.22" x2="121.92" y2="109.22" width="0.1524" layer="91"/>
+<junction x="121.92" y="109.22"/>
+<pinref part="DIS_PRE_CHARGE_HV" gate="G$1" pin="7"/>
+<wire x1="119.38" y1="121.92" x2="121.92" y2="121.92" width="0.1524" layer="91"/>
+<junction x="121.92" y="121.92"/>
 </segment>
 <segment>
 <pinref part="X3" gate="-3" pin="S"/>
@@ -8215,6 +8224,13 @@ Big oval pads</description>
 <junction x="248.92" y="116.84"/>
 <wire x1="243.84" y1="111.76" x2="243.84" y2="116.84" width="0.1524" layer="91"/>
 <junction x="243.84" y="116.84"/>
+</segment>
+</net>
+<net name="INT_FAULT_LED" class="0">
+<segment>
+<pinref part="X1" gate="-9" pin="S"/>
+<wire x1="106.68" y1="200.66" x2="81.28" y2="200.66" width="0.1524" layer="91"/>
+<label x="81.28" y="200.66" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -8581,6 +8597,9 @@ Big oval pads</description>
 <wire x1="-85.09" y1="105.41" x2="-85.09" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="-85.09" y1="104.14" x2="-81.28" y2="104.14" width="0.1524" layer="91"/>
 <junction x="-85.09" y="105.41"/>
+<pinref part="U$2" gate="G$1" pin="NCA4"/>
+<wire x1="-85.09" y1="105.41" x2="-85.09" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="-85.09" y1="106.68" x2="-81.28" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IMD_OK_GND" class="0">
@@ -8613,6 +8632,15 @@ Big oval pads</description>
 <wire x1="48.26" y1="0" x2="48.26" y2="5.08" width="0.2032" layer="91"/>
 <junction x="48.26" y="5.08"/>
 <pinref part="U$10" gate="G$1" pin="COIL-"/>
+</segment>
+</net>
+<net name="INT_FAULT_LED" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="NCB4"/>
+<wire x1="-66.04" y1="106.68" x2="-60.96" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="106.68" x2="-60.96" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="134.62" x2="-38.1" y2="134.62" width="0.1524" layer="91"/>
+<label x="-48.26" y="134.62" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

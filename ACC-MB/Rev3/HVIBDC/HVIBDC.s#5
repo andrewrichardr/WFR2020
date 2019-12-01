@@ -18125,6 +18125,11 @@ Source: www.kingbright.com</description>
 <class number="1" name="LV" width="0" drill="0">
 <clearance class="1" value="0.0005"/>
 </class>
+<class number="2" name="HV" width="1.27" drill="0">
+<clearance class="0" value="0.5"/>
+<clearance class="1" value="0.5"/>
+<clearance class="2" value="0.5"/>
+</class>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
@@ -18759,7 +18764,7 @@ and supply current regulator</text>
 <pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="TSAL_GRN_GND" class="1">
+<net name="TSAL_GRN_GND" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -18783,7 +18788,7 @@ and supply current regulator</text>
 <wire x1="332.74" y1="91.44" x2="332.74" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="ACC_LGHT" class="1">
+<net name="ACC_LGHT" class="0">
 <segment>
 <wire x1="280.67" y1="58.42" x2="280.67" y2="57.15" width="0.1524" layer="91"/>
 <pinref part="U$10" gate="G$1" pin="D"/>
@@ -18798,7 +18803,7 @@ and supply current regulator</text>
 <junction x="300.99" y="57.15"/>
 </segment>
 </net>
-<net name="TSAL_RED_GND" class="1">
+<net name="TSAL_RED_GND" class="0">
 <segment>
 <wire x1="300.99" y1="217.17" x2="313.69" y2="217.17" width="0.1524" layer="91"/>
 <label x="314.96" y="217.17" size="1.778" layer="95"/>
@@ -18843,7 +18848,7 @@ and supply current regulator</text>
 <pinref part="U$14" gate="G$1" pin="G"/>
 </segment>
 </net>
-<net name="HV+_DRY_FUSED" class="1">
+<net name="HV+_DRY_FUSED" class="2">
 <segment>
 <pinref part="D5" gate="G$1" pin="C"/>
 <wire x1="53.34" y1="142.24" x2="53.34" y2="147.32" width="0.1524" layer="91"/>
@@ -18864,14 +18869,14 @@ and supply current regulator</text>
 <junction x="48.26" y="147.32"/>
 </segment>
 </net>
-<net name="N$20" class="0">
+<net name="N$20" class="2">
 <segment>
 <pinref part="U$22" gate="G$1" pin="K"/>
 <pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="52.07" y1="102.87" x2="52.07" y2="100.33" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$22" class="0">
+<net name="N$22" class="2">
 <segment>
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="52.07" y1="90.17" x2="52.07" y2="86.36" width="0.1524" layer="91"/>
@@ -18881,7 +18886,7 @@ and supply current regulator</text>
 <pinref part="OK3" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="N$21" class="2">
 <segment>
 <pinref part="U$22" gate="G$1" pin="A"/>
 <pinref part="D5" gate="G$1" pin="A"/>
@@ -18925,7 +18930,7 @@ and supply current regulator</text>
 <pinref part="U$1" gate="G$1" pin="7"/>
 </segment>
 </net>
-<net name="V-" class="1">
+<net name="V-" class="2">
 <segment>
 <pinref part="P-2" gate="1" pin="V-"/>
 <pinref part="U$22" gate="G$1" pin="G"/>

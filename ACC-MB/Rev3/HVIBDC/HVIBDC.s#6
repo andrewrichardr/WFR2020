@@ -18187,6 +18187,9 @@ Source: www.kingbright.com</description>
 <part name="PRECHAGE3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
 <part name="LEDR4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1"/>
 <part name="GND9" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
+<part name="D2" library="Main" library_urn="urn:adsk.eagle:library:14107900" deviceset="ZENER-DIODE" device="ZD-12.5" package3d_urn="urn:adsk.eagle:package:14108522/1" value="1N4758A - 56Vz"/>
+<part name="D3" library="Main" library_urn="urn:adsk.eagle:library:14107900" deviceset="ZENER-DIODE" device="ZD-12.5" package3d_urn="urn:adsk.eagle:package:14108522/1" value="1N4758A - 56Vz"/>
+<part name="D6" library="Main" library_urn="urn:adsk.eagle:library:14107900" deviceset="ZENER-DIODE" device="ZD-12.5" package3d_urn="urn:adsk.eagle:package:14108522/1" value="1N4758A - 56Vz"/>
 </parts>
 <sheets>
 <sheet>
@@ -18240,8 +18243,8 @@ current across each AIR PN: IXCY10M90S</text>
 <text x="21.59" y="72.39" size="3.81" layer="97">Current regulators measure 
 current across each AIR PN: IXCY10M90S</text>
 <text x="62.23" y="121.92" size="3.81" layer="97">IXCY10M90S</text>
-<text x="64.77" y="137.16" size="3.81" layer="97">Zener Diode Vz = 56V: 
-when V &gt; 56V, diode will break down 
+<text x="64.77" y="137.16" size="3.81" layer="97">Zener Diode Vz = 60V: 
+when V &gt; 60V, diode will break down 
 and supply current regulator</text>
 </plain>
 <instances>
@@ -18385,8 +18388,8 @@ and supply current regulator</text>
 <attribute name="NAME" x="50.5714" y="91.44" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="55.372" y="91.44" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="HV+_FUSE_DRY" gate="G$1" x="38.1" y="147.32" smashed="yes" rot="MR0">
-<attribute name="NAME" x="36.83" y="150.495" size="1.27" layer="95" rot="MR0"/>
+<instance part="HV+_FUSE_DRY" gate="G$1" x="35.56" y="147.32" smashed="yes" rot="MR0">
+<attribute name="NAME" x="34.29" y="150.495" size="1.27" layer="95" rot="MR0"/>
 </instance>
 <instance part="D5" gate="G$1" x="53.34" y="139.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="51.435" y="137.922" size="1.778" layer="95" rot="R90"/>
@@ -18461,6 +18464,18 @@ and supply current regulator</text>
 </instance>
 <instance part="GND9" gate="1" x="370.84" y="36.83" smashed="yes">
 <attribute name="VALUE" x="368.3" y="34.29" size="1.778" layer="96"/>
+</instance>
+<instance part="D2" gate="G$1" x="48.26" y="139.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="46.355" y="137.922" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="51.689" y="137.922" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="D3" gate="G$1" x="43.18" y="139.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="41.275" y="137.922" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="46.609" y="137.922" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="D6" gate="G$1" x="38.1" y="139.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="36.195" y="137.922" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="41.529" y="137.922" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -18832,9 +18847,21 @@ and supply current regulator</text>
 <segment>
 <pinref part="D5" gate="G$1" pin="C"/>
 <wire x1="53.34" y1="142.24" x2="53.34" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="147.32" x2="38.1" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="147.32" x2="48.26" y2="147.32" width="0.1524" layer="91"/>
 <label x="38.1" y="149.86" size="1.778" layer="95"/>
 <pinref part="HV+_FUSE_DRY" gate="G$1" pin="P$1"/>
+<pinref part="D6" gate="G$1" pin="C"/>
+<wire x1="48.26" y1="147.32" x2="43.18" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="147.32" x2="38.1" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="147.32" x2="35.56" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="142.24" x2="38.1" y2="147.32" width="0.1524" layer="91"/>
+<junction x="38.1" y="147.32"/>
+<pinref part="D3" gate="G$1" pin="C"/>
+<wire x1="43.18" y1="142.24" x2="43.18" y2="147.32" width="0.1524" layer="91"/>
+<junction x="43.18" y="147.32"/>
+<pinref part="D2" gate="G$1" pin="C"/>
+<wire x1="48.26" y1="142.24" x2="48.26" y2="147.32" width="0.1524" layer="91"/>
+<junction x="48.26" y="147.32"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -18859,14 +18886,27 @@ and supply current regulator</text>
 <pinref part="U$22" gate="G$1" pin="A"/>
 <pinref part="D5" gate="G$1" pin="A"/>
 <wire x1="52.07" y1="123.19" x2="53.34" y2="123.19" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="123.19" x2="53.34" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="123.19" x2="53.34" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="D2" gate="G$1" pin="A"/>
+<wire x1="53.34" y1="134.62" x2="53.34" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="137.16" x2="48.26" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="134.62" x2="53.34" y2="134.62" width="0.1524" layer="91"/>
+<junction x="53.34" y="134.62"/>
+<pinref part="D3" gate="G$1" pin="A"/>
+<wire x1="43.18" y1="137.16" x2="43.18" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="134.62" x2="48.26" y2="134.62" width="0.1524" layer="91"/>
+<junction x="48.26" y="134.62"/>
+<pinref part="D6" gate="G$1" pin="A"/>
+<wire x1="38.1" y1="137.16" x2="38.1" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="134.62" x2="43.18" y2="134.62" width="0.1524" layer="91"/>
+<junction x="43.18" y="134.62"/>
 </segment>
 </net>
 <net name="V+" class="1">
 <segment>
 <pinref part="HV+_FUSE_DRY" gate="G$1" pin="P$2"/>
 <pinref part="P+9" gate="1" pin="V+"/>
-<wire x1="20.32" y1="147.32" x2="15.24" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="147.32" x2="15.24" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="147.32" x2="15.24" y2="153.67" width="0.1524" layer="91"/>
 </segment>
 <segment>

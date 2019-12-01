@@ -18123,9 +18123,9 @@ Source: www.kingbright.com</description>
 <clearance class="0" value="0.2"/>
 </class>
 <class number="2" name="HV" width="1.27" drill="0">
-<clearance class="0" value="0.75"/>
-<clearance class="1" value="0.75"/>
-<clearance class="2" value="0.75"/>
+<clearance class="0" value="1.5"/>
+<clearance class="1" value="1.5"/>
+<clearance class="2" value="1.5"/>
 </class>
 </classes>
 <parts>

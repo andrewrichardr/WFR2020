@@ -18120,15 +18120,12 @@ Source: www.kingbright.com</description>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0.2" drill="0">
-<clearance class="0" value="0.1524"/>
-</class>
-<class number="1" name="LV" width="0" drill="0">
-<clearance class="1" value="0.0005"/>
+<clearance class="0" value="0.2"/>
 </class>
 <class number="2" name="HV" width="1.27" drill="0">
-<clearance class="0" value="0.5"/>
-<clearance class="1" value="0.5"/>
-<clearance class="2" value="0.5"/>
+<clearance class="0" value="0.75"/>
+<clearance class="1" value="0.75"/>
+<clearance class="2" value="0.75"/>
 </class>
 </classes>
 <parts>
@@ -18907,7 +18904,7 @@ and supply current regulator</text>
 <junction x="43.18" y="134.62"/>
 </segment>
 </net>
-<net name="V+" class="1">
+<net name="V+" class="2">
 <segment>
 <pinref part="HV+_FUSE_DRY" gate="G$1" pin="P$2"/>
 <pinref part="P+9" gate="1" pin="V+"/>
