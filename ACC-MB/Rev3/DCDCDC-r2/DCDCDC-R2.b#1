@@ -168,7 +168,7 @@
 <layer number="255" name="Accent" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXl1d28yNA" projecturn="a.YnVzaW5lc3M6bXl1d28yNCNEMjAxOTA5MTgyMTU4NTEzMzE" f3durn="urn:adsk.wipprod:dm.lineage:U_-0G6fwRzqBO_3Lu0JAiA" pcbguid="ece931dd-8bcb-4325-baf8-111b939a3e73" lastpulledtime="" lastsyncedchangeguid="e25654b9-1651-571e-a794-eba0714577ed"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXl1d28yNA" projecturn="a.YnVzaW5lc3M6bXl1d28yNCNEMjAxOTA5MTgyMTU4NTEzMzE" f3durn="urn:adsk.wipprod:dm.lineage:U_-0G6fwRzqBO_3Lu0JAiA" pcbguid="ece931dd-8bcb-4325-baf8-111b939a3e73" lastpulledtime="" lastsyncedchangeguid="4671fdbf-8954-3b17-ee34-d8cccc98b9dc"/>
 <plain>
 <wire x1="169" y1="64" x2="3" y2="64" width="0" layer="20"/>
 <wire x1="0" y1="61" x2="0" y2="3" width="0" layer="20"/>
@@ -183,8 +183,6 @@
 400V TO 13.8V
 </text>
 <text x="62" y="2" size="3.81" layer="21">WESTERN   FORMULA   RACING</text>
-<text x="150" y="33" size="1.778" layer="21">+VOUT
-GND</text>
 <text x="3" y="22" size="2.54" layer="21">HV+   HV-</text>
 <wire x1="52" y1="15" x2="52" y2="23" width="4" layer="21"/>
 <wire x1="52" y1="23" x2="52" y2="43" width="4" layer="21"/>
@@ -211,6 +209,12 @@ ENABLED</text>
 <wire x1="172" y1="3" x2="169" y2="0" width="0" layer="20" curve="-90"/>
 <wire x1="3" y1="0" x2="0" y2="3" width="0" layer="20" curve="-90"/>
 <text x="16" y="6" size="1.778" layer="26" rot="MR0">HV-  HV+</text>
+<text x="141" y="17" size="1.778" layer="25">+12V</text>
+<text x="141" y="12" size="1.778" layer="25">GND</text>
+<text x="168" y="23" size="1.778" layer="25">EN</text>
+<text x="143" y="39" size="1.778" layer="25">GND</text>
+<text x="148" y="43" size="1.778" layer="25" rot="R90">+12V</text>
+<text x="126" y="10" size="1.778" layer="25">FAN</text>
 </plain>
 <libraries>
 <library name="ACC-MB-R0" urn="urn:adsk.eagle:library:13324935">
@@ -1056,8 +1060,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="103.21" y="53.115" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="U$13" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="39-28-1103" package3d_urn="urn:adsk.eagle:package:14745616/3" value="39-28-1103" x="161" y="43" smashed="yes" rot="R180">
-<attribute name="NAME" x="155.285" y="49.985" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="171.16" y="49.985" size="1.27" layer="27" rot="R180"/>
+<attribute name="NAME" x="155.285" y="43.985" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="171.16" y="43.985" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="U$9" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="15-24-6100" package3d_urn="urn:adsk.eagle:package:14396594/3" value="15-24-6100" x="11" y="15.54" smashed="yes">
 <attribute name="NAME" x="16.715" y="8.555" size="1.27" layer="25"/>
@@ -1403,9 +1407,9 @@ design rules under a new name.</description>
 <wire x1="105" y1="60.27" x2="75" y2="60.27" width="0.2" layer="16"/>
 <wire x1="75" y1="60.27" x2="70" y2="55.27" width="0.2" layer="16"/>
 <wire x1="70" y1="55.27" x2="59" y2="44.27" width="0.3048" layer="16"/>
-<wire x1="59" y1="3" x2="56.58" y2="3" width="0.3048" layer="16"/>
-<wire x1="56.58" y1="3" x2="55.81" y2="2.23" width="0.3048" layer="16"/>
-<wire x1="59" y1="44.27" x2="59" y2="3" width="0.3048" layer="16"/>
+<wire x1="59" y1="4" x2="57.23" y2="2.23" width="0.3048" layer="16"/>
+<wire x1="57.23" y1="2.23" x2="55.81" y2="2.23" width="0.3048" layer="16"/>
+<wire x1="59" y1="44.27" x2="59" y2="4" width="0.3048" layer="16"/>
 </signal>
 <signal name="+12V_FUSED">
 <contactref element="U$15" pad="R2"/>

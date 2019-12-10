@@ -217,4 +217,50 @@ ylim([0, 5])
 legend("Sensor 1","Sensor 2")
 hold off
 
+%% Custom DC Load 
+
+CurrentReq = 80 %Amps
+VoltageReq = 5 %Volts
+
+SegRdson = 0.1 %Ohms
+SegR = 5 %Ohms
+
+Ract = SegR + SegRdson
+Rreq = VoltageReq/CurrentReq
+
+R = Ract
+NumSegs = 1
+while Rreq < R
+    r = 0;
+    R = 1/(NumSegs/Ract)
+    NumSegs = NumSegs + 1
+end
+
+PowerPerSeg = VoltageReq*CurrentReq/NumSegs
+CurrentPerSeg = CurrentReq/NumSegs
+
+results = table(VoltageReq, CurrentReq, NumSegs, PowerPerSeg, CurrentPerSeg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

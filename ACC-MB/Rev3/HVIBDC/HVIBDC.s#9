@@ -517,22 +517,25 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="D" urn="urn:adsk.eagle:symbol:43091/1" library_version="2">
+<symbol name="D" urn="urn:adsk.eagle:symbol:43091/2" library_version="8">
 <wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
 <wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
 <text x="2.54" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
 <text x="2.54" y="-2.3114" size="1.778" layer="96">&gt;VALUE</text>
 <text x="-2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
 <text x="2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
-<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="1N4004" urn="urn:adsk.eagle:component:43462/1" prefix="D" library_version="2">
+<deviceset name="1N4004" urn="urn:adsk.eagle:component:43462/3" prefix="D" library_version="8">
 <description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 general purpose rectifier, 1 A</description>
 <gates>
@@ -548,7 +551,9 @@ general purpose rectifier, 1 A</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43336/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="82" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -8009,7 +8014,7 @@ Source: LITE-ON ELECTRONICS, LTV816.pdf</description>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="OK" urn="urn:adsk.eagle:symbol:21854/1" library_version="1">
+<symbol name="OK" urn="urn:adsk.eagle:symbol:21854/2" library_version="3">
 <wire x1="-2.413" y1="-1.143" x2="-1.016" y2="0.254" width="0.1524" layer="94"/>
 <wire x1="-1.016" y1="0.254" x2="-1.905" y2="-0.127" width="0.1524" layer="94"/>
 <wire x1="-1.905" y1="-0.127" x2="-1.397" y2="-0.635" width="0.1524" layer="94"/>
@@ -8023,7 +8028,6 @@ Source: LITE-ON ELECTRONICS, LTV816.pdf</description>
 <wire x1="-3.175" y1="-1.27" x2="-4.445" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="-4.445" y1="-1.27" x2="-5.715" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="-3.175" y1="1.27" x2="-4.445" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-4.445" y1="1.27" x2="-4.445" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="-4.445" y1="1.27" x2="-5.715" y2="1.27" width="0.254" layer="94"/>
 <wire x1="-6.985" y1="5.08" x2="4.445" y2="5.08" width="0.4064" layer="94"/>
 <wire x1="-6.985" y1="-5.08" x2="4.445" y2="-5.08" width="0.4064" layer="94"/>
@@ -8051,7 +8055,7 @@ Source: LITE-ON ELECTRONICS, LTV816.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LTV816" urn="urn:adsk.eagle:component:22052/1" prefix="OK" library_version="1">
+<deviceset name="LTV816" urn="urn:adsk.eagle:component:22052/3" prefix="OK" library_version="3">
 <description>&lt;b&gt;OPTO COUPLER&lt;/b&gt;&lt;p&gt;
 Source: LITEON, LTV816.pdf</description>
 <gates>
@@ -8074,6 +8078,7 @@ Source: LITEON, LTV816.pdf</description>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="3" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -8088,7 +8093,9 @@ Source: LITEON, LTV816.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:21963/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -8185,7 +8192,7 @@ by R. Vogg  15.March.2002</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BUZ11" urn="urn:adsk.eagle:component:28582/1" prefix="Q" library_version="2">
+<deviceset name="BUZ11" urn="urn:adsk.eagle:component:28582/2" prefix="Q" library_version="5">
 <description>&lt;b&gt;N-Channel Enhancement MOSFET&lt;/b&gt; 50V; 30A; 0,040Ohm</description>
 <gates>
 <gate name="G$1" symbol="IGFET-EN-GDS" x="0" y="0"/>
@@ -8201,7 +8208,9 @@ by R. Vogg  15.March.2002</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:28520/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -12655,7 +12664,7 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <description>Generated from &lt;b&gt;ACC-MB-R0.sch&lt;/b&gt;&lt;p&gt;
 by exp-lbrs.ulp</description>
 <packages>
-<package name="15-24-6100" urn="urn:adsk.eagle:footprint:14396585/1" library_version="5" library_locally_modified="yes">
+<package name="15-24-6100" urn="urn:adsk.eagle:footprint:14396585/1" locally_modified="yes" library_version="28" library_locally_modified="yes">
 <description>&lt;b&gt;Mini-Fit Jr.™ Vertical Header, 4.20mm Pitch, Dual Row, 10 Circuits, without Snap-in Plastic Peg PCB Lock, Tin, Natural&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/039281103_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
 <wire x1="-11" y1="4.5" x2="11" y2="4.5" width="0.254" layer="21"/>
 <wire x1="11" y1="4.5" x2="11" y2="-2.2" width="0.254" layer="21"/>
@@ -12678,10 +12687,10 @@ by exp-lbrs.ulp</description>
 <pad name="6" x="8.4" y="2.75" drill="1.4" shape="square"/>
 <text x="5.715" y="-6.985" size="1.27" layer="25">&gt;NAME</text>
 <text x="-10.16" y="-6.985" size="1.27" layer="27">&gt;VALUE</text>
-<hole x="8.4" y="-10.5" drill="3"/>
-<hole x="-8.4" y="-10.5" drill="3"/>
+<hole x="8.4" y="-10.05" drill="3"/>
+<hole x="-8.4" y="-10.05" drill="3"/>
 </package>
-<package name="7792" urn="urn:adsk.eagle:footprint:14511283/1" locally_modified="yes" library_version="26" library_locally_modified="yes">
+<package name="7792" urn="urn:adsk.eagle:footprint:14511283/2" library_version="28" library_locally_modified="yes">
 <wire x1="0" y1="10.08" x2="7.5" y2="10.08" width="0.127" layer="21"/>
 <pad name="P$1" x="0" y="5.08" drill="1.905" shape="square"/>
 <pad name="P$2" x="7.62" y="5.08" drill="1.905" shape="square"/>
@@ -12700,18 +12709,18 @@ by exp-lbrs.ulp</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="15-24-6100" urn="urn:adsk.eagle:package:14396594/2" type="model" library_version="5" library_locally_modified="yes">
+<package3d name="15-24-6100" urn="urn:adsk.eagle:package:14396594/2" type="model" library_version="28" library_locally_modified="yes">
 <description>&lt;b&gt;Mini-Fit Jr.™ Vertical Header, 4.20mm Pitch, Dual Row, 10 Circuits, without Snap-in Plastic Peg PCB Lock, Tin, Natural&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/039281103_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
 <packageinstances>
 <packageinstance name="15-24-6100"/>
 </packageinstances>
 </package3d>
-<package3d name="7792" urn="urn:adsk.eagle:package:14511284/3" type="model" library_version="26" library_locally_modified="yes">
+<package3d name="7792" urn="urn:adsk.eagle:package:14511284/4" type="model" library_version="28" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="7792"/>
 </packageinstances>
 </package3d>
-<package3d name="3568" urn="urn:adsk.eagle:package:13209504/1" type="box" library_version="14" library_locally_modified="yes">
+<package3d name="3568" urn="urn:adsk.eagle:package:13209504/2" type="model" library_version="28" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="3568"/>
 </packageinstances>
@@ -12773,7 +12782,7 @@ by exp-lbrs.ulp</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="15-24-6100" urn="urn:adsk.eagle:component:14396603/2" library_version="5" library_locally_modified="yes">
+<deviceset name="15-24-6100" urn="urn:adsk.eagle:component:14396603/2" library_version="28" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="CON-2X05" x="-2.54" y="0"/>
 </gates>
@@ -12800,14 +12809,14 @@ by exp-lbrs.ulp</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="7792" urn="urn:adsk.eagle:component:14511285/3" library_version="26" library_locally_modified="yes">
+<deviceset name="7792" urn="urn:adsk.eagle:component:14511285/4" library_version="28" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="7792" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="7792">
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:14511284/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14511284/4"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -12815,7 +12824,7 @@ by exp-lbrs.ulp</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="3568FUSEHOLDER" urn="urn:adsk.eagle:component:13209928/1" library_version="14" library_locally_modified="yes">
+<deviceset name="3568FUSEHOLDER" urn="urn:adsk.eagle:component:13209928/2" library_version="28" library_locally_modified="yes">
 <description>3568 20AMP 500VAC</description>
 <gates>
 <gate name="G$1" symbol="FUSED" x="-12.7" y="5.08"/>
@@ -12829,7 +12838,7 @@ by exp-lbrs.ulp</description>
 <connect gate="G$1" pin="2B" pad="R2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13209504/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13209504/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -12898,10 +12907,10 @@ by exp-lbrs.ulp</description>
 <part name="U$2" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="15-24-6100" device="" package3d_urn="urn:adsk.eagle:package:14396594/2"/>
 <part name="U$1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="15-24-6100" device="" package3d_urn="urn:adsk.eagle:package:14396594/2"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="7792" device="" package3d_urn="urn:adsk.eagle:package:14511284/3"/>
-<part name="U$4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="7792" device="" package3d_urn="urn:adsk.eagle:package:14511284/3"/>
+<part name="U$3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="7792" device="" package3d_urn="urn:adsk.eagle:package:14511284/4"/>
+<part name="U$4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="7792" device="" package3d_urn="urn:adsk.eagle:package:14511284/4"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="U$5" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="3568FUSEHOLDER" device="" package3d_urn="urn:adsk.eagle:package:13209504/1"/>
+<part name="U$5" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="3568FUSEHOLDER" device="" package3d_urn="urn:adsk.eagle:package:13209504/2"/>
 <part name="P-1" library="Main" library_urn="urn:adsk.eagle:library:14107900" deviceset="V-" device=""/>
 <part name="P+1" library="Main" library_urn="urn:adsk.eagle:library:14107900" deviceset="V+" device=""/>
 </parts>

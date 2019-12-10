@@ -21380,12 +21380,12 @@ Source: VISHAY wscwsn.pdf</description>
 <part name="P+4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" deviceset="V+" device=""/>
 <part name="P-2" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" deviceset="V-" device=""/>
 <part name="GND5" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
-<part name="LED1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
+<part name="LED1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="R4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1"/>
 <part name="P+5" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="+12V" device=""/>
 <part name="GND1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
 <part name="U$8" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="VICOR_DCM_CHIP" device="" package3d_urn="urn:adsk.eagle:package:13209498/4"/>
-<part name="LED2" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
+<part name="LED2" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="R5" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1"/>
 <part name="GND7" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
 <part name="P+7" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" deviceset="+12V" device=""/>
@@ -21396,7 +21396,7 @@ Source: VISHAY wscwsn.pdf</description>
 <part name="GND4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
 <part name="OK3" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="LTV816" device="" package3d_urn="urn:adsk.eagle:package:21938/1"/>
 <part name="R16" library="Main" library_urn="urn:adsk.eagle:library:14107900" deviceset="R-US_" device="R2010" package3d_urn="urn:adsk.eagle:package:14108443/1" value="200"/>
-<part name="LED3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
+<part name="LED3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="R6" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1"/>
 <part name="GND8" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
 <part name="U$13" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="39-28-1103" device="" package3d_urn="urn:adsk.eagle:package:14745616/3"/>
@@ -21417,6 +21417,8 @@ Source: VISHAY wscwsn.pdf</description>
 <part name="R10" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R2512" package3d_urn="urn:adsk.eagle:package:13209595/1" value="CRM2512-JW-102ELF"/>
 <part name="P-3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" deviceset="V-" device=""/>
 <part name="P+8" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" deviceset="V+" device=""/>
+<part name="LED4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
+<part name="R11" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -21653,6 +21655,14 @@ allow DCDC to deliver current</text>
 <instance part="P+8" gate="1" x="83.82" y="175.26" smashed="yes">
 <attribute name="VALUE" x="81.28" y="172.72" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="LED4" gate="G$1" x="73.66" y="185.42" smashed="yes" rot="R270">
+<attribute name="NAME" x="69.088" y="181.864" size="1.778" layer="95"/>
+<attribute name="VALUE" x="69.088" y="179.705" size="1.778" layer="96"/>
+</instance>
+<instance part="R11" gate="G$1" x="62.23" y="185.42" smashed="yes">
+<attribute name="NAME" x="58.42" y="186.9186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="58.42" y="182.118" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -21797,7 +21807,8 @@ allow DCDC to deliver current</text>
 <pinref part="P-1" gate="1" pin="V-"/>
 <wire x1="16.51" y1="196.85" x2="16.51" y2="181.61" width="0.1524" layer="91"/>
 <pinref part="CFILTER_1" gate="G$1" pin="2"/>
-<wire x1="16.51" y1="196.85" x2="74.93" y2="196.85" width="0.1524" layer="91"/>
+<wire x1="16.51" y1="196.85" x2="53.34" y2="196.85" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="196.85" x2="74.93" y2="196.85" width="0.1524" layer="91"/>
 <wire x1="74.93" y1="196.85" x2="83.82" y2="196.85" width="0.1524" layer="91"/>
 <wire x1="74.93" y1="209.55" x2="74.93" y2="196.85" width="0.1524" layer="91"/>
 <junction x="74.93" y="196.85"/>
@@ -21813,6 +21824,10 @@ allow DCDC to deliver current</text>
 <wire x1="106.68" y1="177.8" x2="90.17" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="90.17" y1="177.8" x2="90.17" y2="196.85" width="0.1524" layer="91"/>
 <junction x="90.17" y="196.85"/>
+<pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="57.15" y1="185.42" x2="53.34" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="185.42" x2="53.34" y2="196.85" width="0.1524" layer="91"/>
+<junction x="53.34" y="196.85"/>
 </segment>
 <segment>
 <pinref part="U$9" gate="G$1" pin="6"/>
@@ -22119,6 +22134,11 @@ allow DCDC to deliver current</text>
 <wire x1="93.98" y1="207.01" x2="100.33" y2="207.01" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="194.31" x2="93.98" y2="207.01" width="0.1524" layer="91"/>
+<pinref part="LED4" gate="G$1" pin="A"/>
+<wire x1="76.2" y1="185.42" x2="86.36" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="185.42" x2="86.36" y2="207.01" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="207.01" x2="93.98" y2="207.01" width="0.1524" layer="91"/>
+<junction x="93.98" y="207.01"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -22187,6 +22207,13 @@ allow DCDC to deliver current</text>
 <pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="67.31" y1="171.45" x2="69.85" y2="171.45" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="LED4" gate="G$1" pin="C"/>
+<wire x1="67.31" y1="185.42" x2="68.58" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

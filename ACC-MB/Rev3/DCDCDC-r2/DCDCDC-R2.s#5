@@ -21758,7 +21758,7 @@ allow DCDC to deliver current</text>
 <wire x1="171.45" y1="99.06" x2="168.91" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="V-" class="0">
+<net name="V-" class="1">
 <segment>
 <pinref part="P-1" gate="1" pin="V-"/>
 <wire x1="16.51" y1="196.85" x2="16.51" y2="181.61" width="0.1524" layer="91"/>

@@ -12664,7 +12664,7 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <description>Generated from &lt;b&gt;ACC-MB-R0.sch&lt;/b&gt;&lt;p&gt;
 by exp-lbrs.ulp</description>
 <packages>
-<package name="15-24-6100" urn="urn:adsk.eagle:footprint:14396585/1" locally_modified="yes" library_version="28" library_locally_modified="yes">
+<package name="15-24-6100" urn="urn:adsk.eagle:footprint:14396585/2" library_version="30" library_locally_modified="yes">
 <description>&lt;b&gt;Mini-Fit Jr.™ Vertical Header, 4.20mm Pitch, Dual Row, 10 Circuits, without Snap-in Plastic Peg PCB Lock, Tin, Natural&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/039281103_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
 <wire x1="-11" y1="4.5" x2="11" y2="4.5" width="0.254" layer="21"/>
 <wire x1="11" y1="4.5" x2="11" y2="-2.2" width="0.254" layer="21"/>
@@ -15316,7 +15316,7 @@ Source: VISHAY wscwsn.pdf</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="15-24-6100" urn="urn:adsk.eagle:package:14396594/2" type="model" library_version="28" library_locally_modified="yes">
+<package3d name="15-24-6100" urn="urn:adsk.eagle:package:14396594/3" type="model" library_version="30" library_locally_modified="yes">
 <description>&lt;b&gt;Mini-Fit Jr.™ Vertical Header, 4.20mm Pitch, Dual Row, 10 Circuits, without Snap-in Plastic Peg PCB Lock, Tin, Natural&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/039281103_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
 <packageinstances>
 <packageinstance name="15-24-6100"/>
@@ -16316,7 +16316,7 @@ Source: VISHAY wscwsn.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="15-24-6100" urn="urn:adsk.eagle:component:14396603/2" library_version="28" library_locally_modified="yes">
+<deviceset name="15-24-6100" urn="urn:adsk.eagle:component:14396603/3" library_version="30" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="CON-2X05" x="-2.54" y="0"/>
 </gates>
@@ -16335,7 +16335,7 @@ Source: VISHAY wscwsn.pdf</description>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:14396594/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14396594/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -18195,8 +18195,8 @@ Source: www.kingbright.com</description>
 <part name="P+9" library="Main" library_urn="urn:adsk.eagle:library:14107900" deviceset="V+" device=""/>
 <part name="P-2" library="Main" library_urn="urn:adsk.eagle:library:14107900" deviceset="V-" device=""/>
 <part name="P-4" library="Main" library_urn="urn:adsk.eagle:library:14107900" deviceset="V-" device=""/>
-<part name="U$2" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="15-24-6100" device="" package3d_urn="urn:adsk.eagle:package:14396594/2"/>
-<part name="U$1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="15-24-6100" device="" package3d_urn="urn:adsk.eagle:package:14396594/2"/>
+<part name="U$2" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="15-24-6100" device="" package3d_urn="urn:adsk.eagle:package:14396594/3"/>
+<part name="U$1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="15-24-6100" device="" package3d_urn="urn:adsk.eagle:package:14396594/3"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="7792" device="" package3d_urn="urn:adsk.eagle:package:14511284/4"/>
 <part name="U$4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="7792" device="" package3d_urn="urn:adsk.eagle:package:14511284/4"/>

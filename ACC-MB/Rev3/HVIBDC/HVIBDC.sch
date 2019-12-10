@@ -12697,16 +12697,6 @@ by exp-lbrs.ulp</description>
 <pad name="P$3" x="7.62" y="0" drill="1.905" shape="square"/>
 <pad name="P$4" x="0" y="0" drill="1.905" shape="square"/>
 </package>
-<package name="3568" urn="urn:adsk.eagle:footprint:13209029/1" library_version="14" library_locally_modified="yes">
-<wire x1="-3.04" y1="-1.67" x2="-3.04" y2="5.06" width="0.0254" layer="21"/>
-<wire x1="-3.04" y1="5.06" x2="12.96" y2="5.06" width="0.0254" layer="21"/>
-<wire x1="12.96" y1="5.06" x2="12.96" y2="-1.67" width="0.0254" layer="21"/>
-<wire x1="12.96" y1="-1.67" x2="-3.04" y2="-1.67" width="0.0254" layer="21"/>
-<pad name="L1" x="0" y="3.4" drill="1.6" shape="square"/>
-<pad name="L2" x="0" y="0" drill="1.6" shape="square"/>
-<pad name="R1" x="9.94" y="3.4" drill="1.6" shape="square"/>
-<pad name="R2" x="9.92" y="0" drill="1.6" shape="square"/>
-</package>
 <package name="1206" urn="urn:adsk.eagle:footprint:15651/1" library_version="13">
 <description>&lt;b&gt;CHICAGO MINIATURE LAMP, INC.&lt;/b&gt;&lt;p&gt;
 7022X Series SMT LEDs 1206 Package Size</description>
@@ -15327,11 +15317,6 @@ Source: VISHAY wscwsn.pdf</description>
 <packageinstance name="7792"/>
 </packageinstances>
 </package3d>
-<package3d name="3568" urn="urn:adsk.eagle:package:13209504/2" type="model" library_version="28" library_locally_modified="yes">
-<packageinstances>
-<packageinstance name="3568"/>
-</packageinstances>
-</package3d>
 <package3d name="1206" urn="urn:adsk.eagle:package:15796/1" type="box" library_version="13">
 <description>CHICAGO MINIATURE LAMP, INC.
 7022X Series SMT LEDs 1206 Package Size</description>
@@ -16351,28 +16336,6 @@ Source: VISHAY wscwsn.pdf</description>
 <device name="" package="7792">
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:14511284/4"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="3568FUSEHOLDER" urn="urn:adsk.eagle:component:13209928/2" library_version="28" library_locally_modified="yes">
-<description>3568 20AMP 500VAC</description>
-<gates>
-<gate name="G$1" symbol="FUSED" x="-12.7" y="5.08"/>
-</gates>
-<devices>
-<device name="" package="3568">
-<connects>
-<connect gate="G$1" pin="1A" pad="L1"/>
-<connect gate="G$1" pin="1B" pad="L2"/>
-<connect gate="G$1" pin="2A" pad="R1"/>
-<connect gate="G$1" pin="2B" pad="R2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13209504/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -18201,16 +18164,15 @@ Source: www.kingbright.com</description>
 <part name="U$3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="7792" device="" package3d_urn="urn:adsk.eagle:package:14511284/4"/>
 <part name="U$4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="7792" device="" package3d_urn="urn:adsk.eagle:package:14511284/4"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="U$5" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="3568FUSEHOLDER" device="" package3d_urn="urn:adsk.eagle:package:13209504/2"/>
 <part name="P-1" library="Main" library_urn="urn:adsk.eagle:library:14107900" deviceset="V-" device=""/>
 <part name="P+1" library="Main" library_urn="urn:adsk.eagle:library:14107900" deviceset="V+" device=""/>
-<part name="PRECHAGE" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
+<part name="ACC" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="LEDR3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1"/>
-<part name="PRECHAGE1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
+<part name="GREEN" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="LEDR1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1"/>
-<part name="PRECHAGE2" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
+<part name="RED" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="LEDR2" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1"/>
-<part name="PRECHAGE3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
+<part name="PWR" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="LEDR4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1"/>
 <part name="GND9" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
 <part name="D2" library="Main" library_urn="urn:adsk.eagle:library:14107900" deviceset="ZENER-DIODE" device="ZD-12.5" package3d_urn="urn:adsk.eagle:package:14108522/1" value="1N4758A - 56Vz"/>
@@ -18448,17 +18410,13 @@ and supply current regulator</text>
 <instance part="P+5" gate="1" x="358.14" y="91.44" smashed="yes">
 <attribute name="VALUE" x="355.6" y="93.98" size="1.778" layer="96"/>
 </instance>
-<instance part="U$5" gate="G$1" x="358.14" y="76.2" smashed="yes" rot="R90">
-<attribute name="NAME" x="356.743" y="72.39" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="361.061" y="72.39" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="P-1" gate="1" x="91.44" y="207.01" smashed="yes">
 <attribute name="VALUE" x="86.36" y="209.55" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="P+1" gate="1" x="67.31" y="224.79" smashed="yes">
 <attribute name="VALUE" x="64.77" y="222.25" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="PRECHAGE" gate="G$1" x="340.36" y="110.49" smashed="yes">
+<instance part="ACC" gate="G$1" x="340.36" y="110.49" smashed="yes">
 <attribute name="NAME" x="343.916" y="105.918" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="346.075" y="105.918" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -18466,7 +18424,7 @@ and supply current regulator</text>
 <attribute name="NAME" x="338.8614" y="92.71" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="343.662" y="92.71" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="PRECHAGE1" gate="G$1" x="332.74" y="110.49" smashed="yes">
+<instance part="GREEN" gate="G$1" x="332.74" y="110.49" smashed="yes">
 <attribute name="NAME" x="336.296" y="105.918" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="338.455" y="105.918" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -18474,7 +18432,7 @@ and supply current regulator</text>
 <attribute name="NAME" x="331.2414" y="92.71" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="336.042" y="92.71" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="PRECHAGE2" gate="G$1" x="325.12" y="110.49" smashed="yes">
+<instance part="RED" gate="G$1" x="325.12" y="110.49" smashed="yes">
 <attribute name="NAME" x="328.676" y="105.918" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="330.835" y="105.918" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -18482,7 +18440,7 @@ and supply current regulator</text>
 <attribute name="NAME" x="323.6214" y="92.71" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="328.422" y="92.71" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="PRECHAGE3" gate="G$1" x="370.84" y="60.96" smashed="yes">
+<instance part="PWR" gate="G$1" x="370.84" y="60.96" smashed="yes">
 <attribute name="NAME" x="374.396" y="56.388" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="376.555" y="56.388" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -18747,22 +18705,17 @@ and supply current regulator</text>
 </segment>
 <segment>
 <pinref part="P+5" gate="1" pin="+12V"/>
-<pinref part="U$5" gate="G$1" pin="2B"/>
-<pinref part="U$5" gate="G$1" pin="2A"/>
-<wire x1="358.14" y1="78.74" x2="358.14" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="358.14" y1="81.28" x2="358.14" y2="83.82" width="0.1524" layer="91"/>
-<junction x="358.14" y="81.28"/>
-<pinref part="PRECHAGE3" gate="G$1" pin="A"/>
+<pinref part="PWR" gate="G$1" pin="A"/>
 <wire x1="358.14" y1="83.82" x2="358.14" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="63.5" x2="370.84" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="83.82" x2="358.14" y2="83.82" width="0.1524" layer="91"/>
 <junction x="358.14" y="83.82"/>
-<pinref part="PRECHAGE2" gate="G$1" pin="A"/>
+<pinref part="RED" gate="G$1" pin="A"/>
 <wire x1="325.12" y1="113.03" x2="325.12" y2="115.57" width="0.1524" layer="91"/>
-<pinref part="PRECHAGE1" gate="G$1" pin="A"/>
+<pinref part="GREEN" gate="G$1" pin="A"/>
 <wire x1="332.74" y1="113.03" x2="332.74" y2="115.57" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="115.57" x2="332.74" y2="115.57" width="0.1524" layer="91"/>
-<pinref part="PRECHAGE" gate="G$1" pin="A"/>
+<pinref part="ACC" gate="G$1" pin="A"/>
 <wire x1="340.36" y1="113.03" x2="340.36" y2="115.57" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="115.57" x2="340.36" y2="115.57" width="0.1524" layer="91"/>
 <junction x="332.74" y="115.57"/>
@@ -18770,6 +18723,17 @@ and supply current regulator</text>
 <wire x1="370.84" y1="115.57" x2="370.84" y2="83.82" width="0.1524" layer="91"/>
 <junction x="340.36" y="115.57"/>
 <junction x="370.84" y="83.82"/>
+<wire x1="358.14" y1="62.23" x2="358.14" y2="64.77" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="8"/>
+<wire x1="358.14" y1="64.77" x2="358.14" y2="67.31" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="62.23" x2="358.14" y2="62.23" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="9"/>
+<wire x1="342.9" y1="64.77" x2="358.14" y2="64.77" width="0.1524" layer="91"/>
+<junction x="358.14" y="64.77"/>
+<pinref part="U$2" gate="G$1" pin="10"/>
+<wire x1="342.9" y1="67.31" x2="358.14" y2="67.31" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="83.82" x2="358.14" y2="67.31" width="0.1524" layer="91"/>
+<junction x="358.14" y="67.31"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -19001,50 +18965,31 @@ and supply current regulator</text>
 <junction x="83.82" y="209.55"/>
 </segment>
 </net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="U$5" gate="G$1" pin="1B"/>
-<pinref part="U$5" gate="G$1" pin="1A"/>
-<wire x1="358.14" y1="73.66" x2="358.14" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="358.14" y1="62.23" x2="358.14" y2="64.77" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="8"/>
-<wire x1="358.14" y1="64.77" x2="358.14" y2="67.31" width="0.1524" layer="91"/>
-<wire x1="342.9" y1="62.23" x2="358.14" y2="62.23" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="9"/>
-<wire x1="342.9" y1="64.77" x2="358.14" y2="64.77" width="0.1524" layer="91"/>
-<junction x="358.14" y="64.77"/>
-<pinref part="U$2" gate="G$1" pin="10"/>
-<wire x1="342.9" y1="67.31" x2="358.14" y2="67.31" width="0.1524" layer="91"/>
-<wire x1="358.14" y1="71.12" x2="358.14" y2="67.31" width="0.1524" layer="91"/>
-<junction x="358.14" y="71.12"/>
-<junction x="358.14" y="67.31"/>
-</segment>
-</net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="LEDR3" gate="G$1" pin="2"/>
-<pinref part="PRECHAGE" gate="G$1" pin="C"/>
+<pinref part="ACC" gate="G$1" pin="C"/>
 <wire x1="340.36" y1="101.6" x2="340.36" y2="105.41" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="LEDR1" gate="G$1" pin="2"/>
-<pinref part="PRECHAGE1" gate="G$1" pin="C"/>
+<pinref part="GREEN" gate="G$1" pin="C"/>
 <wire x1="332.74" y1="101.6" x2="332.74" y2="105.41" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
 <pinref part="LEDR2" gate="G$1" pin="2"/>
-<pinref part="PRECHAGE2" gate="G$1" pin="C"/>
+<pinref part="RED" gate="G$1" pin="C"/>
 <wire x1="325.12" y1="101.6" x2="325.12" y2="105.41" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="LEDR4" gate="G$1" pin="2"/>
-<pinref part="PRECHAGE3" gate="G$1" pin="C"/>
+<pinref part="PWR" gate="G$1" pin="C"/>
 <wire x1="370.84" y1="52.07" x2="370.84" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>

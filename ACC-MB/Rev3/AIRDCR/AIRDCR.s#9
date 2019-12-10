@@ -169,13 +169,13 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="ACC-MB-R0">
+<library name="ACC-MB-R0" urn="urn:adsk.eagle:library:14751935">
 <description>Generated from &lt;b&gt;ACC-MB-R0.sch&lt;/b&gt;&lt;p&gt;
 by exp-lbrs.ulp</description>
 <packages>
 </packages>
 <symbols>
-<symbol name="A3L-LOC">
+<symbol name="A3L-LOC" urn="urn:adsk.eagle:symbol:13324961/1" library_version="1">
 <wire x1="288.29" y1="3.81" x2="342.265" y2="3.81" width="0.1016" layer="94"/>
 <wire x1="342.265" y1="3.81" x2="373.38" y2="3.81" width="0.1016" layer="94"/>
 <wire x1="373.38" y1="3.81" x2="383.54" y2="3.81" width="0.1016" layer="94"/>
@@ -203,7 +203,7 @@ by exp-lbrs.ulp</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="A3L-LOC" prefix="FRAME" uservalue="yes">
+<deviceset name="A3L-LOC" urn="urn:adsk.eagle:component:13325014/1" prefix="FRAME" uservalue="yes" library_version="1">
 <description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
 DIN A3, landscape with location and doc. field</description>
 <gates>
@@ -223,7 +223,7 @@ DIN A3, landscape with location and doc. field</description>
 <description>Generated from &lt;b&gt;ACC-MB-R0.sch&lt;/b&gt;&lt;p&gt;
 by exp-lbrs.ulp</description>
 <packages>
-<package name="15-24-6100" urn="urn:adsk.eagle:footprint:14396585/1" library_version="5" library_locally_modified="yes">
+<package name="15-24-6100" urn="urn:adsk.eagle:footprint:14396585/1" locally_modified="yes" library_version="28" library_locally_modified="yes">
 <description>&lt;b&gt;Mini-Fit Jr.™ Vertical Header, 4.20mm Pitch, Dual Row, 10 Circuits, without Snap-in Plastic Peg PCB Lock, Tin, Natural&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/039281103_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
 <wire x1="-11" y1="4.5" x2="11" y2="4.5" width="0.254" layer="21"/>
 <wire x1="11" y1="4.5" x2="11" y2="-2.2" width="0.254" layer="21"/>
@@ -246,8 +246,8 @@ by exp-lbrs.ulp</description>
 <pad name="6" x="8.4" y="2.75" drill="1.4" shape="square"/>
 <text x="5.715" y="-6.985" size="1.27" layer="25">&gt;NAME</text>
 <text x="-10.16" y="-6.985" size="1.27" layer="27">&gt;VALUE</text>
-<hole x="8.4" y="-10.5" drill="3"/>
-<hole x="-8.4" y="-10.5" drill="3"/>
+<hole x="8.4" y="-10.05" drill="3"/>
+<hole x="-8.4" y="-10.05" drill="3"/>
 </package>
 <package name="5566-4" urn="urn:adsk.eagle:footprint:14396876/2" library_version="14" library_locally_modified="yes">
 <description>&lt;b&gt;Mini-Fit Jr.™ Vertical Header, 4.20mm Pitch, Dual Row, 4 Circuits, without Snap-in Plastic Peg PCB Lock, Tin, Natural&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/039281043_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
@@ -3081,7 +3081,7 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 <wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
 <hole x="0" y="0" drill="5.5"/>
 </package>
-<package name="7792" urn="urn:adsk.eagle:footprint:14511283/1" locally_modified="yes" library_version="26" library_locally_modified="yes">
+<package name="7792" urn="urn:adsk.eagle:footprint:14511283/2" library_version="28" library_locally_modified="yes">
 <wire x1="0" y1="10.08" x2="7.5" y2="10.08" width="0.127" layer="21"/>
 <pad name="P$1" x="0" y="5.08" drill="1.905" shape="square"/>
 <pad name="P$2" x="7.62" y="5.08" drill="1.905" shape="square"/>
@@ -3090,7 +3090,7 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="15-24-6100" urn="urn:adsk.eagle:package:14396594/2" type="model" library_version="5" library_locally_modified="yes">
+<package3d name="15-24-6100" urn="urn:adsk.eagle:package:14396594/2" type="model" library_version="28" library_locally_modified="yes">
 <description>&lt;b&gt;Mini-Fit Jr.™ Vertical Header, 4.20mm Pitch, Dual Row, 10 Circuits, without Snap-in Plastic Peg PCB Lock, Tin, Natural&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/039281103_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
 <packageinstances>
 <packageinstance name="15-24-6100"/>
@@ -3996,13 +3996,6 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 <packageinstance name="TO-247-2H"/>
 </packageinstances>
 </package3d>
-<package3d name="TO-247-2V" urn="urn:adsk.eagle:package:13209920/1" type="box" library_version="1" library_locally_modified="yes">
-<description>&lt;b&gt;TO-247 Style  Power Package&lt;/b&gt; vertical mounting&lt;p&gt;
-Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
-<packageinstances>
-<packageinstance name="TO-247-2V"/>
-</packageinstances>
-</package3d>
 <package3d name="GV224" urn="urn:adsk.eagle:package:13209922/3" type="model" library_version="15" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="GV224"/>
@@ -4068,9 +4061,16 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 <packageinstance name="5,5"/>
 </packageinstances>
 </package3d>
-<package3d name="7792" urn="urn:adsk.eagle:package:14511284/3" type="model" library_version="26" library_locally_modified="yes">
+<package3d name="7792" urn="urn:adsk.eagle:package:14511284/4" type="model" library_version="28" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="7792"/>
+</packageinstances>
+</package3d>
+<package3d name="TO-247-2V" urn="urn:adsk.eagle:package:13209920/2" type="model" library_version="28" library_locally_modified="yes">
+<description>&lt;b&gt;TO-247 Style  Power Package&lt;/b&gt; vertical mounting&lt;p&gt;
+Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
+<packageinstances>
+<packageinstance name="TO-247-2V"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -4255,7 +4255,7 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="15-24-6100" urn="urn:adsk.eagle:component:14396603/2" library_version="5" library_locally_modified="yes">
+<deviceset name="15-24-6100" urn="urn:adsk.eagle:component:14396603/2" library_version="28" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="CON-2X05" x="-2.54" y="0"/>
 </gates>
@@ -6072,7 +6072,7 @@ Source: www.kingbright.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="RMG100" urn="urn:adsk.eagle:component:13209958/2" prefix="R" uservalue="yes" library_version="1" library_locally_modified="yes">
+<deviceset name="RMG100" urn="urn:adsk.eagle:component:13209958/3" prefix="R" uservalue="yes" library_version="28" library_locally_modified="yes">
 <description>&lt;b&gt;TO-247 Power Resistor - RMG 100 Series&lt;/b&gt;&lt;p&gt;
 Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 <gates>
@@ -6102,7 +6102,7 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13209920/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13209920/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -6224,14 +6224,14 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="7792" urn="urn:adsk.eagle:component:14511285/3" library_version="26" library_locally_modified="yes">
+<deviceset name="7792" urn="urn:adsk.eagle:component:14511285/4" library_version="28" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="7792" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="7792">
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:14511284/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14511284/4"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -6456,17 +6456,16 @@ by exp-lbrs.ulp</description>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0.2" drill="0">
-<clearance class="0" value="0.1524"/>
+<clearance class="0" value="0.2"/>
 </class>
-<class number="1" name="LV" width="0" drill="0">
-<clearance class="1" value="0.0005"/>
-</class>
-<class number="2" name="HV" width="0" drill="0">
-<clearance class="2" value="2.5"/>
+<class number="2" name="HV" width="1.27" drill="0">
+<clearance class="0" value="0.75"/>
+<clearance class="1" value="0.75"/>
+<clearance class="2" value="0.75"/>
 </class>
 </classes>
 <parts>
-<part name="FRAME3" library="ACC-MB-R0" deviceset="A3L-LOC" device=""/>
+<part name="FRAME3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:14751935" deviceset="A3L-LOC" device=""/>
 <part name="U$1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GV224" device="" package3d_urn="urn:adsk.eagle:package:13209922/3" value="GV245BPB"/>
 <part name="U$3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="15-24-6100" device="" package3d_urn="urn:adsk.eagle:package:14396594/2"/>
 <part name="C1" library="Main" library_urn="urn:adsk.eagle:library:14107900" deviceset="AIR_HOLDUP_CAP" device="" package3d_urn="urn:adsk.eagle:package:14108258/2" value="UPW1E152MHD"/>
@@ -6491,8 +6490,8 @@ by exp-lbrs.ulp</description>
 <part name="H2" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:13209525/1"/>
 <part name="H3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:13209525/1"/>
 <part name="H4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:13209525/1"/>
-<part name="U$5" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="7792" device="" package3d_urn="urn:adsk.eagle:package:14511284/3"/>
-<part name="U$6" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="7792" device="" package3d_urn="urn:adsk.eagle:package:14511284/3"/>
+<part name="U$5" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="7792" device="" package3d_urn="urn:adsk.eagle:package:14511284/4"/>
+<part name="U$6" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="7792" device="" package3d_urn="urn:adsk.eagle:package:14511284/4"/>
 </parts>
 <sheets>
 <sheet>
@@ -6715,7 +6714,7 @@ by exp-lbrs.ulp</description>
 <wire x1="71.12" y1="128.27" x2="71.12" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="HV+_DRY" class="0">
+<net name="HV+_DRY" class="2">
 <segment>
 <wire x1="297.18" y1="167.64" x2="295.91" y2="167.64" width="0.1524" layer="91"/>
 <label x="302.26" y="167.64" size="1.778" layer="95"/>
@@ -6748,7 +6747,7 @@ by exp-lbrs.ulp</description>
 <junction x="223.52" y="116.84"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="N$21" class="2">
 <segment>
 <wire x1="269.24" y1="172.72" x2="264.16" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="COM"/>
@@ -6786,14 +6785,14 @@ by exp-lbrs.ulp</description>
 <wire x1="269.24" y1="146.05" x2="269.24" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="N$8" class="2">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="251.46" y1="172.72" x2="254" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="HV+_WET" class="0">
+<net name="HV+_WET" class="2">
 <segment>
 <pinref part="X13" gate="-3" pin="S"/>
 <pinref part="R7" gate="G$1" pin="1"/>

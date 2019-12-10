@@ -6456,13 +6456,12 @@ by exp-lbrs.ulp</description>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0.2" drill="0">
-<clearance class="0" value="0.1524"/>
+<clearance class="0" value="0.2"/>
 </class>
-<class number="1" name="LV" width="0" drill="0">
-<clearance class="1" value="0.0005"/>
-</class>
-<class number="2" name="HV" width="0" drill="0">
-<clearance class="2" value="2.5"/>
+<class number="2" name="HV" width="1.27" drill="0">
+<clearance class="0" value="1.5"/>
+<clearance class="1" value="1.5"/>
+<clearance class="2" value="1.5"/>
 </class>
 </classes>
 <parts>
@@ -6679,7 +6678,7 @@ by exp-lbrs.ulp</description>
 <wire x1="71.12" y1="128.27" x2="71.12" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="N$21" class="2">
 <segment>
 <wire x1="273.05" y1="172.72" x2="264.16" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="COM"/>
@@ -6697,7 +6696,7 @@ by exp-lbrs.ulp</description>
 <wire x1="269.24" y1="146.05" x2="269.24" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="N$8" class="2">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="R8" gate="G$1" pin="1"/>
@@ -6740,7 +6739,7 @@ by exp-lbrs.ulp</description>
 <label x="55.88" y="139.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="HV-_DRY_AUX" class="0">
+<net name="HV-_DRY_AUX" class="2">
 <segment>
 <pinref part="U$4" gate="G$1" pin="NC"/>
 <wire x1="295.91" y1="172.72" x2="309.88" y2="172.72" width="0.1524" layer="91"/>
@@ -6759,7 +6758,7 @@ by exp-lbrs.ulp</description>
 <wire x1="231.14" y1="101.6" x2="231.14" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="HV-_DRY" class="0">
+<net name="HV-_DRY" class="2">
 <segment>
 <wire x1="226.06" y1="119.38" x2="226.06" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="X13" gate="-2" pin="S"/>
@@ -6785,7 +6784,7 @@ by exp-lbrs.ulp</description>
 <junction x="223.52" y="119.38"/>
 </segment>
 </net>
-<net name="HV+_DRY" class="0">
+<net name="HV+_DRY" class="2">
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="231.14" y1="172.72" x2="241.3" y2="172.72" width="0.1524" layer="91"/>

@@ -6456,13 +6456,12 @@ by exp-lbrs.ulp</description>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0.2" drill="0">
-<clearance class="0" value="0.1524"/>
+<clearance class="0" value="0.2"/>
 </class>
-<class number="1" name="LV" width="0" drill="0">
-<clearance class="1" value="0.0005"/>
-</class>
-<class number="2" name="HV" width="0" drill="0">
-<clearance class="2" value="2.5"/>
+<class number="2" name="HV" width="1.27" drill="0">
+<clearance class="0" value="1.5"/>
+<clearance class="1" value="1.5"/>
+<clearance class="2" value="1.5"/>
 </class>
 </classes>
 <parts>
@@ -6715,7 +6714,7 @@ by exp-lbrs.ulp</description>
 <wire x1="71.12" y1="128.27" x2="71.12" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="HV+_DRY" class="0">
+<net name="HV+_DRY" class="2">
 <segment>
 <wire x1="297.18" y1="167.64" x2="295.91" y2="167.64" width="0.1524" layer="91"/>
 <label x="302.26" y="167.64" size="1.778" layer="95"/>
@@ -6748,7 +6747,7 @@ by exp-lbrs.ulp</description>
 <junction x="223.52" y="116.84"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="N$21" class="2">
 <segment>
 <wire x1="269.24" y1="172.72" x2="264.16" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="COM"/>
@@ -6786,14 +6785,14 @@ by exp-lbrs.ulp</description>
 <wire x1="269.24" y1="146.05" x2="269.24" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="N$8" class="2">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="251.46" y1="172.72" x2="254" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="HV+_WET" class="0">
+<net name="HV+_WET" class="2">
 <segment>
 <pinref part="X13" gate="-3" pin="S"/>
 <pinref part="R7" gate="G$1" pin="1"/>

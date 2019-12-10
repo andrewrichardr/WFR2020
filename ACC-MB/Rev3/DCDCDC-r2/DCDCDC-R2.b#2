@@ -168,7 +168,7 @@
 <layer number="255" name="Accent" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXl1d28yNA" projecturn="a.YnVzaW5lc3M6bXl1d28yNCNEMjAxOTA5MTgyMTU4NTEzMzE" f3durn="urn:adsk.wipprod:dm.lineage:U_-0G6fwRzqBO_3Lu0JAiA" pcbguid="ece931dd-8bcb-4325-baf8-111b939a3e73" lastpulledtime="" lastsyncedchangeguid="e25654b9-1651-571e-a794-eba0714577ed"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXl1d28yNA" projecturn="a.YnVzaW5lc3M6bXl1d28yNCNEMjAxOTA5MTgyMTU4NTEzMzE" f3durn="urn:adsk.wipprod:dm.lineage:U_-0G6fwRzqBO_3Lu0JAiA" pcbguid="ece931dd-8bcb-4325-baf8-111b939a3e73" lastpulledtime="" lastsyncedchangeguid="4671fdbf-8954-3b17-ee34-d8cccc98b9dc"/>
 <plain>
 <wire x1="169" y1="64" x2="3" y2="64" width="0" layer="20"/>
 <wire x1="0" y1="61" x2="0" y2="3" width="0" layer="20"/>
@@ -210,6 +210,7 @@ ENABLED</text>
 <wire x1="169" y1="64" x2="172" y2="61" width="0" layer="20" curve="-90"/>
 <wire x1="172" y1="3" x2="169" y2="0" width="0" layer="20" curve="-90"/>
 <wire x1="3" y1="0" x2="0" y2="3" width="0" layer="20" curve="-90"/>
+<text x="16" y="6" size="1.778" layer="26" rot="MR0">HV-  HV+</text>
 </plain>
 <libraries>
 <library name="ACC-MB-R0" urn="urn:adsk.eagle:library:13324935">
@@ -1448,22 +1449,6 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
-<errors>
-<approved hash="5,1,d22be5ab646c7795"/>
-<approved hash="5,1,d945380aa3e82c4b"/>
-<approved hash="5,1,c81c8c3dee04adaf"/>
-<approved hash="5,1,cd40d1b90a2382e5"/>
-<approved hash="5,1,a22ad5ab38225d95"/>
-<approved hash="5,1,c7a68650b4736da3"/>
-<approved hash="5,1,df4069b88a220e2f"/>
-<approved hash="5,1,641cf83d92de63af"/>
-<approved hash="5,1,ba2be5aaccf81b94"/>
-<approved hash="5,1,9340c9b9ca209e93"/>
-<approved hash="5,1,541c903db24a97ae"/>
-<approved hash="5,1,7ba7b65014725d1c"/>
-<approved hash="5,1,114d58f3647d7bc9"/>
-<approved hash="5,16,114d58f3647d7bc9"/>
-</errors>
 </board>
 </drawing>
 <compatibility>

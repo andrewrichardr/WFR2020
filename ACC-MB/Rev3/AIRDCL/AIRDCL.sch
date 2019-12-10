@@ -6203,12 +6203,12 @@ by exp-lbrs.ulp</description>
 <part name="R1" library="Main" library_urn="urn:adsk.eagle:library:14107900" deviceset="AIR_HOLDUP_RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:14108256/1" value="100R_THT"/>
 <part name="GND1" library="Main" library_urn="urn:adsk.eagle:library:14107900" deviceset="GND" device=""/>
 <part name="X13" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="5566-4" device="" package3d_urn="urn:adsk.eagle:package:14396878/3"/>
-<part name="AIR+EN" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
+<part name="AIR+EN" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="LED_R4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1"/>
 <part name="GND3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
 <part name="GND5" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
 <part name="U$4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="G81C335" device="" package3d_urn="urn:adsk.eagle:package:14396596/2"/>
-<part name="PRECHAGE" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
+<part name="PRECHAGE" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="LEDR3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1"/>
 <part name="GND6" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
 <part name="U$5" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="15-24-6100" device="" package3d_urn="urn:adsk.eagle:package:14396594/3"/>

@@ -18248,6 +18248,7 @@ current across each AIR PN: IXCY10M90S</text>
 <text x="64.77" y="137.16" size="3.81" layer="97">Zener Diode Vz = 60V: 
 when V &gt; 60V, diode will break down 
 and supply current regulator</text>
+<text x="57.15" y="227.33" size="3.81" layer="97">HV Input Connector</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
@@ -18487,19 +18488,10 @@ and supply current regulator</text>
 <segment>
 <pinref part="D4" gate="1" pin="C"/>
 <label x="241.3" y="134.62" size="1.778" layer="95"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="R6" gate="G$1" pin="2"/>
-<junction x="290.83" y="201.93"/>
 <wire x1="231.14" y1="134.62" x2="234.95" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="234.95" y1="134.62" x2="238.76" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="134.62" x2="271.78" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="285.75" y1="201.93" x2="290.83" y2="201.93" width="0.1524" layer="91"/>
-<wire x1="285.75" y1="201.93" x2="271.78" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="134.62" x2="275.59" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="134.62" x2="275.59" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="275.59" y1="134.62" x2="275.59" y2="68.58" width="0.1524" layer="91"/>
-<junction x="271.78" y="134.62"/>
-<pinref part="D1" gate="1" pin="C"/>
-<junction x="285.75" y="201.93"/>
 <pinref part="U$10" gate="G$1" pin="G"/>
 <wire x1="209.55" y1="176.53" x2="209.55" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="209.55" y1="142.24" x2="238.76" y2="142.24" width="0.1524" layer="91"/>
@@ -18508,10 +18500,19 @@ and supply current regulator</text>
 <pinref part="U$15" gate="G$1" pin="CTL"/>
 <pinref part="R19" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="87.63" x2="223.52" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="106.68" x2="233.68" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="106.68" x2="234.95" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="106.68" x2="234.95" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="234.95" y1="106.68" x2="234.95" y2="134.62" width="0.1524" layer="91"/>
 <junction x="234.95" y="134.62"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<junction x="290.83" y="201.93"/>
+<wire x1="285.75" y1="201.93" x2="287.02" y2="201.93" width="0.1524" layer="91"/>
+<pinref part="D1" gate="1" pin="C"/>
+<wire x1="287.02" y1="201.93" x2="290.83" y2="201.93" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="201.93" x2="287.02" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="134.62" x2="275.59" y2="134.62" width="0.1524" layer="91"/>
+<junction x="287.02" y="201.93"/>
+<junction x="275.59" y="134.62"/>
 </segment>
 </net>
 <net name="N$4" class="0">

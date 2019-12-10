@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.25" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -170,10 +170,10 @@
 <board>
 <fusionsync huburn="a.YnVzaW5lc3M6bXl1d28yNA" projecturn="a.YnVzaW5lc3M6bXl1d28yNCNEMjAxOTA5MTgyMTU4NTEzMzE" f3durn="urn:adsk.wipprod:dm.lineage:U_-0G6fwRzqBO_3Lu0JAiA" pcbguid="ece931dd-8bcb-4325-baf8-111b939a3e73" lastpulledtime="" lastsyncedchangeguid="e25654b9-1651-571e-a794-eba0714577ed"/>
 <plain>
-<wire x1="172" y1="64" x2="0" y2="64" width="0" layer="20"/>
-<wire x1="0" y1="64" x2="0" y2="0" width="0" layer="20"/>
-<wire x1="0" y1="0" x2="172" y2="0" width="0" layer="20"/>
-<wire x1="172" y1="0" x2="172" y2="64" width="0" layer="20"/>
+<wire x1="169" y1="64" x2="3" y2="64" width="0" layer="20"/>
+<wire x1="0" y1="61" x2="0" y2="3" width="0" layer="20"/>
+<wire x1="3" y1="0" x2="169" y2="0" width="0" layer="20"/>
+<wire x1="172" y1="3" x2="172" y2="61" width="0" layer="20"/>
 <wire x1="52" y1="-2" x2="52" y2="15" width="4" layer="21"/>
 <dimension x1="50" y1="56" x2="54" y2="56" x3="52" y3="59" textsize="3.81" layer="21"/>
 <text x="23.25" y="60.5" size="2.54" layer="21">HIGH VOLTAGE</text>
@@ -200,6 +200,16 @@ GND</text>
 <wire x1="42" y1="45" x2="44" y2="43" width="4" layer="21"/>
 <wire x1="44" y1="43" x2="52" y2="43" width="4" layer="21"/>
 <text x="98" y="7.25" size="1.778" layer="25">REV3, BUILD1</text>
+<text x="108" y="47.75" size="1.778" layer="25" rot="R90">VICOR
+FAULT</text>
+<text x="113.25" y="45.25" size="1.778" layer="25" rot="R90">DCDC
+OUTPUT</text>
+<text x="128.5" y="41" size="1.778" layer="25" rot="R90">OUTPUT
+ENABLED</text>
+<wire x1="0" y1="61" x2="3" y2="64" width="0" layer="20" curve="-90"/>
+<wire x1="169" y1="64" x2="172" y2="61" width="0" layer="20" curve="-90"/>
+<wire x1="172" y1="3" x2="169" y2="0" width="0" layer="20" curve="-90"/>
+<wire x1="3" y1="0" x2="0" y2="3" width="0" layer="20" curve="-90"/>
 </plain>
 <libraries>
 <library name="ACC-MB-R0" urn="urn:adsk.eagle:library:13324935">
@@ -1242,12 +1252,12 @@ design rules under a new name.</description>
 <wire x1="136" y1="60" x2="137" y2="59" width="0.2" layer="1"/>
 <wire x1="137" y1="59" x2="137" y2="40" width="0.2" layer="1"/>
 <wire x1="137" y1="40" x2="139" y2="38" width="0.2" layer="1"/>
-<wire x1="164" y1="38" x2="170" y2="32" width="0.2" layer="1"/>
+<wire x1="164" y1="38" x2="169.5" y2="32.5" width="0.2" layer="1"/>
 <wire x1="126" y1="56" x2="126" y2="59" width="0.2" layer="1"/>
 <wire x1="139" y1="38" x2="164" y2="38" width="0.2" layer="1"/>
 <contactref element="U$10" pad="6"/>
-<wire x1="170" y1="22.35" x2="169.4" y2="18.29" width="0.2" layer="1"/>
-<wire x1="170" y1="32" x2="170" y2="22.35" width="0.2" layer="1"/>
+<wire x1="169.5" y1="18.966665625" x2="169.4" y2="18.29" width="0.2" layer="1"/>
+<wire x1="169.5" y1="32.5" x2="169.5" y2="18.966665625" width="0.2" layer="1"/>
 <wire x1="123.65" y1="53.6" x2="123.65" y2="54.65" width="0.2" layer="1"/>
 <wire x1="123.65" y1="54.65" x2="124" y2="55" width="0.2" layer="1"/>
 </signal>

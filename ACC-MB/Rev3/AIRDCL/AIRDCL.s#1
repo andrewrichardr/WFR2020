@@ -2880,17 +2880,29 @@ Source: VISHAY wscwsn.pdf</description>
 <wire x1="-2.54" y1="-17.78" x2="-2.54" y2="2.54" width="0.1524" layer="21"/>
 <wire x1="-2.54" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="21"/>
 </package>
-<package name="GV224" urn="urn:adsk.eagle:footprint:13209473/2" library_version="15" library_locally_modified="yes">
+<package name="GV224" urn="urn:adsk.eagle:footprint:13209473/2" locally_modified="yes" library_version="30" library_locally_modified="yes">
 <pad name="X1" x="-4.064" y="0" drill="0.889" diameter="1.524"/>
 <pad name="X2" x="4.064" y="0" drill="0.889" diameter="1.524"/>
 <pad name="T1" x="-8.382" y="37.846" drill="0.889"/>
 <pad name="T2" x="8.382" y="37.846" drill="0.889"/>
 <pad name="NC1" x="0" y="39.37" drill="7.62"/>
 <circle x="0" y="19.05" radius="31.75" width="0.1524" layer="21"/>
-<wire x1="26.67" y1="33.02" x2="26.67" y2="2.54" width="0" layer="46"/>
-<wire x1="26.67" y1="2.54" x2="-26.67" y2="2.54" width="0" layer="46"/>
-<wire x1="-26.67" y1="2.54" x2="-26.67" y2="33.02" width="0" layer="46"/>
-<wire x1="-26.67" y1="33.02" x2="26.67" y2="33.02" width="0" layer="46"/>
+<wire x1="26.67" y1="29.21" x2="26.67" y2="6.35" width="0" layer="46"/>
+<wire x1="22.86" y1="2.54" x2="-22.86" y2="2.54" width="0" layer="46"/>
+<wire x1="-26.67" y1="6.35" x2="-26.67" y2="29.21" width="0" layer="46"/>
+<wire x1="-22.86" y1="33.02" x2="22.86" y2="33.02" width="0" layer="46"/>
+<wire x1="-26.67" y1="29.21" x2="-22.86" y2="33.02" width="0" layer="46" curve="-90"/>
+<wire x1="26.67" y1="29.21" x2="22.86" y2="33.02" width="0" layer="46" curve="90"/>
+<wire x1="-26.67" y1="6.35" x2="-22.86" y2="2.54" width="0" layer="46" curve="112.619865"/>
+<wire x1="26.67" y1="6.35" x2="22.86" y2="2.54" width="0" layer="46" curve="-90"/>
+<wire x1="22.86" y1="33.02" x2="-22.86" y2="33.02" width="0" layer="20"/>
+<wire x1="-26.67" y1="29.21" x2="-26.67" y2="6.35" width="0" layer="20"/>
+<wire x1="-22.86" y1="2.54" x2="22.86" y2="2.54" width="0" layer="20"/>
+<wire x1="26.67" y1="6.35" x2="26.67" y2="29.21" width="0" layer="20"/>
+<wire x1="-26.67" y1="29.21" x2="-22.86" y2="33.02" width="0" layer="20" curve="-90"/>
+<wire x1="26.67" y1="29.21" x2="22.86" y2="33.02" width="0" layer="20" curve="90"/>
+<wire x1="22.86" y1="2.54" x2="26.67" y2="6.35" width="0" layer="20" curve="90"/>
+<wire x1="-22.86" y1="2.54" x2="-26.67" y2="6.35" width="0" layer="20" curve="-90"/>
 </package>
 <package name="7792" urn="urn:adsk.eagle:footprint:14511283/2" library_version="28" library_locally_modified="yes">
 <wire x1="0" y1="10.08" x2="7.5" y2="10.08" width="0.127" layer="21"/>
@@ -3842,7 +3854,7 @@ Source: VISHAY wscwsn.pdf</description>
 <packageinstance name="G81C335"/>
 </packageinstances>
 </package3d>
-<package3d name="GV224" urn="urn:adsk.eagle:package:13209922/3" type="model" library_version="15" library_locally_modified="yes">
+<package3d name="GV224" urn="urn:adsk.eagle:package:13209922/3" type="model" library_version="30" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="GV224"/>
 </packageinstances>
@@ -5863,7 +5875,7 @@ Source: www.kingbright.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="GV224" urn="urn:adsk.eagle:component:13209965/3" library_version="15" library_locally_modified="yes">
+<deviceset name="GV224" urn="urn:adsk.eagle:component:13209965/3" library_version="30" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="GV224" x="0" y="-2.54"/>
 </gates>
