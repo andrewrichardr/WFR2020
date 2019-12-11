@@ -168,7 +168,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXl1d28yNA" projecturn="a.YnVzaW5lc3M6bXl1d28yNCNEMjAxOTA5MTgyMTU4NTEzMzE" f3durn="urn:adsk.wipprod:dm.lineage:txHv4zRRQxyUer1yZgDPag" pcbguid="e2e4a58f-ddc4-4650-9c78-0a33f8b33ada" lastpulledtime="" lastsyncedchangeguid="6ab1e010-90a3-31f4-d981-603ffa2b7e6f"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXl1d28yNA" projecturn="a.YnVzaW5lc3M6bXl1d28yNCNEMjAxOTA5MTgyMTU4NTEzMzE" f3durn="urn:adsk.wipprod:dm.lineage:txHv4zRRQxyUer1yZgDPag" pcbguid="e2e4a58f-ddc4-4650-9c78-0a33f8b33ada" lastpulledtime="" lastsyncedchangeguid="2b692fd4-3b23-8dd5-eae5-650a142b5d34"/>
 <plain>
 <wire x1="3" y1="0" x2="169" y2="0" width="0" layer="20"/>
 <wire x1="0" y1="3" x2="0" y2="61" width="0" layer="20"/>
@@ -198,6 +198,7 @@ VOLTAGE</text>
 <wire x1="169" y1="64" x2="172" y2="61" width="0" layer="20" curve="-90"/>
 <wire x1="172" y1="3" x2="169" y2="0" width="0" layer="20" curve="-90"/>
 <wire x1="3" y1="0" x2="0" y2="3" width="0" layer="20" curve="-90"/>
+<text x="52" y="57" size="1.778" layer="26" rot="MR0">REV3, BUILD1</text>
 </plain>
 <libraries>
 <library name="ACC-MB-R0" urn="urn:adsk.eagle:library:13208985">

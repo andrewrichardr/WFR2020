@@ -6939,11 +6939,11 @@ general purpose rectifier, 1 A</description>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="Main" library_urn="urn:adsk.eagle:library:14107900" deviceset="GND" device=""/>
-<part name="+12V_" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
+<part name="+12V_" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
 <part name="LED_R4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1"/>
 <part name="P+3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="+12V" device=""/>
 <part name="GND4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
-<part name="+12V" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
+<part name="+12V" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
 <part name="LED_R1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1"/>
 <part name="P+6" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="+12V" device=""/>
 <part name="GND9" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
@@ -6954,28 +6954,24 @@ general purpose rectifier, 1 A</description>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$12" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="V23079B1203B301" device="" package3d_urn="urn:adsk.eagle:package:14396595/2"/>
 <part name="U$13" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="V23079B1203B301" device="" package3d_urn="urn:adsk.eagle:package:14396595/2"/>
-<part name="+12V_SAFE" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
+<part name="+12V_SAFE" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
 <part name="LED_R2" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1"/>
 <part name="GND3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
 <part name="GND6" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="PRECHARGE_OK" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
+<part name="PRECHARGE_OK" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
 <part name="LED_R3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1"/>
 <part name="GND15" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
-<part name="AMS_OK" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
-<part name="LED_R6" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1"/>
-<part name="GND18" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
-<part name="EXT1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
+<part name="EXT1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
 <part name="LED_R7" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1"/>
 <part name="GND19" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
-<part name="EXT2" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
+<part name="EXT2" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
 <part name="LED_R8" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1"/>
 <part name="GND20" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
-<part name="EXT_IN" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
+<part name="EXT_IN" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
 <part name="LED_R9" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1"/>
 <part name="GND21" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
 <part name="U$11" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="3568FUSEHOLDER" device="" package3d_urn="urn:adsk.eagle:package:13209504/2"/>
@@ -7005,7 +7001,7 @@ general purpose rectifier, 1 A</description>
 <part name="P+10" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" deviceset="V+" device=""/>
 <part name="P+8" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" deviceset="V+" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="PRECHARGE_EN" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
+<part name="PRECHARGE_EN" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
 <part name="LED_R5" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1"/>
 <part name="GND17" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
 <part name="U$10" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="G5NB-1A-E" device="" package3d_urn="urn:adsk.eagle:package:14745615/2"/>
@@ -7057,6 +7053,17 @@ general purpose rectifier, 1 A</description>
 <part name="INPUT_FUSE3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="_CUSTOM_PARTS_LF_885" device="" package3d_urn="urn:adsk.eagle:package:13209479/3" value="088502.5DR"/>
 <part name="R1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1"/>
 <part name="R2" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1"/>
+<part name="R3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:13209559/1" value="10K"/>
+<part name="R4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:13209559/1" value="2.2K"/>
+<part name="GND23" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
+<part name="T2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="2N2222" device="" package3d_urn="urn:adsk.eagle:package:6240647/1"/>
+<part name="GND24" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
+<part name="AMS_OK" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
+<part name="LED_R6" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1"/>
+<part name="GND18" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="GND" device=""/>
+<part name="P+17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="R5" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1"/>
+<part name="R6" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -8437,9 +8444,6 @@ general purpose rectifier, 1 A</description>
 <instance part="GND13" gate="1" x="-22.86" y="91.44" smashed="yes">
 <attribute name="VALUE" x="-25.4" y="88.9" size="1.778" layer="96"/>
 </instance>
-<instance part="GND14" gate="1" x="68.58" y="76.2" smashed="yes">
-<attribute name="VALUE" x="66.04" y="73.66" size="1.778" layer="96"/>
-</instance>
 <instance part="GND16" gate="1" x="22.86" y="-45.72" smashed="yes">
 <attribute name="VALUE" x="20.32" y="-48.26" size="1.778" layer="96"/>
 </instance>
@@ -8455,17 +8459,6 @@ general purpose rectifier, 1 A</description>
 </instance>
 <instance part="GND15" gate="1" x="50.8" y="-69.85" smashed="yes">
 <attribute name="VALUE" x="48.26" y="-72.39" size="1.778" layer="96"/>
-</instance>
-<instance part="AMS_OK" gate="G$1" x="93.98" y="78.74" smashed="yes">
-<attribute name="NAME" x="97.536" y="74.168" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="99.695" y="74.168" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="LED_R6" gate="G$1" x="93.98" y="64.77" smashed="yes" rot="R90">
-<attribute name="NAME" x="92.4814" y="60.96" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="97.282" y="60.96" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="GND18" gate="1" x="93.98" y="54.61" smashed="yes">
-<attribute name="VALUE" x="91.44" y="52.07" size="1.778" layer="96"/>
 </instance>
 <instance part="EXT1" gate="G$1" x="-5.08" y="91.44" smashed="yes">
 <attribute name="NAME" x="-1.524" y="86.868" size="1.778" layer="95" rot="R90"/>
@@ -8505,8 +8498,8 @@ general purpose rectifier, 1 A</description>
 <attribute name="VALUE" x="-93.98" y="102.489" size="1.778" layer="96"/>
 </instance>
 <instance part="U$9" gate="G$1" x="27.94" y="-40.64" smashed="yes"/>
-<instance part="P+13" gate="1" x="15.24" y="91.44" smashed="yes">
-<attribute name="VALUE" x="12.7" y="86.36" size="1.778" layer="96" rot="R90"/>
+<instance part="P+13" gate="1" x="5.08" y="76.2" smashed="yes">
+<attribute name="VALUE" x="2.54" y="71.12" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND10" gate="1" x="20.32" y="0" smashed="yes">
 <attribute name="VALUE" x="17.78" y="-2.54" size="1.778" layer="96"/>
@@ -8523,6 +8516,46 @@ general purpose rectifier, 1 A</description>
 <attribute name="VALUE" x="45.72" y="-26.67" size="1.778" layer="96"/>
 </instance>
 <instance part="U$10" gate="G$1" x="25.4" y="5.08" smashed="yes"/>
+<instance part="R3" gate="G$1" x="157.48" y="106.68" smashed="yes">
+<attribute name="NAME" x="153.67" y="108.1786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="153.67" y="103.378" size="1.778" layer="96"/>
+</instance>
+<instance part="R4" gate="G$1" x="147.32" y="99.06" smashed="yes" rot="R90">
+<attribute name="NAME" x="145.8214" y="95.25" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="150.622" y="95.25" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND23" gate="1" x="147.32" y="88.9" smashed="yes">
+<attribute name="VALUE" x="144.78" y="86.36" size="1.778" layer="96"/>
+</instance>
+<instance part="T2" gate="G$1" x="177.8" y="106.68" smashed="yes">
+<attribute name="NAME" x="167.64" y="114.3" size="1.778" layer="95"/>
+<attribute name="VALUE" x="167.64" y="111.76" size="1.778" layer="96"/>
+</instance>
+<instance part="GND24" gate="1" x="180.34" y="93.98" smashed="yes">
+<attribute name="VALUE" x="177.8" y="91.44" size="1.778" layer="96"/>
+</instance>
+<instance part="AMS_OK" gate="G$1" x="134.62" y="99.06" smashed="yes">
+<attribute name="NAME" x="138.176" y="94.488" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="140.335" y="94.488" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="LED_R6" gate="G$1" x="134.62" y="85.09" smashed="yes" rot="R90">
+<attribute name="NAME" x="133.1214" y="81.28" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="137.922" y="81.28" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND18" gate="1" x="134.62" y="74.93" smashed="yes">
+<attribute name="VALUE" x="132.08" y="72.39" size="1.778" layer="96"/>
+</instance>
+<instance part="P+17" gate="1" x="76.2" y="76.2" smashed="yes">
+<attribute name="VALUE" x="73.66" y="71.12" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R5" gate="G$1" x="12.7" y="76.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="11.2014" y="72.39" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="16.002" y="72.39" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R6" gate="G$1" x="68.58" y="76.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="67.0814" y="72.39" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="71.882" y="72.39" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8544,10 +8577,20 @@ general purpose rectifier, 1 A</description>
 <junction x="-104.14" y="106.68"/>
 </segment>
 <segment>
-<pinref part="U$12" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="86.36" x2="15.24" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="71.12" x2="12.7" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="68.58" x2="7.62" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="68.58" x2="7.62" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="P+13" gate="1" pin="+12V"/>
-<wire x1="15.24" y1="86.36" x2="15.24" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="73.66" x2="5.08" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="71.12" x2="7.62" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+17" gate="1" pin="+12V"/>
+<wire x1="76.2" y1="73.66" x2="76.2" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="68.58" x2="68.58" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="68.58" y1="68.58" x2="68.58" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -8564,12 +8607,6 @@ general purpose rectifier, 1 A</description>
 <pinref part="GND13" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="GND14" gate="1" pin="GND"/>
-<wire x1="68.58" y1="78.74" x2="68.58" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="U$13" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="86.36" x2="71.12" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="GND16" gate="1" pin="GND"/>
 <wire x1="22.86" y1="-40.64" x2="22.86" y2="-43.18" width="0.1524" layer="91"/>
 <pinref part="U$9" gate="G$1" pin="COIL+"/>
@@ -8579,11 +8616,6 @@ general purpose rectifier, 1 A</description>
 <pinref part="GND15" gate="1" pin="GND"/>
 <pinref part="LED_R3" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="-67.31" x2="50.8" y2="-64.77" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND18" gate="1" pin="GND"/>
-<pinref part="LED_R6" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="57.15" x2="93.98" y2="59.69" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND19" gate="1" pin="GND"/>
@@ -8610,6 +8642,21 @@ general purpose rectifier, 1 A</description>
 <pinref part="GND17" gate="1" pin="GND"/>
 <pinref part="LED_R5" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="-21.59" x2="48.26" y2="-19.05" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND23" gate="1" pin="GND"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="147.32" y1="91.44" x2="147.32" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND24" gate="1" pin="GND"/>
+<pinref part="T2" gate="G$1" pin="E"/>
+<wire x1="180.34" y1="96.52" x2="180.34" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND18" gate="1" pin="GND"/>
+<pinref part="LED_R6" gate="G$1" pin="1"/>
+<wire x1="134.62" y1="77.47" x2="134.62" y2="80.01" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SAF_MAIN" class="0">
@@ -8648,13 +8695,17 @@ general purpose rectifier, 1 A</description>
 </net>
 <net name="AMS_OK" class="0">
 <segment>
-<wire x1="106.68" y1="86.36" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
-<label x="93.98" y="86.36" size="1.778" layer="95"/>
-<pinref part="U$13" gate="G$1" pin="12"/>
+<wire x1="106.68" y1="106.68" x2="134.62" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="134.62" y1="106.68" x2="147.32" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="106.68" x2="152.4" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="104.14" x2="147.32" y2="106.68" width="0.1524" layer="91"/>
+<junction x="147.32" y="106.68"/>
+<label x="106.68" y="106.68" size="1.778" layer="95"/>
 <pinref part="AMS_OK" gate="G$1" pin="A"/>
-<wire x1="93.98" y1="86.36" x2="91.44" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="81.28" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
-<junction x="93.98" y="86.36"/>
+<wire x1="134.62" y1="101.6" x2="134.62" y2="106.68" width="0.1524" layer="91"/>
+<junction x="134.62" y="106.68"/>
 </segment>
 </net>
 <net name="PRECHARGE_OK" class="0">
@@ -8713,13 +8764,6 @@ general purpose rectifier, 1 A</description>
 <pinref part="LED_R3" gate="G$1" pin="2"/>
 <pinref part="PRECHARGE_OK" gate="G$1" pin="C"/>
 <wire x1="50.8" y1="-54.61" x2="50.8" y2="-50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="LED_R6" gate="G$1" pin="2"/>
-<pinref part="AMS_OK" gate="G$1" pin="C"/>
-<wire x1="93.98" y1="69.85" x2="93.98" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EXT1" class="0">
@@ -8819,6 +8863,49 @@ general purpose rectifier, 1 A</description>
 <wire x1="-60.96" y1="106.68" x2="-60.96" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="-60.96" y1="134.62" x2="-38.1" y2="134.62" width="0.1524" layer="91"/>
 <label x="-48.26" y="134.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="162.56" y1="106.68" x2="175.26" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="T2" gate="G$1" pin="B"/>
+</segment>
+</net>
+<net name="AMS_OK_GND" class="0">
+<segment>
+<pinref part="T2" gate="G$1" pin="C"/>
+<wire x1="180.34" y1="111.76" x2="180.34" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="114.3" x2="193.04" y2="114.3" width="0.1524" layer="91"/>
+<label x="180.34" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$13" gate="G$1" pin="12"/>
+<wire x1="91.44" y1="86.36" x2="104.14" y2="86.36" width="0.1524" layer="91"/>
+<label x="93.98" y="86.36" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="LED_R6" gate="G$1" pin="2"/>
+<pinref part="AMS_OK" gate="G$1" pin="C"/>
+<wire x1="134.62" y1="90.17" x2="134.62" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$29" class="0">
+<segment>
+<pinref part="U$12" gate="G$1" pin="1"/>
+<wire x1="17.78" y1="86.36" x2="12.7" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="12.7" y1="86.36" x2="12.7" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$30" class="0">
+<segment>
+<pinref part="U$13" gate="G$1" pin="1"/>
+<wire x1="68.58" y1="86.36" x2="71.12" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="81.28" x2="68.58" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

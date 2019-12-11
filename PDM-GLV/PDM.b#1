@@ -499,7 +499,7 @@ design rules under a new name.</description>
 <element name="CH4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="3568" package3d_urn="urn:adsk.eagle:package:13209504/2" value="3568FUSEHOLDER" x="22" y="49" smashed="yes"/>
 <element name="CH5" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="3568" package3d_urn="urn:adsk.eagle:package:13209504/2" value="3568FUSEHOLDER" x="22" y="40" smashed="yes"/>
 <element name="CH6" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="3568" package3d_urn="urn:adsk.eagle:package:13209504/2" value="3568FUSEHOLDER" x="22" y="31" smashed="yes"/>
-<element name="CH7" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="3568" package3d_urn="urn:adsk.eagle:package:13209504/2" value="3568FUSEHOLDER" x="62" y="57" smashed="yes" rot="R180"/>
+<element name="CH7" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="3568" package3d_urn="urn:adsk.eagle:package:13209504/2" value="3568FUSEHOLDER" x="61" y="57" smashed="yes" rot="R180"/>
 <element name="CH9" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="3568" package3d_urn="urn:adsk.eagle:package:13209504/2" value="3568FUSEHOLDER" x="61" y="41" smashed="yes" rot="R180"/>
 <element name="CH11" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="3568" package3d_urn="urn:adsk.eagle:package:13209504/2" value="3568FUSEHOLDER" x="61" y="28" smashed="yes" rot="R180"/>
 </elements>
@@ -556,9 +556,9 @@ design rules under a new name.</description>
 <wire x1="20.065" y1="2.45" x2="20.065" y2="8.8" width="4" layer="16"/>
 <wire x1="20.065" y1="8.8" x2="20.065" y2="23.935" width="4" layer="16"/>
 <wire x1="20.065" y1="23.935" x2="17" y2="27" width="4" layer="16"/>
-<wire x1="17" y1="27" x2="17" y2="36" width="4" layer="16"/>
-<wire x1="17" y1="36" x2="21" y2="40" width="4" layer="16"/>
-<wire x1="21" y1="40" x2="22" y2="40" width="4" layer="16"/>
+<wire x1="17" y1="27" x2="17" y2="38" width="4" layer="16"/>
+<wire x1="17" y1="38" x2="19" y2="40" width="4" layer="16"/>
+<wire x1="19" y1="40" x2="22" y2="40" width="4" layer="16"/>
 <wire x1="22" y1="40" x2="22" y2="43.4" width="4" layer="16"/>
 </signal>
 <signal name="CH6">

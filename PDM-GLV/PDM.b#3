@@ -305,7 +305,7 @@ by exp-lbrs.ulp</description>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="1" drill="0">
-<clearance class="0" value="0.1524"/>
+<clearance class="0" value="0.2032"/>
 </class>
 </classes>
 <designrules name="default">
@@ -493,14 +493,13 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="U$4" library="CUSTOM_PARTS" package="DE_12X2_PIN_HEADER" value="DTM1312PA12BR008" x="41.275" y="4.41" smashed="yes"/>
-<element name="CH1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="3568" package3d_urn="urn:adsk.eagle:package:13209504/2" value="3568FUSEHOLDER" x="21" y="76" smashed="yes"/>
-<element name="CH2" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="3568" package3d_urn="urn:adsk.eagle:package:13209504/2" value="3568FUSEHOLDER" x="21" y="67" smashed="yes"/>
-<element name="CH3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="3568" package3d_urn="urn:adsk.eagle:package:13209504/2" value="3568FUSEHOLDER" x="21" y="58" smashed="yes"/>
-<element name="CH4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="3568" package3d_urn="urn:adsk.eagle:package:13209504/2" value="3568FUSEHOLDER" x="21" y="49" smashed="yes"/>
-<element name="CH5" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="3568" package3d_urn="urn:adsk.eagle:package:13209504/2" value="3568FUSEHOLDER" x="21" y="40" smashed="yes"/>
-<element name="CH6" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="3568" package3d_urn="urn:adsk.eagle:package:13209504/2" value="3568FUSEHOLDER" x="21" y="31" smashed="yes"/>
-<element name="CH7" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="3568" package3d_urn="urn:adsk.eagle:package:13209504/2" value="3568FUSEHOLDER" x="62" y="80" smashed="yes" rot="R180"/>
-<element name="CH8" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="3568" package3d_urn="urn:adsk.eagle:package:13209504/2" value="3568FUSEHOLDER" x="62" y="71" smashed="yes" rot="R180"/>
+<element name="CH1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="3568" package3d_urn="urn:adsk.eagle:package:13209504/2" value="3568FUSEHOLDER" x="22" y="76" smashed="yes"/>
+<element name="CH2" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="3568" package3d_urn="urn:adsk.eagle:package:13209504/2" value="3568FUSEHOLDER" x="22" y="67" smashed="yes"/>
+<element name="CH3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="3568" package3d_urn="urn:adsk.eagle:package:13209504/2" value="3568FUSEHOLDER" x="22" y="58" smashed="yes"/>
+<element name="CH4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="3568" package3d_urn="urn:adsk.eagle:package:13209504/2" value="3568FUSEHOLDER" x="22" y="49" smashed="yes"/>
+<element name="CH5" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="3568" package3d_urn="urn:adsk.eagle:package:13209504/2" value="3568FUSEHOLDER" x="22" y="40" smashed="yes"/>
+<element name="CH6" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="3568" package3d_urn="urn:adsk.eagle:package:13209504/2" value="3568FUSEHOLDER" x="22" y="31" smashed="yes"/>
+<element name="CH7" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="3568" package3d_urn="urn:adsk.eagle:package:13209504/2" value="3568FUSEHOLDER" x="62" y="57" smashed="yes" rot="R180"/>
 <element name="CH9" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="3568" package3d_urn="urn:adsk.eagle:package:13209504/2" value="3568FUSEHOLDER" x="61" y="41" smashed="yes" rot="R180"/>
 <element name="CH11" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="3568" package3d_urn="urn:adsk.eagle:package:13209504/2" value="3568FUSEHOLDER" x="61" y="28" smashed="yes" rot="R180"/>
 </elements>
@@ -510,71 +509,73 @@ design rules under a new name.</description>
 <contactref element="CH1" pad="L1"/>
 <contactref element="U$4" pad="6B"/>
 <contactref element="CH1" pad="L2"/>
-<wire x1="21" y1="76" x2="21" y2="79.4" width="3" layer="1"/>
-<wire x1="21" y1="76" x2="10" y2="76" width="3" layer="1"/>
-<wire x1="10" y1="76" x2="3.305" y2="69.305" width="3" layer="1"/>
-<wire x1="3.305" y1="69.305" x2="3.305" y2="8.8" width="3" layer="1"/>
-<wire x1="3.305" y1="8.8" x2="3.305" y2="2.516" width="3" layer="1"/>
-<wire x1="3.305" y1="2.516" x2="3.305" y2="2.45" width="0" layer="19" extent="1-1"/>
+<wire x1="3.305" y1="2.45" x2="3.305" y2="8.8" width="4" layer="16"/>
+<wire x1="3.305" y1="8.8" x2="3.305" y2="73.305" width="4" layer="16"/>
+<wire x1="3.305" y1="73.305" x2="6" y2="76" width="4" layer="16"/>
+<wire x1="6" y1="76" x2="22" y2="76" width="4" layer="16"/>
+<wire x1="22" y1="76" x2="22" y2="79.4" width="4" layer="16"/>
 </signal>
 <signal name="CH2">
 <contactref element="U$4" pad="8B"/>
 <contactref element="CH2" pad="L1"/>
 <contactref element="U$4" pad="5B"/>
 <contactref element="CH2" pad="L2"/>
-<wire x1="7.495" y1="2.45" x2="7.495" y2="8.8" width="3" layer="16"/>
-<wire x1="7.495" y1="8.8" x2="7.495" y2="60.495" width="3" layer="16"/>
-<wire x1="7.495" y1="60.495" x2="14" y2="67" width="3" layer="16"/>
-<wire x1="14" y1="67" x2="21" y2="67" width="3" layer="16"/>
-<wire x1="21" y1="67" x2="21" y2="70.4" width="3" layer="16"/>
+<wire x1="7.495" y1="2.45" x2="7.495" y2="8.8" width="4" layer="1"/>
+<wire x1="7.495" y1="8.8" x2="7.495" y2="63.495" width="4" layer="1"/>
+<wire x1="11" y1="67" x2="22" y2="67" width="4" layer="1"/>
+<wire x1="7.495" y1="63.495" x2="11" y2="67" width="4" layer="1"/>
+<wire x1="22" y1="67" x2="22" y2="70.4" width="4" layer="1"/>
 </signal>
 <signal name="CH3">
 <contactref element="U$4" pad="4B"/>
 <contactref element="U$4" pad="9B"/>
 <contactref element="CH3" pad="L1"/>
 <contactref element="CH3" pad="L2"/>
-<wire x1="11.685" y1="2.45" x2="11.685" y2="8.8" width="3" layer="1"/>
-<wire x1="11.685" y1="8.8" x2="11.685" y2="54.685" width="3" layer="1"/>
-<wire x1="15" y1="58" x2="21" y2="58" width="3" layer="1"/>
-<wire x1="11.685" y1="54.685" x2="15" y2="58" width="3" layer="1"/>
-<wire x1="21" y1="58" x2="21" y2="61.4" width="3" layer="1"/>
+<wire x1="11.685" y1="2.45" x2="11.685" y2="8.8" width="4" layer="16"/>
+<wire x1="11.685" y1="8.8" x2="11.685" y2="55.685" width="4" layer="16"/>
+<wire x1="11.685" y1="55.685" x2="14" y2="58" width="4" layer="16"/>
+<wire x1="14" y1="58" x2="22" y2="58" width="4" layer="16"/>
+<wire x1="22" y1="58" x2="22" y2="61.4" width="4" layer="16"/>
 </signal>
 <signal name="CH4">
 <contactref element="U$4" pad="3B"/>
 <contactref element="U$4" pad="10B"/>
 <contactref element="CH4" pad="L1"/>
 <contactref element="CH4" pad="L2"/>
-<wire x1="15.875" y1="2.45" x2="15.875" y2="8.8" width="3" layer="16"/>
-<wire x1="15.875" y1="8.8" x2="15.875" y2="46.875" width="3" layer="16"/>
-<wire x1="15.875" y1="46.875" x2="18" y2="49" width="3" layer="16"/>
-<wire x1="18" y1="49" x2="21" y2="49" width="3" layer="16"/>
-<wire x1="21" y1="49" x2="21" y2="52.4" width="3" layer="16"/>
+<wire x1="15.875" y1="2.45" x2="15.875" y2="8.8" width="4" layer="1"/>
+<wire x1="15.875" y1="8.8" x2="15.875" y2="45.875" width="4" layer="1"/>
+<wire x1="15.875" y1="45.875" x2="19" y2="49" width="4" layer="1"/>
+<wire x1="19" y1="49" x2="22" y2="49" width="4" layer="1"/>
+<wire x1="22" y1="49" x2="22" y2="52.4" width="4" layer="1"/>
 </signal>
 <signal name="CH5">
 <contactref element="U$4" pad="2B"/>
 <contactref element="U$4" pad="11B"/>
 <contactref element="CH5" pad="L1"/>
 <contactref element="CH5" pad="L2"/>
-<wire x1="20.065" y1="2.45" x2="20.065" y2="8.8" width="3" layer="1"/>
-<wire x1="20.065" y1="8.8" x2="20.065" y2="20.935" width="3" layer="1"/>
-<wire x1="16" y1="38" x2="18" y2="40" width="3" layer="1"/>
-<wire x1="18" y1="40" x2="21" y2="40" width="3" layer="1"/>
-<wire x1="20.065" y1="20.935" x2="16" y2="25" width="3" layer="1"/>
-<wire x1="16" y1="25" x2="16" y2="38" width="3" layer="1"/>
-<wire x1="21" y1="40" x2="21" y2="43.4" width="3" layer="1"/>
+<wire x1="20.065" y1="2.45" x2="20.065" y2="8.8" width="4" layer="16"/>
+<wire x1="20.065" y1="8.8" x2="20.065" y2="23.935" width="4" layer="16"/>
+<wire x1="20.065" y1="23.935" x2="17" y2="27" width="4" layer="16"/>
+<wire x1="17" y1="27" x2="17" y2="36" width="4" layer="16"/>
+<wire x1="17" y1="36" x2="21" y2="40" width="4" layer="16"/>
+<wire x1="21" y1="40" x2="22" y2="40" width="4" layer="16"/>
+<wire x1="22" y1="40" x2="22" y2="43.4" width="4" layer="16"/>
 </signal>
 <signal name="CH6">
 <contactref element="U$4" pad="1B"/>
 <contactref element="U$4" pad="12B"/>
 <contactref element="CH6" pad="L1"/>
 <contactref element="CH6" pad="L2"/>
-<wire x1="24.255" y1="2.45" x2="24.255" y2="8.8" width="3" layer="16"/>
-<wire x1="24.255" y1="8.8" x2="24.255" y2="23.745" width="3" layer="16"/>
-<wire x1="24.255" y1="23.745" x2="21" y2="27" width="3" layer="16"/>
-<wire x1="21" y1="27" x2="21" y2="31" width="3" layer="16"/>
-<wire x1="21" y1="31" x2="21" y2="34.4" width="3" layer="16"/>
+<wire x1="24.255" y1="2.45" x2="24.255" y2="8.8" width="4" layer="1"/>
+<wire x1="24.255" y1="8.8" x2="24.255" y2="28.745" width="4" layer="1"/>
+<wire x1="24.255" y1="28.745" x2="22" y2="31" width="4" layer="1"/>
+<wire x1="22" y1="31" x2="22" y2="34.4" width="4" layer="1"/>
 </signal>
-<signal name="CH7">
+<signal name="CH8">
+<contactref element="U$4" pad="5A"/>
+<contactref element="U$4" pad="8A"/>
+<wire x1="75.055" y1="8.8" x2="75.055" y2="2.571" width="3" layer="1"/>
+<wire x1="75.055" y1="2.571" x2="75" y2="2.516" width="3" layer="1"/>
 <contactref element="U$4" pad="6A"/>
 <contactref element="U$4" pad="7A"/>
 <contactref element="CH7" pad="L1"/>
@@ -583,23 +584,20 @@ design rules under a new name.</description>
 <wire x1="79.245" y1="8.755" x2="79" y2="9" width="3" layer="16"/>
 <wire x1="79" y1="9" x2="79.045" y2="9" width="3" layer="16"/>
 <wire x1="79.045" y1="9" x2="79.245" y2="8.8" width="3" layer="16"/>
-<wire x1="79.245" y1="8.8" x2="79.245" y2="71.755" width="3" layer="16"/>
-<wire x1="74.4" y1="76.6" x2="62" y2="76.6" width="3" layer="16"/>
-<wire x1="79.245" y1="71.755" x2="74.4" y2="76.6" width="3" layer="16"/>
-<wire x1="62" y1="76.6" x2="62" y2="80" width="3" layer="16"/>
-</signal>
-<signal name="CH8">
-<contactref element="U$4" pad="5A"/>
-<contactref element="U$4" pad="8A"/>
-<contactref element="CH8" pad="L1"/>
-<contactref element="CH8" pad="L2"/>
-<wire x1="62" y1="71" x2="62" y2="67.6" width="3" layer="1"/>
-<wire x1="62" y1="67.6" x2="70.4" y2="67.6" width="3" layer="1"/>
-<wire x1="75.055" y1="62.945" x2="75.055" y2="8.8" width="3" layer="1"/>
-<wire x1="70.4" y1="67.6" x2="75.055" y2="62.945" width="3" layer="1"/>
-<wire x1="75.055" y1="8.8" x2="75.055" y2="2.571" width="3" layer="1"/>
-<wire x1="75.055" y1="2.571" x2="75" y2="2.516" width="3" layer="1"/>
-<wire x1="75" y1="2.516" x2="75.055" y2="2.45" width="0" layer="19" extent="1-1"/>
+<polygon width="1.5" layer="1" rank="4">
+<vertex x="46" y="62"/>
+<vertex x="86" y="62"/>
+<vertex x="86" y="-3"/>
+<vertex x="48" y="-3"/>
+<vertex x="48" y="60"/>
+</polygon>
+<polygon width="1.5" layer="16" rank="4">
+<vertex x="86" y="62"/>
+<vertex x="46" y="62"/>
+<vertex x="46" y="-1"/>
+<vertex x="48" y="-3"/>
+<vertex x="86" y="-3"/>
+</polygon>
 </signal>
 <signal name="CH10">
 <contactref element="U$4" pad="3A"/>
@@ -608,20 +606,18 @@ design rules under a new name.</description>
 <contactref element="U$4" pad="9A"/>
 <contactref element="CH9" pad="L1"/>
 <contactref element="CH9" pad="L2"/>
-<polygon width="3" layer="16" rank="3">
-<vertex x="75" y="-2"/>
-<vertex x="75" y="45"/>
-<vertex x="47" y="45"/>
-<vertex x="47" y="-2"/>
+<polygon width="1.5" layer="16" rank="3">
+<vertex x="72" y="-2"/>
+<vertex x="72" y="45"/>
+<vertex x="45" y="45"/>
+<vertex x="45" y="-2"/>
 </polygon>
-<polygon width="3" layer="1" rank="3">
-<vertex x="47" y="45"/>
-<vertex x="75" y="45"/>
-<vertex x="75" y="-2"/>
-<vertex x="47" y="-2"/>
+<polygon width="1.5" layer="1" rank="3">
+<vertex x="45" y="45"/>
+<vertex x="72" y="45"/>
+<vertex x="72" y="-2"/>
+<vertex x="45" y="-2"/>
 </polygon>
-<wire x1="70.865" y1="8.8" x2="66.675" y2="8.8" width="0" layer="19" extent="1-1"/>
-<wire x1="66.675" y1="2.45" x2="70.865" y2="2.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CH11">
 <contactref element="U$4" pad="2A"/>
@@ -630,20 +626,37 @@ design rules under a new name.</description>
 <contactref element="CH11" pad="L2"/>
 <contactref element="U$4" pad="1A"/>
 <contactref element="U$4" pad="12A"/>
-<polygon width="3" layer="1" rank="2">
-<vertex x="65" y="-2"/>
-<vertex x="65" y="31"/>
-<vertex x="47" y="31"/>
-<vertex x="47" y="-2"/>
+<polygon width="1.5" layer="1" rank="2">
+<vertex x="64" y="-2"/>
+<vertex x="64" y="31"/>
+<vertex x="49" y="31"/>
+<vertex x="49" y="-2"/>
 </polygon>
-<polygon width="2" layer="16" rank="2">
-<vertex x="65" y="31"/>
-<vertex x="47" y="31"/>
-<vertex x="47" y="-2"/>
-<vertex x="65" y="-2"/>
+<polygon width="1.5" layer="16" rank="2">
+<vertex x="64" y="31"/>
+<vertex x="49" y="31"/>
+<vertex x="49" y="-2"/>
+<vertex x="64" y="-2"/>
 </polygon>
 </signal>
 <signal name="COMMON">
+<polygon width="1.5" layer="1">
+<vertex x="28" y="82"/>
+<vertex x="28" y="17"/>
+<vertex x="55" y="17"/>
+<vertex x="55" y="82"/>
+</polygon>
+<polygon width="1.5" layer="16">
+<vertex x="28" y="82"/>
+<vertex x="28" y="17"/>
+<vertex x="55" y="17"/>
+<vertex x="55" y="82"/>
+</polygon>
+<contactref element="CH3" pad="R2"/>
+<contactref element="CH5" pad="R2"/>
+<contactref element="CH7" pad="R2"/>
+<contactref element="CH9" pad="R2"/>
+<contactref element="CH11" pad="R2"/>
 <contactref element="CH1" pad="R2"/>
 <contactref element="CH1" pad="R1"/>
 <contactref element="CH2" pad="R1"/>
@@ -655,37 +668,25 @@ design rules under a new name.</description>
 <contactref element="CH6" pad="R1"/>
 <contactref element="CH6" pad="R2"/>
 <contactref element="CH7" pad="R1"/>
-<contactref element="CH8" pad="R1"/>
-<contactref element="CH8" pad="R2"/>
 <contactref element="CH9" pad="R1"/>
 <contactref element="CH11" pad="R1"/>
-<polygon width="2.54" layer="1">
-<vertex x="28" y="82"/>
-<vertex x="28" y="17"/>
-<vertex x="55" y="17"/>
-<vertex x="55" y="82"/>
-</polygon>
-<polygon width="2.54" layer="16">
-<vertex x="28" y="82"/>
-<vertex x="28" y="17"/>
-<vertex x="55" y="17"/>
-<vertex x="55" y="82"/>
-</polygon>
-</signal>
-<signal name="N$15">
-<contactref element="CH3" pad="R2"/>
-</signal>
-<signal name="N$17">
-<contactref element="CH5" pad="R2"/>
-</signal>
-<signal name="N$19">
-<contactref element="CH7" pad="R2"/>
-</signal>
-<signal name="N$21">
-<contactref element="CH9" pad="R2"/>
-</signal>
-<signal name="N$23">
-<contactref element="CH11" pad="R2"/>
+<wire x1="31.92" y1="76" x2="31.94" y2="79.4" width="0" layer="19" extent="1-1"/>
+<wire x1="31.94" y1="70.4" x2="31.92" y2="76" width="0" layer="19" extent="1-1"/>
+<wire x1="31.92" y1="67" x2="31.94" y2="70.4" width="0" layer="19" extent="1-1"/>
+<wire x1="31.94" y1="61.4" x2="31.92" y2="67" width="0" layer="19" extent="1-1"/>
+<wire x1="31.92" y1="58" x2="31.94" y2="61.4" width="0" layer="19" extent="1-1"/>
+<wire x1="31.94" y1="52.4" x2="31.92" y2="58" width="0" layer="19" extent="1-1"/>
+<wire x1="31.92" y1="49" x2="31.94" y2="52.4" width="0" layer="19" extent="1-1"/>
+<wire x1="31.94" y1="43.4" x2="31.92" y2="49" width="0" layer="19" extent="1-1"/>
+<wire x1="31.92" y1="40" x2="31.94" y2="43.4" width="0" layer="19" extent="1-1"/>
+<wire x1="31.94" y1="34.4" x2="31.92" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="31.92" y1="31" x2="31.94" y2="34.4" width="0" layer="19" extent="1-1"/>
+<wire x1="51.08" y1="41" x2="31.92" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="51.06" y1="37.6" x2="51.08" y2="41" width="0" layer="19" extent="1-1"/>
+<wire x1="51.08" y1="28" x2="51.06" y2="37.6" width="0" layer="19" extent="1-1"/>
+<wire x1="51.06" y1="24.6" x2="51.08" y2="28" width="0" layer="19" extent="1-1"/>
+<wire x1="52.06" y1="53.6" x2="51.08" y2="41" width="0" layer="19" extent="1-1"/>
+<wire x1="52.08" y1="57" x2="52.06" y2="53.6" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

@@ -1268,7 +1268,7 @@
 <text x="89" y="1" size="1.778" layer="26" rot="MR0">HIGH VOLTAGE</text>
 <text x="86" y="8" size="1.778" layer="26" rot="MR0">HV+  HV-</text>
 <text x="8" y="20" size="1.778" layer="26" rot="MR0">+12V</text>
-<text x="24" y="11" size="1.778" layer="26" rot="MR270">ACC</text>
+<text x="19" y="11" size="1.778" layer="26" rot="MR180">ACC</text>
 <text x="17" y="11" size="1.778" layer="26" rot="MR270">GRN</text>
 <text x="13" y="11" size="1.778" layer="26" rot="MR270">RED</text>
 <text x="9" y="11" size="1.778" layer="26" rot="MR270">GND</text>
@@ -1280,6 +1280,9 @@
 <wire x1="89" y1="64" x2="92" y2="61" width="0" layer="20" curve="-90"/>
 <wire x1="92" y1="3" x2="89" y2="0" width="0" layer="20" curve="-90"/>
 <wire x1="3" y1="0" x2="0" y2="3" width="0" layer="20" curve="-90"/>
+<text x="85" y="22" size="1.778" layer="25">HV+</text>
+<text x="73" y="22" size="1.778" layer="25">HV-</text>
+<text x="79" y="21" size="1.778" layer="25">NC</text>
 </plain>
 <libraries>
 <library name="SparkFun-IC-Special-Function" urn="urn:adsk.eagle:library:527">

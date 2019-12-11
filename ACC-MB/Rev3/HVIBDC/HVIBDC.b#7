@@ -3281,23 +3281,6 @@ design rules under a new name.</description>
 <contactref element="U$2" pad="4"/>
 <contactref element="U$2" pad="5"/>
 <contactref element="LEDR4" pad="1"/>
-<wire x1="45.7" y1="46.05" x2="56.4" y2="41" width="0" layer="19" extent="1-1"/>
-<wire x1="43" y1="45.95" x2="45.7" y2="46.05" width="0" layer="19" extent="1-1"/>
-<wire x1="40.05" y1="45.95" x2="43" y2="45.95" width="0" layer="19" extent="1-1"/>
-<wire x1="37" y1="45.95" x2="40.05" y2="45.95" width="0" layer="19" extent="1-1"/>
-<wire x1="34" y1="45.95" x2="37" y2="45.95" width="0" layer="19" extent="1-1"/>
-<wire x1="29.19" y1="34.29" x2="34" y2="45.95" width="0" layer="19" extent="1-1"/>
-<wire x1="22.8" y1="35.55" x2="24.9" y2="35.55" width="0" layer="19" extent="1-1"/>
-<wire x1="16.85" y1="47.2" x2="16.85" y2="44.9" width="0" layer="19" extent="1-1"/>
-<wire x1="28.052" y1="30.026" x2="29.19" y2="34.29" width="0" layer="19" extent="1-1"/>
-<wire x1="22.05" y1="31.04" x2="22.8" y2="35.55" width="0" layer="19" extent="1-1"/>
-<wire x1="18" y1="55.05" x2="16.85" y2="47.2" width="0" layer="19" extent="1-1"/>
-<wire x1="39.929" y1="30.126" x2="29.19" y2="34.29" width="0" layer="19" extent="1-1"/>
-<wire x1="20.4" y1="18.29" x2="22.05" y2="31.04" width="0" layer="19" extent="1-1"/>
-<wire x1="16.2" y1="18.29" x2="20.4" y2="18.29" width="0" layer="19" extent="1-1"/>
-<wire x1="7.8" y1="12.79" x2="16.2" y2="18.29" width="0" layer="19" extent="1-1"/>
-<wire x1="3.6" y1="12.79" x2="7.8" y2="12.79" width="0" layer="19" extent="1-1"/>
-<wire x1="56.46" y1="22.35" x2="39.929" y2="30.126" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+12V">
 <contactref element="IC1" pad="8"/>
@@ -3353,7 +3336,7 @@ design rules under a new name.</description>
 <wire x1="18.7" y1="40.1" x2="18.7" y2="37.85" width="1" layer="1"/>
 <wire x1="18.3" y1="37.45" x2="18.7" y2="37.85" width="1" layer="1"/>
 <wire x1="18.7" y1="40.1" x2="18.8" y2="40.1" width="1" layer="1"/>
-<wire x1="59.15" y1="36.92" x2="59.15" y2="30.27" width="1" layer="1"/>
+<wire x1="59.15" y1="30.27" x2="59.15" y2="36.92" width="1" layer="1"/>
 <wire x1="18.3" y1="37.45" x2="16.966" y2="37.45" width="1" layer="1"/>
 <wire x1="16.966" y1="37.45" x2="16.616" y2="37.1" width="1" layer="1"/>
 <wire x1="16.616" y1="37.1" x2="16.616" y2="33.5" width="1" layer="1"/>
@@ -3376,9 +3359,10 @@ design rules under a new name.</description>
 <contactref element="R6" pad="2"/>
 <contactref element="D1" pad="C"/>
 <wire x1="20.6" y1="37.45" x2="22.8" y2="37.45" width="1" layer="1"/>
-<wire x1="59.15" y1="30.27" x2="61.5" y2="27.92" width="0" layer="19" extent="1-1"/>
-<wire x1="20.6" y1="37.45" x2="18.3" y2="37.45" width="0" layer="19" extent="1-1"/>
-<wire x1="61.5" y1="22.39" x2="61.5" y2="27.92" width="0" layer="19" extent="16-16"/>
+<wire x1="61.54" y1="22.35" x2="61.54" y2="27.88" width="0.8128" layer="16"/>
+<wire x1="61.54" y1="27.88" x2="61.5" y2="27.92" width="0.8128" layer="16"/>
+<wire x1="61.5" y1="27.92" x2="59.15" y2="30.27" width="0.8128" layer="1"/>
+<wire x1="20.6" y1="37.45" x2="18.3" y2="37.45" width="0.8128" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="IC1" pad="5"/>
@@ -3648,9 +3632,6 @@ design rules under a new name.</description>
 </polygon>
 <contactref element="U$8" pad="P$1"/>
 <contactref element="U$8" pad="P$3"/>
-<wire x1="81" y1="28.6" x2="86.15" y2="28.35" width="0" layer="19" extent="1-1"/>
-<wire x1="81" y1="24" x2="81" y2="28.6" width="0" layer="19" extent="1-1"/>
-<wire x1="85.2" y1="18.29" x2="81" y2="24" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V-" class="2">
 <contactref element="U$22" pad="1"/>
@@ -3713,14 +3694,6 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
-<errors>
-<approved hash="5,1,9dfbf4ed8efb8004"/>
-<approved hash="5,16,9dfbf4ed8efb8004"/>
-<approved hash="5,1,52aea34f50fe89f5"/>
-<approved hash="5,1,298ccf347407665b"/>
-<approved hash="5,1,d80c45c50807b820"/>
-<approved hash="5,16,9c35a912bccae54b"/>
-</errors>
 </board>
 </drawing>
 <compatibility>

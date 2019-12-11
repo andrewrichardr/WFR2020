@@ -10515,7 +10515,7 @@ general purpose rectifier, 1 A</description>
 <part name="U$22" library="Main" library_urn="urn:adsk.eagle:library:14107900" deviceset="_CUSTOM_IXCY10M90S" device="D2PAK" package3d_urn="urn:adsk.eagle:package:14108484/1"/>
 <part name="R7" library="Main" library_urn="urn:adsk.eagle:library:14107900" deviceset="R-US_" device="R2010" package3d_urn="urn:adsk.eagle:package:14108443/1" value="200"/>
 <part name="P+18" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13324935" deviceset="V+" device=""/>
-<part name="+12V_SAFE1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
+<part name="+12V_SAFE1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 </parts>
 <sheets>
 <sheet>

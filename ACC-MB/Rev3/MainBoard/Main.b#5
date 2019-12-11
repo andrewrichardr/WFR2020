@@ -2038,8 +2038,9 @@ design rules under a new name.</description>
 <signal name="N$27">
 <contactref element="R3" pad="2"/>
 <contactref element="T2" pad="B"/>
-<wire x1="81" y1="35.95" x2="81.44994375" y2="35.5" width="0.8128" layer="16"/>
-<wire x1="81.44994375" y1="35.5" x2="86.27" y2="35.5" width="0.8128" layer="16"/>
+<wire x1="85.77" y1="36" x2="81.05" y2="36" width="0.8128" layer="16"/>
+<wire x1="81" y1="35.95" x2="81.05" y2="36" width="0.8128" layer="16"/>
+<wire x1="85.77" y1="36" x2="86.27" y2="35.5" width="0.8128" layer="16"/>
 </signal>
 <signal name="AMS_OK_GND">
 <contactref element="T2" pad="C"/>

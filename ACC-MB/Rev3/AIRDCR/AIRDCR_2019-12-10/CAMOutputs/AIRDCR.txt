@@ -1,0 +1,15 @@
+Partlist exported from D:/WFR2020/ACC-MB/Rev3/AIRDCR/AIRDCR.sch at 12/9/2019 9:19 PM
+
+Qty Value       Device              Package                 Parts            Description                            MF    MPN OC_FARNELL OC_NEWARK SPICEPREFIX
+2               LEDCHIPLED_0805     CHIPLED_0805            AIR+EN, PRECHAGE LED                                                                              
+2               R-US_R0805          R0805                   LED_R3, LED_R4   RESISTOR, American symbol                                             R          
+4               RMG100-V            TO-247-2V               R2, R3, R4, R5   TO-247 Power Resistor - RMG 100 Series           unknown    unknown              
+1   100R_THT    AIR_HOLDUP_RESISTOR RESAD976W63L650D250B    R1                                                                                                
+1   10A_THT     AIR_HOLDUP_DIODE    DIOAD1570W120L850D500B  D1                                                                                                
+2   15-24-6100  15-24-6100          15-24-6100              U$2, U$3                                                                                          
+1   5566-4      5566-4              5566-4                  X13              Mini FIT connector 4 pol               MOLEX     unknown    unknown              
+2   7792        7792                7792                    U$5, U$6                                                                                          
+1   G81C335     G81C335             G81C335                 U$4                                                                                               
+1   GV245BPB    GV224               GV224                   U$1                                                                                               
+2   RA-T2X-25E  RA-T2X-25E          RA-T2X-25E              U$8, U$9                                                                                          
+1   UPW1E152MHD AIR_HOLDUP_CAP      CAPPRD750W65D1800H3700B C1                                                                                                
