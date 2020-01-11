@@ -1014,14 +1014,14 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="57" y="36" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="56.365" y="38.54" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="+12V" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="175.25" y="89.5" smashed="yes">
-<attribute name="NAME" x="177.155" y="89.881" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="177.155" y="87.849" size="1.27" layer="27" ratio="10"/>
+<element name="+12V" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="165.75" y="104" smashed="yes">
+<attribute name="NAME" x="167.655" y="104.381" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="167.655" y="102.349" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="LED_R1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1" value="" x="179.75" y="87.75" smashed="yes" rot="MR0">
-<attribute name="NAME" x="180.385" y="89.02" size="1.27" layer="26" rot="MR0"/>
-<attribute name="SPICEPREFIX" value="R" x="179.75" y="87.75" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="180.385" y="85.21" size="1.27" layer="28" rot="MR0"/>
+<element name="LED_R1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1" value="" x="170.25" y="102.25" smashed="yes" rot="MR0">
+<attribute name="NAME" x="170.885" y="103.52" size="1.27" layer="26" rot="MR0"/>
+<attribute name="SPICEPREFIX" value="R" x="170.25" y="102.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="170.885" y="99.71" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="X1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="5566-24" package3d_urn="urn:adsk.eagle:package:14396841/4" value="5566-24" x="78" y="9.5" smashed="yes" rot="R180">
 <attribute name="MF" value="MOLEX" x="78" y="9.5" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1426,11 +1426,11 @@ design rules under a new name.</description>
 <signal name="N$2">
 <contactref element="LED_R1" pad="2"/>
 <contactref element="+12V" pad="C"/>
-<wire x1="175.25" y1="90.55" x2="177.45" y2="90.55" width="0.2" layer="1"/>
-<wire x1="177.45" y1="90.55" x2="178" y2="90" width="0.2" layer="1"/>
-<via x="178" y="90" extent="1-16" drill="0.35"/>
-<wire x1="178" y1="90" x2="178.8" y2="89.2" width="0.2" layer="16"/>
-<wire x1="178.8" y1="89.2" x2="178.8" y2="87.75" width="0.2" layer="16"/>
+<wire x1="165.75" y1="105.05" x2="167.95" y2="105.05" width="0.2" layer="1"/>
+<wire x1="167.95" y1="105.05" x2="168.5" y2="104.5" width="0.2" layer="1"/>
+<via x="168.5" y="104.5" extent="1-16" drill="0.35"/>
+<wire x1="168.5" y1="104.5" x2="169.3" y2="103.7" width="0.2" layer="16"/>
+<wire x1="169.3" y1="103.7" x2="169.3" y2="102.25" width="0.2" layer="16"/>
 </signal>
 <signal name="SAF_MAIN">
 <contactref element="U$2" pad="NOB3"/>

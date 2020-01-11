@@ -2885,7 +2885,6 @@ Source: VISHAY wscwsn.pdf</description>
 <pad name="X2" x="4.064" y="0" drill="0.889" diameter="1.524"/>
 <pad name="T1" x="-8.382" y="37.846" drill="0.889"/>
 <pad name="T2" x="8.382" y="37.846" drill="0.889"/>
-<pad name="NC1" x="0" y="39.37" drill="7.62"/>
 <circle x="0" y="19.05" radius="31.75" width="0.1524" layer="21"/>
 <wire x1="26.67" y1="29.21" x2="26.67" y2="6.35" width="0" layer="46"/>
 <wire x1="22.86" y1="2.54" x2="-22.86" y2="2.54" width="0" layer="46"/>
@@ -2893,16 +2892,25 @@ Source: VISHAY wscwsn.pdf</description>
 <wire x1="-22.86" y1="33.02" x2="22.86" y2="33.02" width="0" layer="46"/>
 <wire x1="-26.67" y1="29.21" x2="-22.86" y2="33.02" width="0" layer="46" curve="-90"/>
 <wire x1="26.67" y1="29.21" x2="22.86" y2="33.02" width="0" layer="46" curve="90"/>
-<wire x1="-26.67" y1="6.35" x2="-22.86" y2="2.54" width="0" layer="46" curve="112.619865"/>
 <wire x1="26.67" y1="6.35" x2="22.86" y2="2.54" width="0" layer="46" curve="-90"/>
-<wire x1="22.86" y1="33.02" x2="-22.86" y2="33.02" width="0" layer="20"/>
-<wire x1="-26.67" y1="29.21" x2="-26.67" y2="6.35" width="0" layer="20"/>
-<wire x1="-22.86" y1="2.54" x2="22.86" y2="2.54" width="0" layer="20"/>
-<wire x1="26.67" y1="6.35" x2="26.67" y2="29.21" width="0" layer="20"/>
-<wire x1="-26.67" y1="29.21" x2="-22.86" y2="33.02" width="0" layer="20" curve="-90"/>
-<wire x1="26.67" y1="29.21" x2="22.86" y2="33.02" width="0" layer="20" curve="90"/>
-<wire x1="22.86" y1="2.54" x2="26.67" y2="6.35" width="0" layer="20" curve="90"/>
-<wire x1="-22.86" y1="2.54" x2="-26.67" y2="6.35" width="0" layer="20" curve="-90"/>
+<wire x1="-22.86" y1="33.655" x2="22.86" y2="33.655" width="0.0254" layer="41"/>
+<wire x1="27.305" y1="29.21" x2="27.305" y2="6.35" width="0.0254" layer="41"/>
+<wire x1="22.86" y1="1.905" x2="-22.86" y2="1.905" width="0.0254" layer="41"/>
+<wire x1="-27.305" y1="6.35" x2="-27.305" y2="29.21" width="0.0254" layer="41"/>
+<wire x1="-27.305" y1="29.21" x2="-22.86" y2="33.655" width="0.0254" layer="41" curve="-90"/>
+<wire x1="22.86" y1="33.655" x2="27.305" y2="29.21" width="0.0254" layer="41" curve="-90"/>
+<wire x1="27.305" y1="6.35" x2="22.86" y2="1.905" width="0.0254" layer="41" curve="-90"/>
+<wire x1="-22.86" y1="1.905" x2="-27.305" y2="6.35" width="0.0254" layer="41" curve="-90"/>
+<wire x1="27.305" y1="6.35" x2="27.305" y2="29.21" width="0.0254" layer="42"/>
+<wire x1="22.86" y1="33.655" x2="-22.86" y2="33.655" width="0.0254" layer="42"/>
+<wire x1="-27.305" y1="29.21" x2="-27.305" y2="6.35" width="0.0254" layer="42"/>
+<wire x1="-22.86" y1="1.905" x2="22.86" y2="1.905" width="0.0254" layer="42"/>
+<wire x1="-22.86" y1="1.905" x2="-27.305" y2="6.35" width="0.0254" layer="42" curve="-90"/>
+<wire x1="-27.305" y1="29.21" x2="-22.86" y2="33.655" width="0.0254" layer="42" curve="-90"/>
+<wire x1="22.86" y1="33.655" x2="27.305" y2="29.21" width="0.0254" layer="42" curve="-90"/>
+<wire x1="27.305" y1="6.35" x2="22.86" y2="1.905" width="0.0254" layer="42" curve="-90"/>
+<wire x1="-22.86" y1="2.54" x2="-26.67" y2="6.35" width="0" layer="46" curve="-90"/>
+<hole x="0" y="39.37" drill="7.62"/>
 </package>
 <package name="7792" urn="urn:adsk.eagle:footprint:14511283/2" library_version="28" library_locally_modified="yes">
 <wire x1="0" y1="10.08" x2="7.5" y2="10.08" width="0.127" layer="21"/>

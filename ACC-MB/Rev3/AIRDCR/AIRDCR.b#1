@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
+<grid distance="0.125" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -204,11 +204,14 @@ VOLTAGE</text>
 <text x="24.5" y="44.5" size="1.778" layer="26" rot="MR180">AIR Positive and Precharge Board
 Precharge R = 2x 620 Ohm
 </text>
-<wire x1="73" y1="-1" x2="73" y2="21" width="4" layer="112"/>
-<wire x1="73" y1="21" x2="88" y2="21" width="4" layer="112"/>
-<wire x1="88" y1="21" x2="88" y2="51" width="4" layer="112"/>
-<wire x1="88" y1="51" x2="103" y2="51" width="4" layer="112"/>
-<wire x1="103" y1="51" x2="103" y2="66" width="4" layer="112"/>
+<wire x1="73.125" y1="0.375" x2="73.125" y2="19.875" width="4" layer="25"/>
+<wire x1="73.125" y1="19.875" x2="88.5" y2="35.25" width="4" layer="25"/>
+<wire x1="88.5" y1="35.25" x2="88.5" y2="49.625" width="4" layer="25"/>
+<wire x1="88.5" y1="49.625" x2="102.75" y2="63.875" width="4" layer="25"/>
+<wire x1="102.75" y1="63.875" x2="88.5" y2="49.625" width="4" layer="26"/>
+<wire x1="88.5" y1="49.625" x2="88.5" y2="35.25" width="4" layer="26"/>
+<wire x1="88.5" y1="35.25" x2="73.125" y2="19.875" width="4" layer="26"/>
+<wire x1="73.125" y1="19.875" x2="73.125" y2="0.375" width="4" layer="26"/>
 </plain>
 <libraries>
 <library name="ACC-MB-R0" urn="urn:adsk.eagle:library:13208985">
@@ -300,16 +303,24 @@ by exp-lbrs.ulp</description>
 <wire x1="-22.86" y1="33.02" x2="22.86" y2="33.02" width="0" layer="46"/>
 <wire x1="-26.67" y1="29.21" x2="-22.86" y2="33.02" width="0" layer="46" curve="-90"/>
 <wire x1="26.67" y1="29.21" x2="22.86" y2="33.02" width="0" layer="46" curve="90"/>
-<wire x1="-26.67" y1="6.35" x2="-22.86" y2="2.54" width="0" layer="46" curve="112.619865"/>
 <wire x1="26.67" y1="6.35" x2="22.86" y2="2.54" width="0" layer="46" curve="-90"/>
-<wire x1="22.86" y1="33.02" x2="-22.86" y2="33.02" width="0" layer="20"/>
-<wire x1="-26.67" y1="29.21" x2="-26.67" y2="6.35" width="0" layer="20"/>
-<wire x1="-22.86" y1="2.54" x2="22.86" y2="2.54" width="0" layer="20"/>
-<wire x1="26.67" y1="6.35" x2="26.67" y2="29.21" width="0" layer="20"/>
-<wire x1="-26.67" y1="29.21" x2="-22.86" y2="33.02" width="0" layer="20" curve="-90"/>
-<wire x1="26.67" y1="29.21" x2="22.86" y2="33.02" width="0" layer="20" curve="90"/>
-<wire x1="22.86" y1="2.54" x2="26.67" y2="6.35" width="0" layer="20" curve="90"/>
-<wire x1="-22.86" y1="2.54" x2="-26.67" y2="6.35" width="0" layer="20" curve="-90"/>
+<wire x1="-22.86" y1="33.655" x2="22.86" y2="33.655" width="0.0254" layer="41"/>
+<wire x1="27.305" y1="29.21" x2="27.305" y2="6.35" width="0.0254" layer="41"/>
+<wire x1="22.86" y1="1.905" x2="-22.86" y2="1.905" width="0.0254" layer="41"/>
+<wire x1="-27.305" y1="6.35" x2="-27.305" y2="29.21" width="0.0254" layer="41"/>
+<wire x1="-27.305" y1="29.21" x2="-22.86" y2="33.655" width="0.0254" layer="41" curve="-90"/>
+<wire x1="22.86" y1="33.655" x2="27.305" y2="29.21" width="0.0254" layer="41" curve="-90"/>
+<wire x1="27.305" y1="6.35" x2="22.86" y2="1.905" width="0.0254" layer="41" curve="-90"/>
+<wire x1="-22.86" y1="1.905" x2="-27.305" y2="6.35" width="0.0254" layer="41" curve="-90"/>
+<wire x1="27.305" y1="6.35" x2="27.305" y2="29.21" width="0.0254" layer="42"/>
+<wire x1="22.86" y1="33.655" x2="-22.86" y2="33.655" width="0.0254" layer="42"/>
+<wire x1="-27.305" y1="29.21" x2="-27.305" y2="6.35" width="0.0254" layer="42"/>
+<wire x1="-22.86" y1="1.905" x2="22.86" y2="1.905" width="0.0254" layer="42"/>
+<wire x1="-22.86" y1="1.905" x2="-27.305" y2="6.35" width="0.0254" layer="42" curve="-90"/>
+<wire x1="-27.305" y1="29.21" x2="-22.86" y2="33.655" width="0.0254" layer="42" curve="-90"/>
+<wire x1="22.86" y1="33.655" x2="27.305" y2="29.21" width="0.0254" layer="42" curve="-90"/>
+<wire x1="27.305" y1="6.35" x2="22.86" y2="1.905" width="0.0254" layer="42" curve="-90"/>
+<wire x1="-22.86" y1="2.54" x2="-26.67" y2="6.35" width="0" layer="46" curve="-90"/>
 </package>
 <package name="7792" urn="urn:adsk.eagle:footprint:14511283/2" library_version="28" library_locally_modified="yes">
 <wire x1="0" y1="10.08" x2="7.5" y2="10.08" width="0.127" layer="21"/>
@@ -820,7 +831,7 @@ design rules under a new name.</description>
 <contactref element="D1" pad="1"/>
 <contactref element="AIR+EN" pad="A"/>
 <contactref element="U$3" pad="2"/>
-<wire x1="162.97" y1="18.48" x2="162.97" y2="25.15" width="1" layer="16"/>
+<wire x1="163.095" y1="14.895" x2="163.095" y2="25.025" width="1.27" layer="16"/>
 <wire x1="145.09" y1="52.91" x2="134" y2="52.91" width="1.27" layer="16"/>
 <wire x1="134" y1="52.91" x2="124.314" y2="52.91" width="1.27" layer="16"/>
 <wire x1="124.314" y1="52.91" x2="122.314" y2="51.29" width="1.27" layer="16"/>
@@ -830,9 +841,8 @@ design rules under a new name.</description>
 <wire x1="154.15" y1="31" x2="154.15" y2="30.47" width="1.27" layer="16"/>
 <wire x1="154.15" y1="30.47" x2="157.62" y2="27" width="1.27" layer="16"/>
 <wire x1="157.62" y1="27" x2="161.12" y2="27" width="1.27" layer="16"/>
-<wire x1="161.12" y1="27" x2="162.97" y2="25.15" width="1.27" layer="16"/>
-<wire x1="165.2" y1="12.79" x2="162.97" y2="15.02" width="1.016" layer="16"/>
-<wire x1="162.97" y1="15.02" x2="162.97" y2="18.48" width="1.016" layer="16"/>
+<wire x1="161.12" y1="27" x2="163.095" y2="25.025" width="1.27" layer="16"/>
+<wire x1="165.2" y1="12.79" x2="163.095" y2="14.895" width="1.27" layer="16"/>
 <wire x1="135.95" y1="61.5" x2="134" y2="61.5" width="0.2" layer="1"/>
 <via x="134" y="61.5" extent="1-16" drill="0.35"/>
 <wire x1="134" y1="61.5" x2="134" y2="52.91" width="0.2" layer="16"/>

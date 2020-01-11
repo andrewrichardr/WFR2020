@@ -7808,7 +7808,7 @@ Source: VISHAY wscwsn.pdf</description>
 <hole x="8.4" y="-10.05" drill="3"/>
 <hole x="-8.4" y="-10.05" drill="3"/>
 </package>
-<package name="BENDER_IRR155" urn="urn:adsk.eagle:footprint:14400199/1" library_version="13" library_locally_modified="yes">
+<package name="BENDER_IRR155" urn="urn:adsk.eagle:footprint:14400199/1" locally_modified="yes" library_version="30" library_locally_modified="yes">
 <hole x="5" y="5" drill="4.2"/>
 <hole x="5" y="55" drill="4.2"/>
 <hole x="78.25" y="55" drill="4.2"/>
@@ -7845,9 +7845,6 @@ Source: VISHAY wscwsn.pdf</description>
 <wire x1="130" y1="10" x2="140" y2="10" width="0.127" layer="21"/>
 <wire x1="130" y1="60" x2="130" y2="50" width="0.127" layer="21"/>
 <wire x1="130" y1="50" x2="140" y2="50" width="0.127" layer="21"/>
-<wire x1="0" y1="50" x2="10" y2="50" width="0" layer="46"/>
-<wire x1="10" y1="50" x2="10" y2="59.92" width="0" layer="46"/>
-<wire x1="0" y1="50" x2="10" y2="50" width="0" layer="46"/>
 </package>
 <package name="E7,5-16" urn="urn:adsk.eagle:footprint:13209336/1" library_version="20" library_locally_modified="yes">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -13018,7 +13015,7 @@ Source: VISHAY wscwsn.pdf</description>
 <packageinstance name="15-24-6100"/>
 </packageinstances>
 </package3d>
-<package3d name="BENDER_IRR155" urn="urn:adsk.eagle:package:14400200/2" type="model" library_version="13" library_locally_modified="yes">
+<package3d name="BENDER_IRR155" urn="urn:adsk.eagle:package:14400200/2" type="model" library_version="30" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="BENDER_IRR155"/>
 </packageinstances>
@@ -16081,7 +16078,7 @@ Source: www.kingbright.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BENDER_IRR155" urn="urn:adsk.eagle:component:14400201/2" library_version="13" library_locally_modified="yes">
+<deviceset name="BENDER_IRR155" urn="urn:adsk.eagle:component:14400201/2" library_version="30" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="BENDER_IRR155" x="0" y="0"/>
 </gates>

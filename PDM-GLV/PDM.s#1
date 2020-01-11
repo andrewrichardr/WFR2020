@@ -389,7 +389,7 @@ by exp-lbrs.ulp</description>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="1" drill="0">
-<clearance class="0" value="0.1524"/>
+<clearance class="0" value="0.2032"/>
 </class>
 </classes>
 <parts>
@@ -401,7 +401,6 @@ by exp-lbrs.ulp</description>
 <part name="CH5" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="3568FUSEHOLDER" device="" package3d_urn="urn:adsk.eagle:package:13209504/2"/>
 <part name="CH6" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="3568FUSEHOLDER" device="" package3d_urn="urn:adsk.eagle:package:13209504/2"/>
 <part name="CH7" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="3568FUSEHOLDER" device="" package3d_urn="urn:adsk.eagle:package:13209504/2"/>
-<part name="CH8" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="3568FUSEHOLDER" device="" package3d_urn="urn:adsk.eagle:package:13209504/2"/>
 <part name="CH9" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="3568FUSEHOLDER" device="" package3d_urn="urn:adsk.eagle:package:13209504/2"/>
 <part name="CH11" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="3568FUSEHOLDER" device="" package3d_urn="urn:adsk.eagle:package:13209504/2"/>
 </parts>
@@ -431,9 +430,6 @@ by exp-lbrs.ulp</description>
 </instance>
 <instance part="CH7" gate="G$1" x="27.94" y="17.78" smashed="yes">
 <attribute name="NAME" x="24.13" y="19.177" size="1.778" layer="95"/>
-</instance>
-<instance part="CH8" gate="G$1" x="27.94" y="12.7" smashed="yes">
-<attribute name="NAME" x="24.13" y="14.097" size="1.778" layer="95"/>
 </instance>
 <instance part="CH9" gate="G$1" x="27.94" y="7.62" smashed="yes">
 <attribute name="NAME" x="24.13" y="9.017" size="1.778" layer="95"/>
@@ -541,8 +537,14 @@ by exp-lbrs.ulp</description>
 <label x="10.16" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="CH7" class="0">
+<net name="CH8" class="0">
 <segment>
+<wire x1="-10.16" y1="12.7" x2="0" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="10.16" x2="0" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="0" y1="10.16" x2="0" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="P$5"/>
+<pinref part="U$4" gate="G$1" pin="P$8"/>
+<label x="10.16" y="12.7" size="1.778" layer="95"/>
 <wire x1="-10.16" y1="17.78" x2="0" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="0" y1="17.78" x2="22.86" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="15.24" x2="0" y2="15.24" width="0.1524" layer="91"/>
@@ -555,22 +557,9 @@ by exp-lbrs.ulp</description>
 <wire x1="25.4" y1="17.78" x2="22.86" y2="17.78" width="0.1524" layer="91"/>
 <junction x="22.86" y="17.78"/>
 <label x="10.16" y="17.78" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="CH8" class="0">
-<segment>
-<wire x1="-10.16" y1="12.7" x2="0" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="0" y1="12.7" x2="22.86" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="10.16" x2="0" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="0" y1="10.16" x2="0" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="0" y1="12.7" x2="0" y2="15.24" width="0.1524" layer="91"/>
 <junction x="0" y="12.7"/>
-<pinref part="U$4" gate="G$1" pin="P$5"/>
-<pinref part="U$4" gate="G$1" pin="P$8"/>
-<pinref part="CH8" gate="G$1" pin="1A"/>
-<pinref part="CH8" gate="G$1" pin="1B"/>
-<wire x1="25.4" y1="12.7" x2="22.86" y2="12.7" width="0.1524" layer="91"/>
-<junction x="22.86" y="12.7"/>
-<label x="10.16" y="12.7" size="1.778" layer="95"/>
+<junction x="0" y="15.24"/>
 </segment>
 </net>
 <net name="CH10" class="0">
@@ -624,16 +613,24 @@ by exp-lbrs.ulp</description>
 </net>
 <net name="COMMON" class="0">
 <segment>
+<wire x1="30.48" y1="40.64" x2="31.6738" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="CH3" gate="G$1" pin="2B"/>
+<wire x1="30.48" y1="30.48" x2="31.6738" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="CH5" gate="G$1" pin="2B"/>
+<wire x1="30.48" y1="17.78" x2="31.6738" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="CH7" gate="G$1" pin="2B"/>
+<wire x1="30.48" y1="7.62" x2="31.6738" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="CH9" gate="G$1" pin="2B"/>
+<wire x1="30.48" y1="-2.54" x2="31.6738" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="CH11" gate="G$1" pin="2B"/>
 <pinref part="CH1" gate="G$1" pin="2B"/>
 <pinref part="CH1" gate="G$1" pin="2A"/>
-<wire x1="30.48" y1="50.8" x2="33.02" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="50.8" x2="40.64" y2="50.8" width="0.1524" layer="91"/>
 <junction x="33.02" y="50.8"/>
 <pinref part="CH2" gate="G$1" pin="2B"/>
 <pinref part="CH2" gate="G$1" pin="2A"/>
 <wire x1="40.64" y1="45.72" x2="33.02" y2="45.72" width="0.1524" layer="91"/>
 <junction x="33.02" y="45.72"/>
-<wire x1="33.02" y1="45.72" x2="30.48" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="50.8" x2="40.64" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="40.64" x2="40.64" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="CH3" gate="G$1" pin="2A"/>
@@ -669,20 +666,12 @@ by exp-lbrs.ulp</description>
 <wire x1="31.8262" y1="17.78" x2="33.02" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="25.4" x2="40.64" y2="17.78" width="0.1524" layer="91"/>
 <junction x="40.64" y="25.4"/>
-<wire x1="40.64" y1="12.7" x2="33.02" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="12.7" x2="30.48" y2="12.7" width="0.1524" layer="91"/>
-<junction x="33.02" y="12.7"/>
-<pinref part="CH8" gate="G$1" pin="2A"/>
-<pinref part="CH8" gate="G$1" pin="2B"/>
-<junction x="30.48" y="12.7"/>
-<wire x1="40.64" y1="17.78" x2="40.64" y2="12.7" width="0.1524" layer="91"/>
 <junction x="40.64" y="17.78"/>
 <wire x1="33.02" y1="7.62" x2="40.64" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="CH9" gate="G$1" pin="2A"/>
 <junction x="33.02" y="7.62"/>
 <wire x1="31.8262" y1="7.62" x2="33.02" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="12.7" x2="40.64" y2="7.62" width="0.1524" layer="91"/>
-<junction x="40.64" y="12.7"/>
+<wire x1="40.64" y1="17.78" x2="40.64" y2="7.62" width="0.1524" layer="91"/>
 <junction x="40.64" y="7.62"/>
 <wire x1="33.02" y1="-2.54" x2="40.64" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="CH11" gate="G$1" pin="2A"/>
@@ -690,36 +679,17 @@ by exp-lbrs.ulp</description>
 <wire x1="31.8262" y1="-2.54" x2="33.02" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="7.62" x2="40.64" y2="-2.54" width="0.1524" layer="91"/>
 <label x="38.1" y="50.8" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<wire x1="30.48" y1="40.64" x2="31.6738" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="CH3" gate="G$1" pin="2B"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<wire x1="30.48" y1="30.48" x2="31.6738" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="CH5" gate="G$1" pin="2B"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<wire x1="30.48" y1="17.78" x2="31.6738" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="CH7" gate="G$1" pin="2B"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<wire x1="30.48" y1="7.62" x2="31.6738" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="CH9" gate="G$1" pin="2B"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<wire x1="30.48" y1="-2.54" x2="31.6738" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="CH11" gate="G$1" pin="2B"/>
+<wire x1="30.48" y1="-2.54" x2="33.02" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="7.62" x2="33.02" y2="7.62" width="0.1524" layer="91"/>
+<junction x="30.48" y="7.62"/>
+<wire x1="30.48" y1="17.78" x2="33.02" y2="17.78" width="0.1524" layer="91"/>
+<junction x="30.48" y="17.78"/>
+<wire x1="30.48" y1="30.48" x2="33.02" y2="30.48" width="0.1524" layer="91"/>
+<junction x="30.48" y="30.48"/>
+<wire x1="30.48" y1="40.64" x2="33.02" y2="40.64" width="0.1524" layer="91"/>
+<junction x="30.48" y="40.64"/>
+<wire x1="30.48" y1="45.72" x2="33.02" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="50.8" x2="33.02" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

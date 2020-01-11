@@ -1260,8 +1260,6 @@
 <text x="76.05" y="9.25" size="1" layer="21"></text>
 <text x="69.6" y="26.5" size="1" layer="21">HIGH VOLTAGE</text>
 <wire x1="0" y1="61" x2="0" y2="3" width="0" layer="20"/>
-<wire x1="67.09" y1="-2.497" x2="67.09" y2="67.345" width="4" layer="21"/>
-<wire x1="67.09" y1="67.345" x2="67.193" y2="67.448" width="4" layer="21"/>
 <text x="64" y="49" size="2.54" layer="26" rot="MR0">WESTERN FORMULA RACING</text>
 <text x="40" y="61" size="1.778" layer="26" rot="MR0">REV3, BUILD1</text>
 <text x="52" y="1" size="1.778" layer="26" rot="MR0">LOW VOLTAGE</text>
@@ -1283,6 +1281,8 @@
 <text x="85" y="22" size="1.778" layer="25">HV+</text>
 <text x="73" y="22" size="1.778" layer="25">HV-</text>
 <text x="79" y="21" size="1.778" layer="25">NC</text>
+<wire x1="67.2" y1="63.6" x2="67.2" y2="1.2" width="4" layer="25"/>
+<wire x1="67.2" y1="1.2" x2="67.2" y2="63.6" width="4" layer="26"/>
 </plain>
 <libraries>
 <library name="SparkFun-IC-Special-Function" urn="urn:adsk.eagle:library:527">

@@ -1194,15 +1194,15 @@ design rules under a new name.</description>
 <element name="D3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:14751935" package="DO41-10" package3d_urn="urn:adsk.eagle:package:13209505/1" value="1N4007RLG" x="145" y="153" smashed="yes" rot="R270">
 <attribute name="VALUE" x="142.206" y="155.032" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="D4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:14751935" package="DO41-10" package3d_urn="urn:adsk.eagle:package:13209505/1" value="1N4007RLG" x="133" y="135.5" smashed="yes">
-<attribute name="VALUE" x="130.968" y="132.706" size="1.27" layer="27" ratio="10"/>
+<element name="D4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:14751935" package="DO41-10" package3d_urn="urn:adsk.eagle:package:13209505/1" value="1N4007RLG" x="128.5" y="135.5" smashed="yes">
+<attribute name="VALUE" x="126.468" y="132.706" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="D1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:14751935" package="DO41-10" package3d_urn="urn:adsk.eagle:package:13209505/1" value="1N4007RLG" x="133" y="132" smashed="yes">
-<attribute name="VALUE" x="130.968" y="129.206" size="1.27" layer="27" ratio="10"/>
+<element name="D1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:14751935" package="DO41-10" package3d_urn="urn:adsk.eagle:package:13209505/1" value="1N4007RLG" x="128.5" y="132.5" smashed="yes">
+<attribute name="VALUE" x="126.468" y="129.706" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="INPUT_FUSE3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="_CUSTOM_PARTS_LF_885" package3d_urn="urn:adsk.eagle:package:13209479/3" value="088502.5DR" x="143" y="142" smashed="yes" rot="R180">
-<attribute name="NAME" x="146.2" y="138.2" size="1.27" layer="21" rot="R180"/>
-<attribute name="VALUE" x="146.6" y="147.1" size="1.27" layer="21" rot="R180"/>
+<element name="INPUT_FUSE3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="_CUSTOM_PARTS_LF_885" package3d_urn="urn:adsk.eagle:package:13209479/3" value="088502.5DR" x="138.5" y="142" smashed="yes" rot="R180">
+<attribute name="NAME" x="141.7" y="138.2" size="1.27" layer="21" rot="R180"/>
+<attribute name="VALUE" x="142.1" y="147.1" size="1.27" layer="21" rot="R180"/>
 </element>
 <element name="R1" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" package="R0805" package3d_urn="urn:adsk.eagle:package:13209583/1" value="" x="109" y="6" smashed="yes">
 <attribute name="SPICEPREFIX" value="R" x="109" y="6" size="1.778" layer="27" display="off"/>
@@ -1729,12 +1729,11 @@ design rules under a new name.</description>
 <wire x1="87.79120625" y1="144.80879375" x2="85" y2="147.6" width="2.54" layer="16"/>
 <contactref element="D4" pad="C"/>
 <contactref element="D1" pad="C"/>
-<wire x1="127.92" y1="135.5" x2="127.92" y2="132" width="2.54" layer="16"/>
-<wire x1="127.42" y1="136" x2="127.92" y2="135.5" width="2.54" layer="16"/>
-<wire x1="91" y1="136" x2="123.5" y2="136" width="2.54" layer="16"/>
-<wire x1="123.92" y1="136" x2="127.42" y2="136" width="2.54" layer="16"/>
-<wire x1="127.92" y1="132" x2="123.92" y2="136" width="2.54" layer="16"/>
-<wire x1="123.92" y1="136" x2="123.5" y2="136" width="2.54" layer="16"/>
+<wire x1="123.42" y1="132.5" x2="123.42" y2="135.5" width="2.54" layer="16"/>
+<wire x1="122.92" y1="136" x2="123.42" y2="135.5" width="2.54" layer="16"/>
+<wire x1="91" y1="136" x2="119.92" y2="136" width="2.54" layer="16"/>
+<wire x1="119.92" y1="136" x2="122.92" y2="136" width="2.54" layer="16"/>
+<wire x1="123.42" y1="132.5" x2="119.92" y2="136" width="2.54" layer="16"/>
 </signal>
 <signal name="IMD_PWM_HS">
 <contactref element="U$3" pad="5"/>
@@ -1962,10 +1961,10 @@ design rules under a new name.</description>
 <contactref element="HVIB_HV" pad="4"/>
 <contactref element="HVIB_HV" pad="9"/>
 <polygon width="1.27" layer="1" rank="3">
-<vertex x="142.5" y="163"/>
+<vertex x="141.5" y="163"/>
 <vertex x="166.5" y="163"/>
 <vertex x="166.5" y="137"/>
-<vertex x="142.5" y="137"/>
+<vertex x="141.5" y="137"/>
 </polygon>
 <contactref element="D2" pad="A"/>
 <contactref element="D3" pad="A"/>
@@ -1976,10 +1975,10 @@ design rules under a new name.</description>
 <contactref element="D1" pad="A"/>
 <contactref element="D4" pad="A"/>
 <polygon width="1.27" layer="1">
-<vertex x="133" y="147.5"/>
-<vertex x="133" y="128"/>
-<vertex x="140" y="128"/>
-<vertex x="140" y="147.5"/>
+<vertex x="129.5" y="147.5"/>
+<vertex x="129.5" y="128"/>
+<vertex x="137.5" y="128"/>
+<vertex x="137.5" y="147.5"/>
 </polygon>
 </signal>
 <signal name="N$25">

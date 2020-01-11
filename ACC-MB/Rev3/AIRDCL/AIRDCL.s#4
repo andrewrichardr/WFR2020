@@ -2880,17 +2880,29 @@ Source: VISHAY wscwsn.pdf</description>
 <wire x1="-2.54" y1="-17.78" x2="-2.54" y2="2.54" width="0.1524" layer="21"/>
 <wire x1="-2.54" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="21"/>
 </package>
-<package name="GV224" urn="urn:adsk.eagle:footprint:13209473/2" library_version="15" library_locally_modified="yes">
+<package name="GV224" urn="urn:adsk.eagle:footprint:13209473/2" locally_modified="yes" library_version="30" library_locally_modified="yes">
 <pad name="X1" x="-4.064" y="0" drill="0.889" diameter="1.524"/>
 <pad name="X2" x="4.064" y="0" drill="0.889" diameter="1.524"/>
 <pad name="T1" x="-8.382" y="37.846" drill="0.889"/>
 <pad name="T2" x="8.382" y="37.846" drill="0.889"/>
 <pad name="NC1" x="0" y="39.37" drill="7.62"/>
 <circle x="0" y="19.05" radius="31.75" width="0.1524" layer="21"/>
-<wire x1="26.67" y1="33.02" x2="26.67" y2="2.54" width="0" layer="46"/>
-<wire x1="26.67" y1="2.54" x2="-26.67" y2="2.54" width="0" layer="46"/>
-<wire x1="-26.67" y1="2.54" x2="-26.67" y2="33.02" width="0" layer="46"/>
-<wire x1="-26.67" y1="33.02" x2="26.67" y2="33.02" width="0" layer="46"/>
+<wire x1="26.67" y1="29.21" x2="26.67" y2="6.35" width="0" layer="46"/>
+<wire x1="22.86" y1="2.54" x2="-22.86" y2="2.54" width="0" layer="46"/>
+<wire x1="-26.67" y1="6.35" x2="-26.67" y2="29.21" width="0" layer="46"/>
+<wire x1="-22.86" y1="33.02" x2="22.86" y2="33.02" width="0" layer="46"/>
+<wire x1="-26.67" y1="29.21" x2="-22.86" y2="33.02" width="0" layer="46" curve="-90"/>
+<wire x1="26.67" y1="29.21" x2="22.86" y2="33.02" width="0" layer="46" curve="90"/>
+<wire x1="-26.67" y1="6.35" x2="-22.86" y2="2.54" width="0" layer="46" curve="112.619865"/>
+<wire x1="26.67" y1="6.35" x2="22.86" y2="2.54" width="0" layer="46" curve="-90"/>
+<wire x1="22.86" y1="33.02" x2="-22.86" y2="33.02" width="0" layer="20"/>
+<wire x1="-26.67" y1="29.21" x2="-26.67" y2="6.35" width="0" layer="20"/>
+<wire x1="-22.86" y1="2.54" x2="22.86" y2="2.54" width="0" layer="20"/>
+<wire x1="26.67" y1="6.35" x2="26.67" y2="29.21" width="0" layer="20"/>
+<wire x1="-26.67" y1="29.21" x2="-22.86" y2="33.02" width="0" layer="20" curve="-90"/>
+<wire x1="26.67" y1="29.21" x2="22.86" y2="33.02" width="0" layer="20" curve="90"/>
+<wire x1="22.86" y1="2.54" x2="26.67" y2="6.35" width="0" layer="20" curve="90"/>
+<wire x1="-22.86" y1="2.54" x2="-26.67" y2="6.35" width="0" layer="20" curve="-90"/>
 </package>
 <package name="7792" urn="urn:adsk.eagle:footprint:14511283/2" library_version="28" library_locally_modified="yes">
 <wire x1="0" y1="10.08" x2="7.5" y2="10.08" width="0.127" layer="21"/>
@@ -2933,13 +2945,13 @@ Source: www.token.com.tw .. power-resistor-rmg100pdf</description>
 <text x="-7.62" y="3.81" size="1.27" layer="25">&gt;NAME</text>
 <text x="-6.985" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="RA-T2X-25E" urn="urn:adsk.eagle:footprint:15294013/1" library_version="30">
-<hole x="-12.7" y="0" drill="2.5"/>
-<hole x="12.7" y="0" drill="2.5"/>
+<package name="RA-T2X-25E" urn="urn:adsk.eagle:footprint:15294013/1" locally_modified="yes" library_version="30" library_locally_modified="yes">
 <wire x1="21" y1="-13" x2="-21" y2="-13" width="0.1524" layer="21"/>
 <wire x1="-21" y1="-13" x2="-21" y2="13" width="0.1524" layer="21"/>
 <wire x1="-21" y1="13" x2="21" y2="13" width="0.1524" layer="21"/>
 <wire x1="21" y1="13" x2="21" y2="-13" width="0.1524" layer="21"/>
+<pad name="P$1" x="-12.7" y="0" drill="2.54" shape="square"/>
+<pad name="P$2" x="12.7" y="0" drill="2.54" shape="square"/>
 </package>
 </packages>
 <packages3d>
@@ -3842,7 +3854,7 @@ Source: VISHAY wscwsn.pdf</description>
 <packageinstance name="G81C335"/>
 </packageinstances>
 </package3d>
-<package3d name="GV224" urn="urn:adsk.eagle:package:13209922/3" type="model" library_version="15" library_locally_modified="yes">
+<package3d name="GV224" urn="urn:adsk.eagle:package:13209922/3" type="model" library_version="30" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="GV224"/>
 </packageinstances>
@@ -5863,7 +5875,7 @@ Source: www.kingbright.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="GV224" urn="urn:adsk.eagle:component:13209965/3" library_version="15" library_locally_modified="yes">
+<deviceset name="GV224" urn="urn:adsk.eagle:component:13209965/3" library_version="30" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="GV224" x="0" y="-2.54"/>
 </gates>
@@ -6208,6 +6220,8 @@ by exp-lbrs.ulp</description>
 <part name="R3" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="RMG100" device="-V" package3d_urn="urn:adsk.eagle:package:13209920/2"/>
 <part name="U$8" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="RA-T2X-25E" device="" package3d_urn="urn:adsk.eagle:package:15294014/2"/>
 <part name="U$9" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="RA-T2X-25E" device="" package3d_urn="urn:adsk.eagle:package:15294014/2"/>
+<part name="R4" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="RMG100" device="-V" package3d_urn="urn:adsk.eagle:package:13209920/2"/>
+<part name="R5" library="ACC-MB-R0" library_urn="urn:adsk.eagle:library:13208985" deviceset="RMG100" device="-V" package3d_urn="urn:adsk.eagle:package:13209920/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -6299,6 +6313,14 @@ by exp-lbrs.ulp</description>
 </instance>
 <instance part="U$8" gate="G$1" x="236.22" y="177.8" smashed="yes"/>
 <instance part="U$9" gate="G$1" x="254" y="177.8" smashed="yes"/>
+<instance part="R4" gate="G$1" x="246.38" y="170.18" smashed="yes">
+<attribute name="NAME" x="242.57" y="171.5516" size="1.778" layer="95"/>
+<attribute name="VALUE" x="242.57" y="167.259" size="1.778" layer="96"/>
+</instance>
+<instance part="R5" gate="G$1" x="259.08" y="170.18" smashed="yes">
+<attribute name="NAME" x="255.27" y="171.5516" size="1.778" layer="95"/>
+<attribute name="VALUE" x="255.27" y="167.259" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6391,13 +6413,18 @@ by exp-lbrs.ulp</description>
 </net>
 <net name="N$21" class="2">
 <segment>
-<wire x1="273.05" y1="172.72" x2="264.16" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="273.05" y1="172.72" x2="266.7" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="COM"/>
+<wire x1="266.7" y1="172.72" x2="264.16" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="172.72" x2="262.89" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="273.05" y1="172.72" x2="274.32" y2="172.72" width="0.1524" layer="91"/>
 <junction x="273.05" y="172.72"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <junction x="264.16" y="172.72"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="264.16" y1="170.18" x2="266.7" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="170.18" x2="266.7" y2="172.72" width="0.1524" layer="91"/>
+<junction x="266.7" y="172.72"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -6405,13 +6432,6 @@ by exp-lbrs.ulp</description>
 <pinref part="LEDR3" gate="G$1" pin="2"/>
 <pinref part="PRECHAGE" gate="G$1" pin="C"/>
 <wire x1="269.24" y1="146.05" x2="269.24" y2="149.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="2">
-<segment>
-<wire x1="251.46" y1="172.72" x2="254" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="+12V_SAFE" class="0">
@@ -6497,9 +6517,14 @@ by exp-lbrs.ulp</description>
 </net>
 <net name="HV+_DRY" class="2">
 <segment>
-<wire x1="231.14" y1="172.72" x2="241.3" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="172.72" x2="238.76" y2="172.72" width="0.1524" layer="91"/>
 <label x="231.14" y="172.72" size="1.778" layer="95"/>
 <pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="238.76" y1="172.72" x2="241.3" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="170.18" x2="238.76" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="170.18" x2="238.76" y2="172.72" width="0.1524" layer="91"/>
+<junction x="238.76" y="172.72"/>
 </segment>
 <segment>
 <wire x1="254" y1="83.82" x2="256.54" y2="83.82" width="0.1524" layer="91"/>
@@ -6511,6 +6536,19 @@ by exp-lbrs.ulp</description>
 <wire x1="256.54" y1="68.58" x2="254" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="U$5" gate="G$1" pin="6"/>
 <wire x1="254" y1="81.28" x2="254" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="251.46" y1="170.18" x2="254" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="172.72" x2="254" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="251.46" y1="170.18" x2="251.46" y2="172.72" width="0.1524" layer="91"/>
+<junction x="251.46" y="170.18"/>
+<junction x="251.46" y="172.72"/>
 </segment>
 </net>
 </nets>

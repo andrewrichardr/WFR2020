@@ -242,6 +242,13 @@ RACING</text>
 <text x="107" y="11.5" size="1.778" layer="25">PRE</text>
 <text x="107" y="9.5" size="1.778" layer="25">EN</text>
 <text x="106.5" y="3" size="1.778" layer="25">OK</text>
+<wire x1="32.5" y1="0" x2="32.5" y2="116" width="4" layer="25"/>
+<wire x1="32.5" y1="116" x2="201" y2="116" width="4" layer="25"/>
+<wire x1="201" y1="116" x2="201" y2="0.5" width="4" layer="25"/>
+<wire x1="201" y1="0.5" x2="202" y2="-0.5" width="4" layer="25"/>
+<wire x1="32.5" y1="0" x2="32.5" y2="116" width="4" layer="26"/>
+<wire x1="32.5" y1="116" x2="202" y2="116" width="4" layer="26"/>
+<wire x1="202" y1="116" x2="202" y2="0" width="4" layer="26"/>
 </plain>
 <libraries>
 <library name="ACC-MB-R0" urn="urn:adsk.eagle:library:13208985">
